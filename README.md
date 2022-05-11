@@ -1,39 +1,19 @@
 # english_env_everyday
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
-
-#### 软件架构
-软件架构说明
 
 
-#### 安装教程
+​	这里仓库的主要内容是，一些简单的英文段，其中的内容主要是来自Quora(一个类似于知乎的问答)，或者是来自一些新闻、博客。之所以这么做当然是为了提升英文的阅读能力！！！
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+​	以往在学习的过程往往只是记单词而已，这本质上就是一个输入的过程，但是没有输出的过程是很难掌握这个东西。所以这个就是一个输出的过程。
 
-#### 使用说明
+​	如果直接阅读英文的原著，那么需要掌握比较多的语法，语境、甚至是一些历史相关的东西。所以这里选择一些精简的东西，基本就是一小段，每天的没有相互的关系。坚持做这个其实收益也会很大，因为作为一名程序员，如果没有一定的阅读能力，那么很大程度上就不能直接看第一手信息，然后只能可怜巴巴等翻译，等大多数人都玩会了，可能才开始在中文有比较全的文档，再一个就是出现问题，无法查看官方的技术文档解决问题等等，所以这里不会关注细节问题，用词、语法、句式，只关注能不能读懂表达的意思！
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+​	希望能坚持一年以上，能有达到借助工具（有道词典等）能够阅读技术文档。
 
-#### 参与贡献
+​	
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+​	2022.05.11
 
 
-#### 特技
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+​					
