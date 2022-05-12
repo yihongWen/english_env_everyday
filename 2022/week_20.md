@@ -23,3 +23,15 @@
 ## 05-11
 
 ​	So lately, my 13-year-old son had been **acting a little... entitled（自命不凡）**. Acting like he's too good to shop at Wal-Mart or making **snarky（尖刻的）** comments about kids at school who shop at the goodwill and quite a few other things. I don't tolerate that. Today, he took his own 20.00 to the goodwill to buy clothes to wear the entire week to school. Whatever he found is what he would have to wear. He isn't happy and shed a few tears, but I firmly believe in 15 years, he will look back and laugh at the day his Mom made him shop at goodwill. I want to teach my kids that **money isn't everything,** and if you have to degrade other people because of where they shop, you too will shop there. Side note, I love the goodwill!!
+
+
+
+## 05-12
+
+​	**Can someone from a very poor family in African countries become a highly skilled expert in some fields of computer science with only the help of a laptop and internet resources?**
+
+​	Yes. Not only African but everyone who is interested with computer science.
+
+​	Hello,**To be honest**, most of this field doesn't need anything more! I started just like you, a very old laptop and only the internet, now I teach programming and create programming technologies.**Just believe and start i**t, it's not that hard. happy coding!
+
+​	Even people out of Africa, don’t think they have a lot more than just a laptop and internet resources to learn the subject lol. **It’s all depends on how interested one is on the subject**. You can also imagine that not many had the opportunity of a laptop and internet resources just few decades ago, but nonetheless, they still found ways to learn the materials as best as they could. Don’t let the internet play you, learning CS doesn’t depend on your geographical location on earth. If you’re passionate and discipline enough, even if you was located in mars and you had internet and laptop in your possession, I’m sure you’d find a way to make it work. :)
