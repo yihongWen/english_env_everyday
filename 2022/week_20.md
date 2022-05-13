@@ -35,3 +35,30 @@
 ​	Hello,**To be honest**, most of this field doesn't need anything more! I started just like you, a very old laptop and only the internet, now I teach programming and create programming technologies.**Just believe and start i**t, it's not that hard. happy coding!
 
 ​	Even people out of Africa, don’t think they have a lot more than just a laptop and internet resources to learn the subject lol. **It’s all depends on how interested one is on the subject**. You can also imagine that not many had the opportunity of a laptop and internet resources just few decades ago, but nonetheless, they still found ways to learn the materials as best as they could. Don’t let the internet play you, learning CS doesn’t depend on your geographical location on earth. If you’re passionate and discipline enough, even if you was located in mars and you had internet and laptop in your possession, I’m sure you’d find a way to make it work. :)
+
+
+
+## 05-13:
+
+**As a senior(高级) programmer, what makes you mad（生气抓狂） when you look at a junior（初级） developers code?**
+		Very few things make me mad, a Junior is a beginner, it’s the job of more senior developers to help them *become* good developers.That said..There *are* some things that annoy me.                                                                                                                      
+
+- If we’re in round 4 of code review and you’re still not following the coding standards I told you about, I’m going to start losing my patience.
+- If you don’t care about your work / Don’t care about improving
+- Ignore advice after it’s been proven right (Or ignore people who are continually proven right)
+- Use l33tsp34k in your commits/comments 
+- Use variable names like “bla”/”somethingsomething”/”xyz” after being told not to (And been told why it’s bad)
+
+While some people just aren’t cut out to be programmers, if you just follow one simple rule you’ll do ok: **Take pride in your work**
+
+
+
+**What are the differences between a [`HashMap`](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/HashMap.html) and a [`Hashtable`](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Hashtable.html) in Java? Which is more efficient for non-threaded applications?**
+
+There are several differences between [`HashMap`](http://java.sun.com/javase/7/docs/api/java/util/HashMap.html) and [`Hashtable`](http://java.sun.com/javase/7/docs/api/java/util/Hashtable.html) in Java:
+
+1. `Hashtable` is [synchronized](https://stackoverflow.com/questions/1085709/what-does-synchronized-mean), whereas `HashMap` is not. This makes `HashMap` better for non-threaded applications, as unsynchronized Objects typically perform better than synchronized ones.
+2. `Hashtable` does not allow `null` keys or values. `HashMap` allows one `null` key and any number of `null` values.
+3. One of HashMap's subclasses is [`LinkedHashMap`](http://java.sun.com/javase/7/docs/api/java/util/LinkedHashMap.html), so in the event that you'd want predictable iteration order (which is insertion order by default), you could easily swap out the `HashMap` for a `LinkedHashMap`. This wouldn't be as easy if you were using `Hashtable`.
+
+Since synchronization is not an issue for you, I'd recommend `HashMap`. If synchronization becomes an issue, you may also look at [`ConcurrentHashMap`](http://docs.oracle.com/javase/7/docs/api/java/util/concurrent/ConcurrentHashMap.html).
