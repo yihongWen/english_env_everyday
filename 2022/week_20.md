@@ -62,3 +62,72 @@ There are several differences between [`HashMap`](http://java.sun.com/javase/7/d
 3. One of HashMap's subclasses is [`LinkedHashMap`](http://java.sun.com/javase/7/docs/api/java/util/LinkedHashMap.html), so in the event that you'd want predictable iteration order (which is insertion order by default), you could easily swap out the `HashMap` for a `LinkedHashMap`. This wouldn't be as easy if you were using `Hashtable`.
 
 Since synchronization is not an issue for you, I'd recommend `HashMap`. If synchronization becomes an issue, you may also look at [`ConcurrentHashMap`](http://docs.oracle.com/javase/7/docs/api/java/util/concurrent/ConcurrentHashMap.html).
+
+
+
+## 05-14:
+
+**Why is my daughter disobeying me? My daughter is 23 and is an engineer. The day she got the degree, she fled and we don’t know her exact address. She blames me for differentiating between her and her brother and some other stupid childhood things.**
+
+​	Why is my daughter disobeying me?She’s 23 and an adult. She no longer is required to…and actually hasn’t been required to for about 5 years.The day she got the degree, she fled and we don’t know her exact address.That’s probably because you still think that she has to obey you. She’s got the degree, and with that employment opportunities. She’s decided to be the mistress of her own fate without being under your control.She blames me for differentiating between her and her brother and some other stupid childhood things.It may seem stupid to you, but not to her. And considering you still expect her to obey you even though she’s an adult tells me she may have a point.
+
+
+
+**what operating system concepts should every programmer be aware of? **
+I am compiling various lists of competencies that self taught programmers must have.Among all subjects, Operating Systems is the trickiest one, because creating even a toy operating system is a rather non-trivial task. However, at the same time an application developer (who may not have formally learned CS) must at least be aware of and hopefully should have implemented some key concepts to appreciate how an OS works, and to be a better developer.
+
+I have a few specific questions:
+
+- What key concepts of operating systems are important for a self taught programmer to understand so they can be better software developers (albeit working on regular application development)?
+- Is it even remotely possible to learn such a subject in byte sized practical pieces ? (Even a subject like compiler construction can be learned in a hands on way, at a rather low level of complexity)
+
+
+
+I would suggest reading Andrew S. Tanenbaum ( http://en.wikipedia.org/wiki/Andrew_S._Tanenbaum ) book on Modern Operating Systems (ISBN 978-0-13-600663-3) as everything is there.However from the book index we can identify the minimum key topics:
+
+- Processes
+
+- Memory management
+
+- File systems
+
+- Input/output
+
+  
+
+And the easiest way to start playing with this topics will be to download **MINIX**:http://www.minix3.org/  and study the code. Older versions of this operating system might be easier to understand.Another useful resource is Mike Saunders How to write a simple operating system that shows you how to write and build your first operating system in x86 assembly language:http://mikeos.sourceforge.net/write-your-own-os.html
+
+
+
+
+
+## 05-15:	
+
+（今天是关于tomcat的官网文档）
+
+**Introduction**
+	For **administrators（管理员）** and web developers alike, there are some important bits of information you should **familiarize（熟悉）** yourself with before starting out. This document serves as a brief introduction to some of the concepts and **terminology（术语）** behind the Tomcat container. As well, where to go when you need help.
+
+**Terminology**
+	In the course of reading these documents, you will run across a number of terms; some specific to Tomcat, and others defined by the Servlet and JSP specifications.
+
+​	Context - **In a nutshell（简单的说）**, a Context is a web application.That is it. If you find any more terms we need to add to this section, please do let us know.
+
+
+
+**Configuring Tomcat**
+	This section will **acquaint（使熟悉，了解）** you with the basic information used during the configuration of the container.All of the information in the configuration files is read at startup, meaning that any change to the files necessitates a restart of the container.
+
+
+
+**Where to Go for Help**
+	While we've done our best to ensure that these documents are clearly written and easy to understand, we may have missed something. Provided below are various web sites and mailing lists in case you get stuck.
+
+​	Keep in mind that some of the issues and solutions vary between the major versions of Tomcat. As you search around the web, there will be some documentation that is not relevant to Tomcat 8, but only to earlier versions.
+
+​	Current document - most documents will list potential hangups. Be sure to fully read the relevant documentation as it will save you much time and effort. There's nothing like scouring the web only to find out that the answer was right in front of you all along!
+
+- Tomcat mailing list archives - numerous sites archive the Tomcat mailing lists. Since the links change over time, clicking here will search Google.
+- The TOMCAT-USER mailing list, which you can subscribe to here. If you don't get a reply, then there's a good chance that your question was probably answered in the list archives or one of the FAQs. Although questions about web application development in general are sometimes asked and answered, please focus your questions on Tomcat-specific issues.
+- The TOMCAT-DEV mailing list, which you can subscribe to here. This list is reserved for discussions about the development of Tomcat itself. Questions about Tomcat configuration, and the problems you run into while developing and running applications, will normally be more appropriate on the TOMCAT-USER list instead.
+  And, if you think something should be in the docs, by all means let us know on the TOMCAT-DEV list.
