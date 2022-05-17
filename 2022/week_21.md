@@ -35,3 +35,42 @@
 ​	The languages I am calling modern are not particularly new; in fact, Python is more than 25 years old. But they are not yet widely taught in high schools and colleges. And even where they are adopted, they are often used in a style that does not take advantage of their power.
 
 ​	Modern programming languages are qualitatively different from their predecessors, but we are only beginning to realize the implications of that difference.
+
+
+
+
+
+## 05-17:
+
+（今天是BBC的一篇新闻，请忽略新闻的真实性）
+
+**McDonald's has said it will permanently（永久的） leave Russia after more than 30 years and has started to sell its restaurants.**
+
+​	The move comes after it temporarily closed its 850 outlets in March.The fast food **giant（巨大、巨头）** said it made the decision because of the "**humanitarian（人道主义）** crisis" and "unpredictable operating environment" caused by the Ukraine war.
+
+​	The opening of McDonald's first restaurant in Moscow in 1990 came to **symbolise（象征）** a **thaw（融化）** in Cold War tensions.
+
+​	A year later, the Soviet Union **collapsed（倒塌、奔溃）** and Russia opened up its economy to companies from the West. More than three decades later, however, it is one of a growing number of corporations **pulling out（拔出、退出）**.
+
+​	"This is a **complicated（复杂）** issue that's without precedent and with **profound consequences（深远的结果）**," said McDonald's chief executive Chris Kempczinski in a message to staff and suppliers.Some might argue that providing access to food and continuing to employ tens of thousands of ordinary citizens, is surely the right thing to do," he added. "But it is impossible to ignore the humanitarian crisis caused by the war in Ukraine. And it is impossible to imagine the Golden Arches **representing（代表）** the same hope and promise that led us to enter the Russian market 32 years ago."
+
+​	McDonald’s, Coca-Cola, Starbucks **halt（停止）** Russia sales，McDonald's and Coca-Cola **boycott（抵制）** **calls（呼声）** grow
+McDonald's said it would sell all its sites to a local buyer and would begin the process of "de-arching" the restaurants which involves removing its name, branding and menu. It will retain its **trademarks（商标）** in Russia.
+
+​	The chain said its **priorities（优先）** included **seeking（寻求）** to ensure its 62,000 employees in Russia continued to be paid until any sale was completed and that they had "future employment with any **potential（潜在）** buyer".
+
+​	McDonald's said it would write off a charge of up to $1.4bn (£1.1bn) to cover the exit from its investment.
+
+​	It really is the end of an era. I was in the queue when the first Russian McDonald's opened on Moscow's Pushkin Square in January 1990 - way back in the USSR.
+
+​	There were so many people outside the restaurant, it took three hours to get inside. But what a sense of excitement.Those American burgers, fries and pies were a symbol of Moscow embracing the West. Hot food to help end a Cold War.
+
+​	These are very different times. Russia and the West have lost their **appetite（胃口）** for one another.Russia's attack on Ukraine has sparked international condemnation and **sanctions（制裁）**, turning Moscow into a **pariah（贱民）**.
+
+​	Meanwhile, the Kremlin - as it always does - points the finger back, accusing the West of **plotting（密谋）** Russia's downfall.
+
+​	Back in March lots of international companies announced they were pausing operations in Russia, hoping the situation would resolve itself and they could then reopen.
+
+​	But McDonald's decision to sell up and pull out shows the fast food giant recognises things will not return to normal and that what the Kremlin calls its "special military operation" in Ukraine has changed things long term.
+
+​	Big Macs are only the beginning. I predict we're going to see a lot more global brands leaving Russia.
