@@ -341,3 +341,11 @@ I'm so done with Shanghai. Once I leave, I'll never come back.
 ​	I was released from prison June 12th, 2015….
 
 ​	The reason I've written this long ass post is to try and pass on …it CAN be done!!! Don't listen to the know-it-alls that got out and kept coming back inside saying how “you can't do this, or you can't do that”.. they didn't want to put the work in!!! I did EVERYTHING they all said that I wouldn't be able to do..I didn't write all this to **brag（吹牛）**, I wrote this to let y'all know your dreams can come true after you get out no matter what you did… go for it!
+
+
+
+## **05-22:**
+
+**[What is the saddest part of being a programmer?](https://www.quora.com/What-is-the-saddest-part-of-being-a-programmer)**
+
+​	Really putting your all into a project and writing great code that you're proud of, creating innovative solutions, **getting some massive project off the ground(让一些大型项目落地)** and hearing how much of a game changer it is from users……and then you and half your team getting **laid off（被解雇）** because the board decided not to budget for you bc your big project is done and they want to make the numbers look better. I can never look at that code again and I'm **contractually（合约）** **obligated（有义务的）** to not carry it around with me and use it as a portfolio. I dedicated a year of my life to something that was **ripped（剥夺）** from me in a 5 minute meeting because some rich guy who doesnt have to worry about making a real living wanted a better return on an investment.This kind of stuff - knowing that no matter how much I put into something it's not mine and I can't claim my work as my own, even just to prove to other employers what I can do (since, when you work 60-80 hrs a week, there's not much time or energy left to create a portfolio of complete personal projects), and knowing most of the time ill never even have access to what I wrote…I dedicate my life to **phantoms（幻影）** of success. It's really killed my passion over the years.
