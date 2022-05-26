@@ -80,3 +80,60 @@ bin folder stores all the binaries generated from the application and the downlo
 下面是张有趣的图：
 
 ![img](week_22.assets/main-qimg-c44ba52da778811f9a30e9b21f073f04-pjlq.jpeg)
+
+
+
+
+
+## **05-26:**
+
+**Why does C++ turn out to be a nightmare for beginner programmers?**
+
+​	Here’s a big surprise; people whose favorite language is not C++ think C++ is a terrible language.
+
+​	I want to summarize some of the complaints about C++ in this thread and respond from the viewpoint of a person **comfortable（熟悉）** with C++. But first let me say a word about why people like to use C++. C++ produces fast code, for situations where fast code is important. If you don’t need to go fast, try python. It’s great. It has a zillion libraries to do the hard stuff. And guess what, those libraries are written in C++. Doh! C++ lets you have performance when you need it, and fancy error checking when you want it. You don’t get that in other languages.
+
+Borland C++ in the 1980s was harder to begin using than interpreted BASIC.
+	Well duh! And how many people are writing commercial applications today in interpreted BASIC? It’s 2021 now, and In 2021 you can use any of several on-line C++ compilers to learn C++. It’s actually almost as simple as interpreted BASIC. No code to install, no IDE to learn, just type it into the browser, and when the last syntax error is fixed, it runs automatically. Brilliant.
+
+
+
+C++ has **cryptic（神秘）** compile-time error messages.
+	This is true if you are doing something advanced like partial template instantiation. Unfortunately, this makes it true sometimes when you are instantiating one of the standard container classes or algorithms. Perhaps you would feel like C++ was a better language if it didn’t come with standard algorithms and containers. You’d like C then. Or FORTRAN.
+The error messages produced for most C++ errors are as readable as those for Java or C#. Is that a recommendation? I can’t say.
+
+
+
+C++ doesn’t produce good run-time error messages.
+	Really? Depends on whether you ask it to or not. Yes, if you want the best speed, you might use raw arrays, and you get undefined behavior if you index an item outside the declared bounds of the array. But you can also use std::vector and the at() member function and get terrific error messages at some extra run-time cost. Java only gives you the choice to go slow.
+
+
+
+C++ isn’t mainstream anymore like Java and C# are.
+
+​	Really? The TIOBE index of the top 20 most popular programming languages puts C++ in fourth place, right between Java and C#.
+
+
+
+C++ has added a lot of features in the last 10 years.
+	This is either a strength of a weakness depending as you want better solutions to your performance problems or well-remembered workarounds to weak old features. Even as a fan of C++, **the last 10 years has been a roller-coaster of new things to learn.** On balance though, I can’t think of a new feature I’d want to live without once I got used to using it. Java and C# have also evolved significantly in the last 10 years.
+
+
+
+Managing memory is hard!
+	True, but garbage collection is s. l. o. w. If slow doesn’t matter, I’d suggest using another language, like python maybe.
+
+
+
+C++ requires a lot of boilerplate.
+	That’s only true if the defaults don’t work for you. In java, it just sucks for you if the defaults don’t work, because there is not another option. Once again, C++ offers a **tradeoff（权衡）** between fast and easy that other languages don’t provide.
+
+
+
+C++ has pointers, which are **icky（讨厌的）**.
+	This is the one complaint that seems to have any validity to me. If I were designing a language today, I wouldn’t put pointers in. But C++ was designed by your grandparents, when the compiler and the operating system had to fit into 128Kbytes. Pointers let dumb compilers produce smart code. Now C++ is stuck with ‘em. They’re not that hard.
+
+
+
+C++ has different syntax than FORTRAN…so it’s confusing for a beginner who just learned FORTRAN.
+	Wow. Just wow.
