@@ -137,3 +137,63 @@ C++ has pointers, which are **icky（讨厌的）**.
 
 C++ has different syntax than FORTRAN…so it’s confusing for a beginner who just learned FORTRAN.
 	Wow. Just wow.
+
+
+
+
+
+## 05-27
+
+**The butterflies we may never see again in Britain**
+
+
+​	If you want to catch sight of many of Britain's butterflies, you'll need to be quick. A report by Butterfly **Conservation（保护）** warns that 24 of 58 species may soon disappear from our shores.Five more species are threatened with dying out than when the **charity（慈善机构）** last compiled a Red List, 11 years ago. Humans are driving the loss of butterflies by destroying wildlife rich habitats, says Head of Science for Butterfly Conservation Dr Richard Fox. "They've literally been destroyed, been **ploughed up（翻耕）**, covered in fertilisers and used to grow crops or for housing," he told BBC News. But there is some hope. Several species have been brought back from the **brink（边缘）** by intense conservation work. Here are the butterflies we may never see again in Britain - and three that have been saved.
+
+
+
+**Wood White**
+	This small, slow-flying butterfly used to live across most of southern England and Wales. Now endangered, it's mostly found in the Midlands.
+
+![Wood White](week_22.assets/_124911965_gettyimages-639240536.jpg)
+
+
+
+**Swallowtails**
+	This spectacular rare butterfly has become more at risk since 2011. It's native to the Norfolk Broads where it feeds on flowers including thistles.
+
+
+
+**Adonis Blues**
+	Now re-categorised as more threatened, this creature lives in southern England and is usually seen in April and late July. In areas where the Adonis Blues thrives, it can be seen in the hundreds.
+
+![Adonis Blues](week_22.assets/_124913525_adonisblue-male_vulnerable_iainhleach.jpg)
+
+
+
+**Large Heath**
+	This is one of the butterflies affected by climate change, says Butterfly Conservation. All four of the UK's butterfly species that prefer to live in northerly areas, with cooler and **damper（风门、阻尼器、潮湿）** climates, are endangered.
+
+
+
+**Scotch Argus**
+	The effects of climate change are also visible with the decline of this species. In 2011, scientists didn't consider it under threat. Now it's listed as **vulnerable（脆落的）**.
+
+
+
+**The butterflies we have saved**
+	Now, some good news. Conservation work has helped bring back some species from the brink.It has focussed on protecting butterflies from the effects of changing land management and climate change, explains Dr Fox.
+
+
+
+**Large Blue**
+	This dusky-blue butterfly was extinct in Britain in 1979, but it can now be spotted fluttering its wings largely in Somerset. Described as "**fussy（爱挑剔）**" by Dr Fox, the Large Blue needs to feed on the **thyme（百里香）** plant and a specific type of ant. By creating grasslands with the right conditions, conservationists and landowners successfully created thriving colonies of the butterflies.
+
+
+
+**Pearl-bordered Fritillary**
+	This has become less threatened since 2011. Its caterpillars need an open and warm woodland habitat so they can bask in sunshine and feed on violets. Conservationists have been clearing areas of woodland for the butterfly to live in, mostly on the edges of Dartmoor.
+
+
+
+**Duke of Burgundy**
+	Now found mostly in southern England, this butterfly's **caterpillar（毛毛虫）** feeds on cowslips and primroses. Conservationists have worked hard to create the right balance of **vegetation（植物）** so it can thrive.
