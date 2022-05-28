@@ -197,3 +197,34 @@ C++ has different syntax than FORTRAN…so it’s confusing for a beginner who j
 
 **Duke of Burgundy**
 	Now found mostly in southern England, this butterfly's **caterpillar（毛毛虫）** feeds on cowslips and primroses. Conservationists have worked hard to create the right balance of **vegetation（植物）** so it can thrive.
+
+
+
+
+
+## 05-28:
+
+**What is one ridiculous reason for which you got kicked out of class?**
+	“I want everyone to write down ONE WORD - just one - that describes what they personally think of that poem.” The teacher starts **handing out(分发)** sticky notes.
+
+​	“Write down your word,” she says. “Then stick it on the board.” 
+
+​	“Miss?” I raise my hand. “Is any word okay?”
+
+​	“Any word **as long as（只要）** it’s an honest reflection of what you thought of the poem.”
+
+​	“Are you sure?” I say. “Nothing’s off limits?”
+
+​	“Write whatever you want,” she says.
+
+​	I really hated the poem.I was surprised that I was allowed to write anything but I was also happy I’d get to write down the word on my mind. I wrote: SHIT And stuck it on the board amongst all the other words: “pretty”, “inspirational”, “thought-provoking.”
+
+​	The teacher saw it immediately.
+
+​	“GET OUT! GET OUT GET OUT GET OUT! NOWWWWW!!!!!”
+
+​	“But, Miss, you said I could write —”
+
+​	“OUT!!!!!!”
+
+​	Later that day in the Headmaster’s office… “Sounds like a valid response to a poem.” He shrugged. “If you thought it was shit, what’s wrong with saying it’s shit?”
