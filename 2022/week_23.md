@@ -86,6 +86,17 @@ So, in most situations developers’ skills are what matters.
 
 ​	But what’s true in 2015 might change in 2018. ActionScript was a must have not so long ago. Likewise, with Swift, all the hours spent on Objective C will become obsolete in a few years.
 
- 
+To conclude, I’ll end up with a lame and (I hope) obvious conclusion: **there are no best programming languages or best frameworks; what’s best now might not exist tomorrow. A programming language is just a tool; what matters is the way you overcome your problems.**
 
- 	To conclude, I’ll end up with a lame and (I hope) obvious conclusion: **there are no best programming languages or best frameworks; what’s best now might not exist tomorrow. A programming language is just a tool; what matters is the way you overcome your problems.**
+
+
+
+
+## 05-31:
+
+**Why are computer science degrees so math intensive when the field doesn't seem to use much math at all?**
+	Well, Jamie Moore, you’ve been a developer for a whopping four years. Maybe you finally got past “**Associate(副的)** Software Developer.” You’ve been working on the easiest problems, which perhaps don’t use much math or computer science. If you continue to putter away as a web developer, maybe you never will use any math.
+
+​	But there are software developers who solve hard problems in **demanding（难以满足）** jobs, and I can tell you from my actual experience, we use a shit-ton of math. We have to recognize and often invent novel algorithms. We build data structures, rather than relying on the pre-made ones in our programming language. We create compilers and interpreters for new languages. We apply new science to software development.
+
+​	If you never try these things, I can see how you might find math irrelevant to computer science, but I assure you it is very relevant.
