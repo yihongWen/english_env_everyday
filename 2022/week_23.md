@@ -100,3 +100,20 @@ To conclude, I’ll end up with a lame and (I hope) obvious conclusion: **there 
 ​	But there are software developers who solve hard problems in **demanding（难以满足）** jobs, and I can tell you from my actual experience, we use a shit-ton of math. We have to recognize and often invent novel algorithms. We build data structures, rather than relying on the pre-made ones in our programming language. We create compilers and interpreters for new languages. We apply new science to software development.
 
 ​	If you never try these things, I can see how you might find math irrelevant to computer science, but I assure you it is very relevant.
+
+
+
+
+
+## 06-01:
+
+**What happens if a programmer creates a lot of code only they understand for an important project, and then leaves?**
+	Been there, seen that, got the coffee mug.
+
+​	What happens is that if the programmer was reasonably good, the team works around this code and tries not to modify it. A **legend(传说)** grows up about what you have to do to make this **cranky(古怪的)**, **indecipherable(无法解释的)** code work. Often the developer himself becomes a legend. People praise him even though they don’t understand his work.
+
+​	Eventually, this code needs to be modified. Some other engineer comes along who is willing to dig into the code until they understand it. What they discover is often that the code is a mess, that it was written while the legendary original developer was learning how to use new language idioms, and that’s why it is a mess. Sometimes it is discovered that the performance of this legendary code is horrible, or that the code often does not work as the legend says it should, so that it is the source of **subtle（微妙的、不易察觉的）** bugs.
+
+​	The new engineer makes an effort to refactor the legendary code. This is met with expressions of horror from the other devs and their manager, because this code is legendary for its complexity.
+
+​	Companies have code like this because they don’t have good development processes featuring code review and module tests. Perhaps the company dies before this code can be fixed.
