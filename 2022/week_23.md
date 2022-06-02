@@ -117,3 +117,17 @@ To conclude, I’ll end up with a lame and (I hope) obvious conclusion: **there 
 ​	The new engineer makes an effort to refactor the legendary code. This is met with expressions of horror from the other devs and their manager, because this code is legendary for its complexity.
 
 ​	Companies have code like this because they don’t have good development processes featuring code review and module tests. Perhaps the company dies before this code can be fixed.
+
+
+
+
+
+## 06-02:
+
+​	Today’s Internet is **arguably(可论证地)** the largest engineered system ever created by mankind, with hundreds of millions of connected computers, communication links, and **switches(交换机)**; with billions of users who connect via laptops, **tablets（平板）**, and smartphones; and with an array of new Internet-connected “things” including game consoles, **surveillance（监控）** systems, watches, eye glasses, **thermostats（温度调节器）**, **body scales（体重秤）**, and cars. Given that the Internet is so large and has so many **diverse（不同的）** components and uses, is there any hope of understanding how it works? Are there guiding principles and structure that can provide a foundation for understanding such an amazingly large and complex system? And if so, is it possible that it actually could be both interesting and fun to learn about computer networks? Fortunately, the answer to all of these questions is a resounding YES! Indeed, it’s our aim in this book to provide you with a modern introduction to the dynamic field of computer networking, giving you the principles and practical insights you’ll need to understand not only today’s networks, but tomorrow’s as well.
+
+​	This first chapter presents a **broad（广泛）** overview of computer networking and the Internet. Our goal here is to paint a broad picture and set the context for the rest of this book, to see the forest through the trees. We’ll cover a lot of ground in this introductory chapter and discuss a lot of the pieces of a computer network, without losing sight of the big picture.
+
+​	We’ll structure our overview of computer networks in this chapter as follows. After introducing some basic terminology and concepts, we’ll first examine the basic hardware and software components that make up a network. We’ll begin at the network’s edge and look at the end systems and network applications running in the network. We’ll then explore the core of a computer network, examining the links and the switches that transport data, as well as the access networks and physical media that connect end systems to the network core. We’ll learn that the Internet is a network of networks, and we’ll learn how these networks connect with each other.
+
+​	After having completed this overview of the edge and core of a computer network, we’ll take the broader and more abstract view in the **second half** of this chapter. We’ll examine delay, loss, and throughput of data in a computer network and provide simple quantitative models for end-to-end throughput and delay: models that take into account transmission, propagation, and queuing delays. We’ll then introduce some of the key architectural principles in computer networking, **namely（也就是）**, protocol layering and service models. We’ll also learn that computer networks are vulnerable to many different types of attacks; we’ll survey some of these attacks and consider how computer networks can be made more secure. Finally, we’ll close this chapter with a brief history of computer networking.
