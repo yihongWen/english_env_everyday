@@ -110,3 +110,40 @@ When you learn about a framework**, it’s important to know not only what it do
 ​	If you are just getting started with Spring, you may want to begin using the Spring Framework by creating a [Spring Boot](https://projects.spring.io/spring-boot/)-based application. Spring Boot provides a quick (and opinionated) way to create a production-ready Spring-based application. It is based on the Spring Framework, **favors convention over configuration（约定优于配置）**, and is designed to get you up and running as quickly as possible.
 
 ​	You can use [start.spring.io](https://start.spring.io/) to generate a basic project or follow one of the ["Getting Started" guides](https://spring.io/guides), such as [Getting Started Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/). As well as being easier to **digest（理解消化）**, these guides are very task focused, and most of them are based on Spring Boot. They also cover other projects from the Spring portfolio that you might want to consider when solving a particular problem.
+
+
+
+
+
+## 06-08:
+
+​	Once when I was six years old I saw a magnificent picture in a book, called True Stories from Nature, about the primeval forest. It was a picture of a **boa constrictor(蟒蛇)** in the act of swallowing an animal. Here is a copy of the drawing.
+
+<img src="week_24.assets/image-20220608100158929.png" alt="image-20220608100158929" style="zoom:33%;" />
+
+​	In the book it said: “Boa constrictors swallow their **prey（猎物）** whole, without chewing it. After that they are not able to move, and they sleep through the six months that they need for digestion.” 
+
+​	I **pondered（沉思）** deeply, then, over the adventures of the jungle. And after some work with a colored pencil I succeeded in making my first drawing. My Drawing Number One. It looked like this:
+
+<img src="week_24.assets/image-20220608100528576.png" alt="image-20220608100528576" style="zoom:50%;" />
+
+​	I showed my **masterpiece（杰作）** to the grown-ups, and asked them whether the drawing frightened them.
+
+​	But they answered: “Frighten? Why should any one be frightened by a hat?” 
+
+​	My drawing was not a picture of a hat. It was a picture of a boa constrictor digesting an elephant. But since the grown-ups were not able to understand it, I made another drawing: I drew the inside of the boa constrictor, so that the grown-ups could see it clearly. **They always need to have things explained.** My Drawing Number Two looked like this:
+
+<img src="week_24.assets/image-20220608101712561.png" alt="image-20220608101712561" style="zoom:50%;" />
+
+​	The grown-ups’ response, this time, was to advise me to **lay aside** my drawings of boa constrictors, whether from the inside or the outside, and **devote（致力于）** myself instead to geography, history, arithmetic and grammar. That is why, at the age of six, I gave up what might have been a magnificent career as a painter. I had been **disheartened（沮丧）** by the failure of my Drawing Number One and my Drawing Number Two. Grown-ups never understand anything by themselves, and it is tiresome for children to be always and forever explaining things to them. So then I chose another profession, and learned to pilot airplanes. I have flown a little over all parts of the world; and it is true that geography has been very useful to me. At a **glance（）一眼** I can distinguish China from Arizona. If one gets lost in the night, such knowledge is valuable. 
+
+​	In the course of this life I have had a great many encounters with a great many people who have been concerned with matters of consequence. I have lived a great deal among grown-ups. I have seen them **intimately（熟悉地）**, close at hand. And that hasn’t much improved my opinion of them. 
+
+​	Whenever I met one of them who seemed to me at all clear-sighted, I tried the experiment of showing him my Drawing Number One, which I have always kept. I would try to find out, so, if this was a person of true understanding. But, whoever it was, he, or she, would always say: “That is a hat.” Then I would never talk to that person about boa constrictors, or primeval forests, or stars. I would bring myself down to his level. I would talk to him about bridge, and golf, and politics, and neckties. And the grown-up would be greatly pleased to have met such a sensible man.
+
+
+
+
+
+
+
