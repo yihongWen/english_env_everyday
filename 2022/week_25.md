@@ -105,3 +105,16 @@
 ​	“I admire you,” said the little prince, shrugging his shoulders slightly, “but what is there in that to interest you so much?” And the little prince went away.
 
 ​	 “The grown-ups are certainly very odd,” he said to himself, as he continued on his journey.
+
+
+
+
+
+## 06-18:
+
+​	The next planet was inhabited by a **tippler（酒鬼）**. This was a very short visit, but it **plunged（突然陷入）** the little prince into deep **dejection（沮丧）**. “What are you doing there?” he said to the tippler, whom he found settled down in silence before a collection of empty bottles and also a collection of full bottles.
+
+​	“I am drinking,” replied the tippler, with a **lugubrious（悲惨的）** air. “Why are you drinking?” demanded the little prince. “So that I may forget,” replied the tippler. “Forget what?” inquired the little prince, who already was sorry for him. “Forget that I am ashamed,” the tippler **confessed（坦白的、认罪的）**, hanging his head. “Ashamed of what?” insisted the little prince, who wanted to help him. “Ashamed of drinking!” The tippler brought his speech to an end, and shut himself up in an **impregnable（坚固的）** silence. And the little prince went away, puzzled. “The grown-ups are certainly very, very odd,” he said to himself, as he continued on his journey.
+
+
+
