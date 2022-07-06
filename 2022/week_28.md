@@ -63,3 +63,38 @@
 ​	Besides the token packet, three other kinds exist. These are DATA (used to transmit up to 64 bytes of information either way), handshake, and special packets. The format of a data packet is shown in Figure 2B-2. It consists of an 8-bit synchronization field, an 8-bit packet type (PID ), the payload, and a 16-bit CRC(Cyclic Redundancy Code) to detect errors. Three kinds of handshake packets are defined: ACK(the previous data packet was correctly received), NAK (a CRC error was detected), and STALL (please wait—I am busy right now). 
 
 ​	Now let us look at Figure 2B-2 again. Every 1.00 msec a frame must be sent from the root hub, even if there is no work. Frames 0 and 2 consist of just an SOF packet, indicating that there was no work. Frame 1 is a poll, so it starts out with SOF and IN packets from the computer to the I/O device, followed by a DATA packet from the device to the computer. The ACK packet tells the device that the data were received correctly. In case of an error, a NAK would be sent back to the device and the packet would be retransmitted for bulk data (but not for isochronous data). Frame 3 is similar in structure to frame 1, except that now the flow of data is from the computer to the device. 
+
+
+
+
+
+## 07-06:
+
+​	The basic CD/CD-ROM format has been around since 1980. The technology has improved since then, so higher-capacity optical disks are now economically feasible and there is great demand for them. Hollywood would dearly love to replace analog video tapes by digital disks, since disks have a higher quality, are cheaper to manufacture, last longer, take up less **shelf（货架）** space in video stores, and do not have to be **rewound（重绕）**. The consumer electronics companies are looking for a new **blockbuster（重磅）** product, and many computer companies want to add multimedia features to their software. 
+
+​	This combination of technology and demand by three immensely rich and powerful industries has led to DVD, originally an **acronym（首字母缩略）** for Digital Video Disk, but now officially Digital Versatile Disk. DVDs use the same general design as CDs, with 120-mm injection-molded polycarbonate disks containing pits and lands that are **illuminated（照明）** by a laser **diode（二极管）** and read by a **photodetector（光电探测器）**. What is new is the use of: 
+
+1. Smaller pits (0.4 microns versus 0.8 microns for CDs). 
+2.  A tighter spiral (0.74 microns between tracks versus 1.6 microns for CDs). 
+3.  A red laser (at 0.65 microns versus 0.78 microns for CDs). 
+
+​	Together, these improvements raise the capacity sevenfold, to 4.7 GB . A 1x DVD drive operates at 1.4 MB/sec (versus 150 KB/sec for CDs). Unfortunately, the switch to the red lasers used in supermarkets means that DVD players will require a second laser or fancy conversion optics to be able to read existing CDs and CD-ROMs, something not all of them may provide. Also, reading CD-Rs and CD-RWs on a DVD drive may not be possible. 
+
+​	Is 4.7 GB enough? Maybe. Using MPEG-2  compression (standardized in IS 13346), a 4.7 GB DVD disk can hold 133 minutes of full-screen, full-motion video at high resolution (720 × 480), as well as soundtracks in up to eight languages and subtitles in 32 more. About 92 percent of all the movies Hollywood has ever made are under 133 minutes. Nevertheless, some applications such as multimedia games or reference works may need more, and Hollywood would like to put multiple movies on the same disk, so four formats have been defined: 
+
+1. Single-sided, single-layer (4.7 GB). 
+2. Single-sided, dual-layer (8.5 GB). 
+3. Double-sided, single-layer (9.4 GB).
+4. Double-sided, dual-layer (17 GB). 
+
+​	Why so many formats? In a word: politics. Philips and Sony wanted single-sided, dual-layer disks for the high capacity version, but Toshiba and Time Warner wanted double-sided, single-layer disks. Philips and Sony did not think people would be willing to turn the disks over, and Time Warner did not believe putting two layers on one side could be made to work. The compromise: all combinations, but the market will determine which ones survive. 
+
+​	The **dual（双重）** layering technology has a reflective layer at the bottom, topped with a semireflective layer. Depending on where the laser is focused, it bounces off one layer or the other. The lower layer needs slightly larger pits and lands to be read reliably, so its capacity is slightly smaller than the upper layer’s. 
+
+​	Double-sided disks are made by taking two 0.6-mm single-sided disks and **gluing（粘和）** them together back to back. To make the thicknesses of all versions the same, a single-sided disk consists of a 0.6-mm disk bonded to a blank **substrate（底基）** (or perhaps in the future, one consisting of 133 minutes of advertising, in the hope that people will be curious as to what is down there). The structure of the double-sided, dual-layer disk is illustrated in Figure 2C-1. 
+
+​	DVD was devised by a **consortium（联盟）** of 10 consumer electronics companies, seven of them Japanese, in close cooperation with the major Hollywood studios (some of which are owned by the Japanese electronics companies in the consortium). The computer and telecommunications industries were not invited to the picnic, and the resulting focus was on using DVD for movie rental and sales shows. For example, standard features include real-time skipping of dirty scenes, six-channel sound, and support for Pan-and-Scan. The latter feature allows the DVD player to dynamically decide how to crop the left and right edges off movies (whose width:height ratio is 3:2) to fit on current television sets (whose aspect ratio is 4:3). 
+
+​	Another item the computer industry probably would not have thought of is an intentional **incompatibility(不相容)** between disks intended for the United States and disks intended for Europe and yet other standards for other continents. Hollywood demanded this “feature” because new films are always released first in the United States and then shipped to Europe when the videos come out in the United States. The idea was to make sure European video stores could not buy videos in the U.S. too early, thereby reducing new movies’ European theater sales. If Hollywood had been running the computer industry, we would have had 3.5-inch floppy disks in the United States and 9-cm floppy disks in Europe. 
+
+​	If DVD is a big success, DVD-R1 (recordable) and DVD-rewritable will be mass produced within a short time. The success of DVD is not guaranteed, however, since the cable companies have quite a different plan for delivering movies—video on demand over the cable—and the battle has barely begun.
