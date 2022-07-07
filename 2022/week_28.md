@@ -98,3 +98,69 @@
 ​	Another item the computer industry probably would not have thought of is an intentional **incompatibility(不相容)** between disks intended for the United States and disks intended for Europe and yet other standards for other continents. Hollywood demanded this “feature” because new films are always released first in the United States and then shipped to Europe when the videos come out in the United States. The idea was to make sure European video stores could not buy videos in the U.S. too early, thereby reducing new movies’ European theater sales. If Hollywood had been running the computer industry, we would have had 3.5-inch floppy disks in the United States and 9-cm floppy disks in Europe. 
 
 ​	If DVD is a big success, DVD-R1 (recordable) and DVD-rewritable will be mass produced within a short time. The success of DVD is not guaranteed, however, since the cable companies have quite a different plan for delivering movies—video on demand over the cable—and the battle has barely begun.
+
+
+
+
+
+## 07-07
+
+**Operating System** 
+
+**I. INTRODUCTION** 
+
+​	An operating system (OS), in computer science, is the basic software that controls a computer. It has three major functions: it **coordinates and manipulates(协调、操作)** computer hardware, such as computer memory, printers, disks,  keyboard, mouse, and monitor; it organizes files on a variety of storage media, such as floppy disk, hard drive, compact disc, and tape; and it manages hardware errors and the loss of data. 
+
+**II. HOW AN OS WORKS** 
+
+​	Operating systems control different computer processes, such as running a **spreadsheet（电子表格）** program or accessing information from the computer’s memory. One important process is the interpretation of commands that allow the user to communicate with the computer. Some command interpreters are text-oriented, requiring commands to be typed in. Other command interpreters are graphically oriented and let the user communicate by pointing and clicking on an icon, an on-screen picture that represents a specific command. Beginners generally find graphically oriented interpreters easier to use, but many experienced computer users prefer text-oriented command interpreters because they are more powerful. 
+
+​	Operating systems are either single-tasking or multitasking. The more primitive single-tasking operating systems can run only one process at a time. For instance, when the computer is printing a document, it cannot start another process or respond to new commands until the printing is completed. 
+
+​	All modern operating systems are multitasking and can run several processes simultaneously. In most computers there is only one central processing unit (CPU), (the computational and control unit of the computer), so a multitasking OS creates the illusion of several processes running simultaneously on the CPU. The most common mechanism used to create this illusion is time-slice multitasking, whereby each process is run individually for a fixed period of time. If the process is not completed within the allotted time, it is suspended and another process is run. This exchanging of processes is called **context switching**. The OS performs the “**bookkeeping（记账、统计）**” that preserves the state of a suspended process. It also has a mechanism, called a scheduler, that determines which process will be run next. The scheduler runs short processes quickly to minimize perceptible delay. The processes appear to run simultaneously because the user’s sense of time is much slower than the processing speed of the computer. 
+
+​	Operating systems can use virtual memory to run processes that require more main memory than is actually available. With this technique, space on the hard drive is used to mimic the extra memory needed. Accessing the hard drive is more time-consuming than accessing main memory, however, so performance of the computer slows. 
+
+
+
+**III. CURRENT OPERATING SYSTEMS** 
+
+​	The operating systems commonly found on personal computers are UNIX, Macintosh OS, MS-DOS, OS/2, and Windows. 
+
+**UNIX** 
+
+​	UNIX, in computer science, is a multiuser, multitasking operating system originally developed by Ken Thompson and Dennis Ritchie at AT&T Bell Laboratories in 1969 for use on minicomputers. UNIX exists in various forms and implementations; among these are versions developed at the University of California at Berkeley (known as BSD7 releases) and versions released by AT&T, the most recent being AT&T System V. UNIX is considered a powerful operating system which, because it is written in the C language, is more portable—less machine-specific—than other operating systems. UNIX is available in several related forms, including AIX, a version of UNIX adapted by IBM (to run on RISC -based workstations), A/UX (a graphical version for the Apple  Macintosh), and Mach (a rewritten but essentially UNIX-**compatible（兼容的）** operating system for the NeXT computer). 
+
+​	Its popularity is due in large part to the growth of the interconnected computer network known as the Internet, the software for which initially was designed for computers that ran UNIX. **Variations（变更）** of UNIX include SunOS (distributed by SUN Microsystems Inc.), Xenix (distributed by Microsoft Corporation), and Linux 11 . UNIX and its clones support multitasking and multiple users. Its file system provides a simple means of organizing disk files and lets users protect their files from other users. The commands in UNIX are not intuitive, however, and mastering the system is difficult. 
+
+
+
+**MS-DOS** 
+
+​	MS-DOS is the **acronym（首字母缩写）** for Microsoft Disk Operating System. In computer science, MS-DOS—like other operating systems—**oversees（监视）** such operations as disk input and output, video support, keyboard control, and many internal functions related to program execution and file maintenance. MS-DOS is a single-tasking, single-user operating system with a command-line interface. 
+
+
+
+**OS/2** 
+
+​	OS/2, or Operating System 2, is an operating system developed for the personal computer in the mid-1980s by International Business Machines Corporation (IBM) and Microsoft Corporation. At the time OS/2 was introduced in late 1987, the most common personal computers were IBM-compatible computers running the Microsoft Disk Operating System (MS-DOS) and computers manufactured by Apple Computer Corporation running Apple’s system for the Macintosh (Mac OS). The Macintosh operating system included multitasking, a feature that enabled computers to run several applications simultaneously. In a computer network, multitasking allows several users on different computers to have simultaneous access to the same application or data set. OS/2 was the first operating system designed for IBM-compatible personal computers that allowed multitasking. The first version of OS/2, version 1.0, was text-oriented and lacked a graphical user interface (GUI) that would allow users to enter commands with a point-and-click input device, such as a computer mouse. A year later IBM and Microsoft released OS/2 version 1.1, which included a GUI called the **Presentation Manager（表示管理程序）**. The Presentation Manager interface contained icons, pictures or words on the screen that users could click on with a mouse to enter instructions. OS/2 version 1.1 also allowed users to have multiple windows open (windows are portions of the screen that each contain a different document or program) and included pull-down lists of commands that the user could choose by clicking on them with their mouse. 
+
+​	IBM and Microsoft ended their collaboration on OS/2 in 1991 after Microsoft released its Windows software, a multitasking environment that ran on MS-DOS. In 1992 IBM released version 2.0 of OS/2, which ran Microsoft Windows programs and could perform multitasking of DOS operations. It also contained an object-oriented programming environment that allowed software designers to create programs using high-level, object-oriented programming languages. 
+
+​	Subsequent versions of OS/2 offered enhanced performance and multimedia capabilities, and in 1994 IBM announced that more than 5 million copies of OS/2 had been sold since its introduction. The same year, IBM introduced a new version of OS/2 called OS/2 Warp that featured improved performance, more multimedia capabilities, an array of integrated applications, and easy access to the Internet. IBM has continued to upgrade and extend OS/2 Warp. 
+
+
+
+Windows 
+
+​	Windows, in computer science, is a personal computer operating system sold by Microsoft Corporation that allows users to enter commands with a point-and-click device, such as a mouse, instead of a keyboard. The Windows operating system provides users with a graphical user interface (GUI), which allows them to manipulate small pictures, called icons, on the computer screen to **issue（议题、发布）** commands. Windows is the most widely used operating system in the world. It is an extension of and replacement for Microsoft’s Disk Operating System (MS-DOS). The Windows GUI is designed to be a natural, or intuitive, work environment for the user. With Windows, the user can move a cursor around on the computer screen with a mouse. By pointing the cursor at icons and clicking buttons on the mouse, the user can issue commands to the computer to perform an action, such as starting a program, accessing a data file, or copying a data file. Other commands can be reached through pull-down or click-on menu items. The computer displays the active area in which the user is working as a window on the computer screen. The currently active window may overlap with other previously active windows that remain open on the screen. This type of GUI is said to include WIMP features: windows, icons, menus, and pointing device (such as a mouse). 
+
+​	Computer scientists at the Xerox Corporation’s Palo Alto Research Center (PARC1 ) invented the GUI concept in the early 1970s, but this innovation was not an immediate commercial success. In 1983 Apple Computer featured a GUI in its Lisa computer. This GUI was updated and improved in its Macintosh computer, introduced in 1984. Microsoft began its development of a GUI in 1983 as an extension of its MS-DOS operating system. Microsoft’s Windows version 1.0 first appeared in 1985. In this version, the windows were **tiled（平铺）**, or presented next to each other rather than overlapping. Windows version 2.0, introduced in 1987, was designed to resemble IBM’s OS/2 Presentation Manager, another GUI operating system. Windows version 2.0 included the overlapping window feature. The more powerful version 3.0 of Windows, introduced in 1990, and subsequent versions 3.1 and 3.11 rapidly made Windows the market leader in operating systems for personal computers, in part because it was **prepackaged（预先包装）** on new personal computers. It also became the favored platform for software development. In 1993 Microsoft introduced Windows NT (New Technology). The Windows NT operating system offers 32-bit multitasking, which gives a computer the ability to run several programs simultaneously, or in parallel, at high speed. This operating system competes with IBM’s OS/2 as a platform for the intensive, high-end, networked computing environments found in many businesses. In 1995 Microsoft released a new version of Windows for personal computers called Windows 95. Windows 95 has a **sleeker（光滑）** and simpler GUI than previous versions. It offers 32-bit processing, efficient multitasking, network connections, and Internet access. Few computer users run MS-DOS or OS/2 directly. They prefer versions of UNIX or windowing systems with graphical interfaces, such as Windows 98 or the Macintosh OS, which make computer technology more accessible. However, graphical systems generally have the disadvantage of requiring more hardware—such as faster CPUs, more memory, and higher-quality monitors—than command-oriented operating systems. 
+
+
+
+**IV. FUTURE TECHNOLOGIES** 
+
+​	Operating systems continue to evolve. A recently developed type of OS called a distributed operating system is designed for a connected, but independent, collection of computers that share resources such as hard drives. In a distributed OS, a process can run on any computer in the network (**presumably（可能）** a computer that is **idle（闲置）**) to increase that process’s performance. All basic OS functions—such as maintaining file systems, ensuring reasonable behavior, and recovering data in the event of a partial failure—become more complex in distributed systems. 
+
+​	Research is also being conducted that would replace the keyboard with a means of using voice or handwriting for input. Currently these types of input are **imprecise（不精确）** because people pronounce and write words very differently, making it difficult for a computer to recognize the same input from different users. However, advances in this field have led to systems that can recognize a small number of words spoken by a variety of people. In addition, software has been developed that can be taught to recognize an individual’s handwriting. 
