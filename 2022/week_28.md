@@ -164,3 +164,63 @@ Windows
 ​	Operating systems continue to evolve. A recently developed type of OS called a distributed operating system is designed for a connected, but independent, collection of computers that share resources such as hard drives. In a distributed OS, a process can run on any computer in the network (**presumably（可能）** a computer that is **idle（闲置）**) to increase that process’s performance. All basic OS functions—such as maintaining file systems, ensuring reasonable behavior, and recovering data in the event of a partial failure—become more complex in distributed systems. 
 
 ​	Research is also being conducted that would replace the keyboard with a means of using voice or handwriting for input. Currently these types of input are **imprecise（不精确）** because people pronounce and write words very differently, making it difficult for a computer to recognize the same input from different users. However, advances in this field have led to systems that can recognize a small number of words spoken by a variety of people. In addition, software has been developed that can be taught to recognize an individual’s handwriting. 
+
+
+
+## 07-08:
+
+**What Is Linux?** 
+
+​	Linux is a free UNIX clone written **from scratch（从零开始）** by Linus Torvalds and a team of programmers over the Internet. Linux aims towards POSIX **compliance（服从、遵守）** (a set of standards that show what a UNIX should be). 
+
+​	It contains all of the features that you would expect in not only a UNIX, but any operating system. Some of the features included are true multitasking, virtual memory, the world’s fastest TCP/IP drivers, shared libraries, and of course multi-user capabilities (this means hundreds of people can use one computer at the same time, either over a network, the Internet, or on laptops/computers or terminals connected to the serial ports of that computer). Linux runs fully in protected mode (unlike Windows) and supports fully fledged 32-bit and 64-bit multitasking. 
+
+​	Linux also has a completely free X Windows  implementation conforming to the X/Open standard. Most existing X Based programs will run under Linux without any modification. X Windows for the **uninitiated（不知情的）** is a GUI, similar to Microsoft Windows but is feature packed (and is rather large, consuming around 15-20MB).  Most Linux distributions come completely pre-configured to a factory configuration, and distributions such as RedHat Linux also have graphical based configuration utilities and installers (not unlike Windows’ Control Panel). 
+
+​	In addition, programs intended for SCO Unix 4.2 and SVR4 will run on most Linux systems unaltered (this is due to the assistance of a driver called IBCS), for example Corel Draw! for SCO and the Dataflex database system. The Linux DOS **emulator（模拟器）**, DOSEMU, will run packets of MS-DOS applications, including some that require VGA2 or SVGA3 graphics capabilities. Windows programs can also be run inside of X-Windows with the help of an emulator called WINE. Usually, Windows programs can run up to 10 times faster than on a native system4 , due to Linux’s buffering capabilities. 
+
+​	As usually expected from most Unices , Linux includes advanced networking capabilities. Since the people developing Linux **collaborated（合作）** and used the Internet for their development efforts, networking support came early in Linux’s development stage. Networking support in Linux is **superior（更大的）** to most other operating systems. Linux supports connection to the Internet or any other network using TCP/IP or IPX via Ethernet , fast Ethernet , ATM , modem, packet radio (X.25 protocol), ISDN, token ring, or PLIP (modified printer cable to another computer). As an Internet/WWW server, Linux is a very good choice, often out performing Windows NT, Novell and most UNIX systems on the same hardware (even multiprocessor boxes). Linux has been chosen by hundreds of thousands of ISPs, by many university computer labs, and surprisingly by many businesses—by all people that need reliable server and network performance in many different situations. 
+
+​	Linux supports all of the most common Internet protocols, including FTP , POP , SNMP , and many more. Linux can operate as a client or as a server for all of the above and has already been widely used and tested in the above roles. 
+
+​	Linux also fits easily and tightly into your local area network, no matter what combination of systems you might be running. Full and seamless support for Macintosh, DOS, Windows, Windows NT, Windows 95, Novell, OS/2, all using their own native protocols—Linux can do all of this in just 16MB of memory or even less (with swap space). Typically, you can have all the above running in 8MB with 16MB swap (a total of 24MB RAM). 
+
+​	Linux is developing at a **blindingly（极其地）** fast speed, and ports exist to PowerPC4 , Macintosh, and so on. If Linus Torvalds ever does decide to abandon the project, since we have the full source code available, he can just assign somebody else to take his place. The Linux kernel development will still continue no matter what happens to Linus. Somebody else will just continue with it. 
+
+
+
+**Performance in Windows 2000** 
+
+**INTRODUCTION** 
+
+​	Whether deploying the Microsoft Windows 2000 operating system on the desktop or in the most demanding Web server environment, you can expect significant performance advantages over previous releases. In addition to providing the highest levels of reliability, providing a **comprehensive（综合性）** set of features to Internet-enable your business , lowering TCO 2 through enhanced management, and adding support for new hardware devices, Windows 2000 also **delivers（提供）** better performance. Using a wide range of **benchmarks（基准）**, this paper will provide you with information on the performance improvements of Windows 2000 in different deployment scenarios. 
+
+
+
+**CLIENT PERFORMANCE** 
+
+​	In addition to the many new desktop features that have been added to Windows 2000 Professional such as Plug and Play, power management, single worldwide binary for all languages, **IntelliMirrorTM1（智能镜像）** management technologies, and many others, the performance on the desktop is significantly faster than Windows 95 & 98 and comparable to Windows NT Workstation 4.0. By optimizing fundamental system services such as memory management, registry access, and disk I/O, Windows 2000 is able to deliver the added benefit of new features while delivering the performance that customers expect. 
+
+
+
+**NETWORKING PERFORMANCE** 
+
+​	Windows 2000 is **gigabit（千兆）** ready. This means that Windows 2000 is capable of sustaining the highest levels of network throughput using gigabit adapters. For example, using network adapters designed to utilize the advanced TCP/IP features in Windows 2000 such as TCP/IP checksum offloading and large send support, Windows 2000 can deliver up to 25% better network throughput than Windows NT Server 4.0 and sustain close to 4 gigabits per second (Gbps) of data throughput. With the improved networking efficiency provided by Windows 2000, customers will benefit from higher capacity Web servers, file servers, and application servers. 
+
+
+
+**WEB SERVER PERFORMANCE**
+
+ The performance of Web sites running Windows NT Server 4.0 can immediately be improved by upgrading to Windows 2000. Advances have been made in Windows 2000 that significantly improve Active Server Pages (ASP  ) performance and SMP  scalability. In addition, ASP applications running in out-of-process mode perform significantly better on Windows 2000. For example, an ASP application running in out-of-process mode on Windows 2000 is as fast as the same ASP application running in the Web server process on Windows NT Server 4.0. Furthermore, the raw performance of serving static Web pages has increased significantly according to publicly available SPECWeb 96 results. 
+
+
+
+**FILE & PRINT SERVER PERFORMANCE**
+
+​	By improving many aspects of the file server components such as increasing the virtual size of the file cache from 496MB to 960MB, optimizing the **SMB（服务器消息块）** redirector on Windows 2000, and optimizing the Windows NT File System (NTFS2 ), Windows 2000 provides customers with a better performing and scalable file server solution. Using the NetBench  benchmark, Windows 2000 Server with Windows 2000 Professional-based clients provides up to 20% better performance than Windows NT Server 4.0 with Windows NT Workstation 4.0-based clients. In some cases, especially where the file shares are stored on a single partition, Windows 2000 provides up to 2-times better file server performance than Windows NT Server 4.0. 
+
+​	As a print server, Windows 2000 is capable of processing up to 3-times more pages per second when compared to Windows NT Server 4.0. Moreover, print performance doesn’t degrade on Windows 2000 Server as additional printers are added. Furthermore, Windows 2000 can perform the rendering in 1/3 of the time it took on Windows NT Server 4.0 and requires 1/3 of the CPU resources. 
+
+**APPLICATION SERVER PERFORMANCE** 
+
+​	Windows 2000 Server is a better platform for running business applications. Better SMP **scalability（可扩展、可伸缩）**, improved networking performance, and support for more physical memory have a profound impact on the performance of Windows 2000 in an application server environment. Advances to what is now known as COM+  (formerly **COM（组对象模型）**  and Microsoft Transaction Server  ) also provide better performance to customers running COM-based applications. In addition, transaction-processing capabilities of COM+ can be used as a transaction monitor when running to improve performance of database applications. 
