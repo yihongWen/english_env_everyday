@@ -224,3 +224,68 @@ Windows
 **APPLICATION SERVER PERFORMANCE** 
 
 ​	Windows 2000 Server is a better platform for running business applications. Better SMP **scalability（可扩展、可伸缩）**, improved networking performance, and support for more physical memory have a profound impact on the performance of Windows 2000 in an application server environment. Advances to what is now known as COM+  (formerly **COM（组对象模型）**  and Microsoft Transaction Server  ) also provide better performance to customers running COM-based applications. In addition, transaction-processing capabilities of COM+ can be used as a transaction monitor when running to improve performance of database applications. 
+
+
+
+## 07-09:
+
+**Programming Language** 
+
+**I. INTRODUCTION** 
+
+​	Programming languages, in computer science, are the artificial languages used to write a sequence of instructions (a computer program) that can be run by a computer. Similar to natural languages, such as English, programming languages have a vocabulary, grammar, and **syntax（句法）**. However, natural languages are not suited for programming computers because they are ambiguous, meaning that their vocabulary and grammatical structure may be **interpreted（解释）** in multiple ways. The languages used to program computers must have simple logical structures, and the rules for their grammar, spelling, and **punctuation（标点符号）** must be precise. 
+
+​	Programming languages vary greatly in their **sophistication（复杂）** and in their degree of **versatility（多用）**. Some programming languages are written to **address（解决）** a particular kind of computing problem or for use on a particular model of computer system. For instance, programming languages such as FORTRAN and COBOL were written to solve certain general types of programming problems—FORTRAN for scientific applications, and COBOL for business applications. Although these languages were designed to address specific categories of computer problems, they are highly **portable（便携、可移植）**, meaning that they may be used to program many types of computers. Other languages, such as machine languages, are designed to be used by one specific model of computer system, or even by one specific computer in certain research applications. The most commonly used programming languages are highly portable and can be used to effectively solve diverse types of computing problems. Languages like C, PASCAL and BASIC fall into this category. 
+
+
+
+**II. LANGUAGE TYPES** 
+
+​	Programming languages can be classified as either low-level languages or high-level languages. Low-level programming languages, or machine languages, are the most basic type of programming languages and can be understood directly by a computer. Machine languages differ depending on the manufacturer and model of computer. High-level languages are programming languages that must first be translated into a machine language before they can be understood and processed by a computer. Examples of high-level languages are C, C++, PASCAL, and FORTRAN. Assembly languages are **intermediate（中间的）** languages that are very close to machine languages and do not have the level of **linguistic（语言的）** sophistication **exhibited（展现）** by other high-level languages, but must still be translated into machine language
+
+
+
+**A. Machine Languages** 
+
+​	In machine languages, instructions are written as sequences of 1s and 0s, called bits, that a computer can understand directly. An instruction in machine language generally tells the computer four things: (1) where to find one or two numbers or simple pieces of data in the main computer memory (Random Access Memory, or RAM), (2) a simple operation to perform, such as adding the two numbers together, (3) where in the main memory to put the result of this simple operation, and (4) where to find the next instruction to perform. While all executable programs are eventually read by the computer in machine language, they are not all programmed in machine language. It is extremely difficult to program directly in machine language because the instructions are sequences of 1s and 0s. A typical instruction in a machine language might read 10010 1100 1011 and mean add the contents of storage register A to the contents of storage register B. 
+
+**B. High-Level Languages** 
+
+​	High-level languages are relatively sophisticated sets of statements **utilizing（利用）** words and syntax from human language. They are more similar to normal human languages than assembly or machine languages and are therefore easier to use for writing complicated programs. These programming languages allow larger and more complicated programs to be developed faster. However, high-level languages must be translated into machine language by another program called a compiler before a computer can understand them. For this reason, programs written in a high-level language may take longer to execute and use up more memory than programs written in an assembly language. 
+
+
+
+**C. Assembly Languages**
+
+​	Computer programmers use assembly languages to make machine-language programs easier to write. In an assembly language, each statement **corresponds（对应）** roughly to one machine language instruction. An assembly language statement is composed with the aid of easy to remember commands. The command to add the contents of the storage register A to the contents of storage register B might be written ADD B, A in a typical assembly language statement. Assembly languages share certain features with machine languages. For instance, it is possible to manipulate specific bits in both assembly and machine languages. Programmers use assembly languages when it is important to minimize the time it takes to run a program, because the translation from assembly language to machine language is relatively simple. Assembly languages are also used when some part of the computer has to be controlled directly, such as individual dots on a monitor or the flow of individual characters to a printer. 
+
+
+
+**III. CLASSIFICATION OF HIGH-LEVEL LANGUAGES**
+
+ 	High-level languages are commonly classified as procedure-oriented, functional, object-oriented, or logic languages. The most common high-level languages today are procedure-oriented languages. In these languages, one or more related blocks of statements that perform some complete function are grouped together into a program module, or procedure, and given a name such as “procedure A.” If the same sequence of operations is needed elsewhere in the program, a simple statement can be used to refer back to the procedure. In essence  , a procedure is just a mini-program. A large program can be constructed by grouping together procedures that perform different tasks. Procedural languages allow programs to be shorter and easier for the computer to read, but they require the programmer to design each procedure to be general enough to be used in different situations. 
+
+​	Functional languages treat procedures like mathematical functions and allow them to be processed like any other data in a program. This allows a much higher and more **rigorous（严密）** level of program construction. Functional languages also allow variables—symbols for data that can be specified and changed by the user as the program is running—to be given values only once. This simplifies programming by reducing the need to be concerned with the exact order of statement execution, since a variable does not have to be **redeclared**, or **restated**, each time it is used in a program statement. Many of the ideas from functional languages have become key parts of many modern procedural languages. 
+
+​	Object-oriented languages are **outgrowths（结果、副产物）** of functional languages. In object-oriented languages, the code used to write the program and the data processed by the program are grouped together into units called objects. Objects are further grouped into classes, which define the attributes objects must have. A simple example of a class is the class Book. Objects within this class might be Novel and Short Story. Objects also have certain functions associated with them, called methods. The computer accesses an object through the use of one of the object’s methods. The method performs some action to the data in the object and returns this value to the computer. Classes of objects can also be further grouped into **hierarchies（继承）**, in which objects of one class can inherit methods from another class. The structure provided in object-oriented languages makes them very useful for complicated programming tasks. 
+
+​	Logic languages use logic as their mathematical base. A logic program consists of sets of facts and if-then rules, which specify how one set of facts may be **deduced（推导）** from others, for example: If the statement X is true, then the statement Y is false. In the execution of such a program, an input statement can be logically deduced from other statements in the program. Many artificial intelligence programs are written in such languages. 
+
+
+
+**IV. LANGUAGE STRUCTURE AND COMPONENTS** 
+
+​	Programming languages use specific types of statements, or instructions, to provide functional structure to the program. A statement in a program is a basic sentence that expresses a simple idea—its purpose is to give the computer a basic instruction. Statements define the types of data allowed, how data are to be manipulated, and the ways that procedures and functions work. Programmers use statements to manipulate common components of programming languages, such as variables and **macros（宏指令）** (mini-programs within a program). 
+
+​	Statements known as data declarations give names and properties to elements of a program called variables. Variables can be assigned different values within the program. The properties variables can have are called types, and they include such things as what possible values might be saved in the variables, how much numerical **accuracy（精确）** is to be used in the values, and how one variable may represent a collection of simpler values in an organized fashion, such as a table or array. In many programming languages, a key data type is a pointer. Variables that are pointers do not themselves have values; instead, they have information that the computer can use to locate some other variable—that is, they point to another variable. 
+
+​	An expression is a piece of a statement that describes a series of computations to be performed on some of the program’s variables, such as X+Y/Z, in which the variables are X, Y, and Z and the computations are addition and division. An assignment statement assigns a variable a value derived from some expression, while conditional statements specify expressions to be tested and then used to select which other statements should be executed next. 
+
+​	Procedure and function statements define certain blocks of code as procedures or functions that can then be returned to later in the program. These statements also define the kinds of variables and parameters the programmer can choose and the type of value that the code will return when an expression accesses the procedure or function. Many programming languages also permit minitranslation programs called macros. Macros translate segments of code that have been written in a language structure defined by the programmer into statements that the programming language understands. 
+
+**V. HISTORY**
+
+​	Programming languages **date back（追溯）** almost to the invention of the digital computer in the 1940s. The first assembly languages **emerged（出现、浮现）** in the late 1950s with the introduction of commercial computers. The first procedural languages were developed in the late 1950s to early 1960s: FORTRAN, created by John Backus , and then COBOL, created by Grace Hopper  . The first functional language was LISP , written by John McCarthy in the late 1950s. Although heavily updated, all three languages are still widely used today.
+
+​	 In the late 1960s, the first object-oriented languages, such as SIMULA , emerged. Logic languages became well known in the mid 1970s with the introduction of PROLOG , a language used to program artificial intelligence software. During the 1970s, procedural languages continued to develop with ALGOL , BASIC, PASCAL, C, and Ada . SMALLTALK was a highly influential object-oriented language that led to the merging of object-oriented and procedural languages in C++ and more recently in JAVA  . Although pure logic languages have declined in popularity, variations have become **vitally（极其）** important in the form of relational languages for modern databases, such as SQL . 
+
