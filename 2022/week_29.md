@@ -131,3 +131,57 @@ Java-enabled browsers, such as HotJava , allow the user to control the accesses 
 ​	Computer scientists working in the field of parallel computing, in which multiple CPUs cooperate on the same problem at the same time, have introduced a number of new program models. In parallel computing parts of a problem are worked on simultaneously by different processors, and this speeds up the solution of the problem. Many challenges face scientists and engineers who design programs for parallel processing computers, because of the extreme complexity of the systems and the difficulty involved in making them operate as effectively as possible. Another type of parallel computing called distributed computing uses CPUs from many interconnected computers to solve problems. Often the computers used to process information in a distributed computing application are connected over the Internet. Internet applications are becoming a particularly useful form of distributed computing, especially with programming languages such as Java. In such applications, a user logs on  to a Web site and downloads a Java program onto their computer. When the Java program is run, it communicates with other programs at its home Web site, and may also communicate with other programs running on different computers or Web sites. 
 
 ​	Research into artificial intelligence (AI) has led to several other new styles of programming. Logic programs, for example, do not consist of individual instructions for the computer to follow blindly, but instead consist of sets of rules: if x happens then do y. A special program called an inference engine uses these rules to “reason” its way to a conclusion when presented with a new problem. Applications of logic programs include automatic monitoring of complex systems, and proving mathematical theorems. A **radically（根本的）** different approach to computing in which there is no program in the conventional sense is called a neural network. A neural network is a group of highly interconnected simple processing elements, designed to mimic the brain. Instead of having a program direct the information processing in the way that a traditional computer does, a neural network processes information depending upon the way that its processing elements are connected. Programming a neural network is accomplished by presenting it with known patterns of input and output data and adjusting the relative importance of the interconnections between the processing elements until the desired pattern matching is accomplished. Neural networks are usually simulated on traditional computers, but unlike traditional computer programs, neural networks are able to learn from their experience. 
+
+
+
+## 07-13:
+
+**Why Choose Visual Basic as a Web Programming Tool?**
+
+​	Welcome to Web programming with Visual Basic. As you can probably tell by the title, the topic here is the integration of Visual Basic and the World Wide Web. 
+
+
+
+**Why the World Wide Web?** 
+
+​	You may ask, “Besides all the **hype（炒作）**, what good is the Web?” The answer is simple: the Web allows for the distribution of information over a wide area, to a wide audience at a low cost (compared to a WAN ). This network of networks enables users from across the world to access data on any computer whose administrator has deemed that the data should be made public using the Web. 
+
+​	This opens up a lot of possibilities for both providing and gathering information. Couple the Web with the other features of the Internet (e-mail, network news, file repositories), and it’s easy to see all the potential applications of the Web. 
+
+​	Here are a few ideas to get your mind going. First, it can provide a Web-based order entry form. This gives a remote salesman using a Web browser on a notebook computer the ability to place orders minutes after a deal is made. Another potential application is to provide a Visual Basic search engine that scans Web-based databases of résumés for keywords. Finally, it enables you to provide a custom Web browser to your customers. The browser allows access only to your Web site and even provides the ability to personalize the information on your Web server to match the customer. 
+
+​	The applications are as wide open as the Web itself, and I’m sure that as more people jump on the Web **bandwagon（流行）** , more and more applications will spring up. 
+
+
+
+**Why Choose Visual Basic as a Web Programming Tool?**
+
+​	An important question at the start of any software design project is the choice of a language or languages to use. When you think about designing applications that use Web-based information, the question still applies: “Why should I use Visual Basic?” Visual Basic makes sense for the following reasons:
+
+​	 Database **Connectivity**—By using ODBC or RDO , you can easily wrap database accessibility into a Visual Basic Web application. The question is no longer what can be done via the current set of Web tools but what can be done using Visual Basic. 
+
+​	Up-to-date custom controls—The market for third party custom controls in Visual Basic is huge. At least 10 different companies currently make OCXs or VBXs for Internet programming. This is **reassuring（使安心的）** because a change in an Internet specification used somewhere in your application doesn’t **mandate（强制）** a change in the application’s code. Instead, it means upgrading a custom control   and then performing the much easier task of verifying that the control works as intended with the application. 
+
+​	OLE—The ability to control and to access data from other applications is a big plus to application development. Not only can a Visual Basic application control several OLE-enabled Web browsers, but you can also relay information from the Web to an OLE-enabled application. 
+
+​	The Windows user interface—The usability of a Windows application far **exceeds（超过）** the current set of HTML tags that allow for textboxes, comboboxes, and buttons. 
+
+
+
+**Combining Visual Basic and the Web** 
+
+​	The merging of Visual Basic and the ability to access real-time, distributed information using the Internet produces an interesting and very powerful tool. In the constant **flux（不断变化）** of the Internet, Visual Basic becomes a very practical choice for Web application development thanks to Visual Basic’s rapid application development aspect. 
+
+​	Visual Basic can be used to create both client-side and server-side Web applications. A Web browser such as Microsoft’s Internet Explorer is one example of a client-side application. It is used to “surf” the Web—browsing the Web pages at a Web site and moving to other pages or to a completely different Web site by using the hyperlinks provided on most Web pages. Another example of a client-side application is an application that retrieves stock **quotes（引用、报价）** from a quote provider’s Web sites and provides the quotes to the user in some fashion. This application is not a Web browser but does access Web-based information. 
+
+​	Server-side applications run alongside a Web server, such as Microsoft’s Internet Information Server. The server-side application is executed under the direction of the Web server, typically in response to a request made by a client-side application such as a Web browser. Server-side applications typically serve as gateways between a user’s Web browser and information stored on the Web server that is not typically accessible using a Web browser. Such information can include database tables, information-providing machines attached to the server, and even OLE-enabled applications to which the server has access. 
+
+**Past, Present, and Future** 
+
+​	In the beginning, the Web was **predominantly（主要地）** used by, maintained by, and programmed under the UNIX platform. The reasons for this are simple. First, UNIX was designed **from the ground up（完全地）** to allow computers to easily communicate with one another. Second, UNIX has always been available for a wide variety of hardware platforms. Additionally, the TCP/IP protocol on which the Web is based was initially designed with the UNIX operating system in mind. 
+
+​	For these reasons, integrating the Web with Visual Basic was very impractical, if not outright impossible. Then recently, with the standardized Windows socket (or Winsock for short) interface, things got a lot easier. The Winsock interface is a layer that resides between the Windows operating system and the TCP/IP protocol. By making API calls to the Winsock interface, the Windows programmer can avoid the complexities of the TCP/IP protocol and instead concentrate on developing services and tools that run over TCP/IP networks. 
+
+​	Built atop the Winsock interface is a large group of tools that abstract the messy details of TCP/IP and the Internet protocols. With these tools, Web programming became a very practical solution to most distributed information programming tasks. Many custom controls and other tools exist that the Visual Basic programmer can use to further remove the application code from the complexities of the TCP/IP protocol. 
+
+​	What will the future hold? One thing that I can guarantee about the future is change. The Internet is still a very **cutting-edge（前言）** and young technology. This means that your work as an Internet programmer will be a “work in progress” for a long time to come. Unlike COBOL programming, Web programming will be a skill that requires frequent reading and training to keep up-to-date. 
