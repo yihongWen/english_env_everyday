@@ -185,3 +185,67 @@ Java-enabled browsers, such as HotJava , allow the user to control the accesses 
 ​	Built atop the Winsock interface is a large group of tools that abstract the messy details of TCP/IP and the Internet protocols. With these tools, Web programming became a very practical solution to most distributed information programming tasks. Many custom controls and other tools exist that the Visual Basic programmer can use to further remove the application code from the complexities of the TCP/IP protocol. 
 
 ​	What will the future hold? One thing that I can guarantee about the future is change. The Internet is still a very **cutting-edge（前言）** and young technology. This means that your work as an Internet programmer will be a “work in progress” for a long time to come. Unlike COBOL programming, Web programming will be a skill that requires frequent reading and training to keep up-to-date. 
+
+
+
+## 07-14:
+
+**Using PowerBuilder to Build Cross-Platform Applications**
+
+​	Before you can create an application, you need to identify which platforms the users and developers will have access to. The difficulty in writing a cross-platform application is designing it so that it takes advantage of the different platforms and complies with the standard behavior of the common applications for that environment. 
+
+​	Because your interface should **comply（服从）** with the standards for each environment, you will have to keep these in mind as you build the application. A very simple example is that in Windows, most applications have an Exit menu item under the File menu option. For a Macintosh, there is a Quit menu option under File. These subtle differences must be considered because they will be immediately obvious (and possibly confusing) to the end user. 
+
+​	Because each environment has its own special behavior and coding techniques, you might be tempted to create several different applications and deploy a different version of the same application to each platform. This would defeat the purpose of PowerBuilder’s cross-platform capability. The following sections discuss how to control the fonts used and how to code one application so that it can dynamically **incorporate（包含、合并）** the functionality required for each platform. 
+
+
+
+**The Environment Object** 
+
+​	Coding a multiplatform application depends on a PowerBuilder structure that gives you the ability to get information about the platform on which your application is running. The Environment object has variables defined for it. Once an Environment object has been declared, you need to **populate（居住于、充满、输入数据）** the structure with values. This is done using the GetEnvironment() function. GetEnvironment() takes the name of your newly declared Environment object as an argument. The function returns an integer, 1 for success and -1 for failure. Once the function has been successfully called, you will want to evaluate the Environment object’s attributes to determine what processing you want to occur.
+
+​	The next three sections deal with some common situations you might encounter when working in a multiplatform environment. Each section details a script that can be incorporated into a custom class user object for use with all your applications. In these examples, the user object example is implemented with an environment instance variable declared; it is called i_Environment. 
+
+
+
+**The Dynamic Library Search Path** 
+
+​	Because one of the complexities of application development on multiple platforms is creating objects that take full advantage of the environment’s functionality and appearance, it is often necessary to create different copies of the same object. As shown in the API user object example, you can use inheritance to assist in building your objects. Unfortunately, this is not always possible. After you have developed your platform-specific objects, you most likely will maintain that platform’s objects in their own library file (in other words, one PBL per platform). 
+
+​	Each library file would be specified in the library search path for your application (for example, common.pbl, windows.pbl, mac.pbl, unix.pbl). PowerBuilder uses the order in the search path to find objects requested by your application. If an object is located in the PBL listed last in the search path, PowerBuilder looks through all the other PBLs before looking in the last one. If you are using platform-specific objects that have the same name as other objects, you will always use the object first found in the library list. Therefore, you would never use any of your platform-specific objects. 
+
+​	This is also fine if you do not use objects in the last PBL very often. If you often do need the objects in the last PBL, your performance will be affected because all library files must be searched first. This would be true for the example if you needed objects from the Mac or UNIX PBLs. Therefore, performance would be fine for those people requiring objects from windows.pbl, but users on different platforms would notice a slight performance degradation. 
+
+​	Most likely you would create a dynamic library (either PBD1 or DLL2 ) for each PBL, and PowerBuilder would maintain the library search path for the dynamic libraries, which would affect the runtime environment as well as development. To **alleviate（减轻）** this problem, you could deploy several different executables, each with a different search path defined. This would not be particularly efficient. A different approach would be to dynamically modify the library search path for your application using the function SetLibraryList() . 
+
+​	To implement this functionality, you could hard-code the dynamic library list into your application, but that would result in a new executable being created if you changed the library list. A better approach would be to create a function in a custom class user object that is instantiated in your application object. The best method of maintaining this list would be to place it in a table in your database and then, based on the user’s environment, read the table and assign the appropriate library order to the application. The idea is that only the table needs to be changed; the code can remain generic. You could also do this by reading in information from an INI file. 
+
+
+
+**Menu Modification**
+
+​	One **subtle（不易察觉）** difference between Windows and the Macintosh is that the word for the menu item to leave the application is Exit in Windows and Quit on the Mac. You need to consider the difference in interface design; the code in Listing 5C-1 gives you a base function to work from. The function, wf_SetExitText() 4 , accepts an argument of type m_ancestor, which is the ancestor menu for all menus in your application. 
+
+The code that calls this function should be placed in the window Open event and look something like this: wf_SetExitText(this.menuid) This assumes that the menu associated with the window has been inherited from m_ancestor. 
+
+
+
+**Internationalization（国际化）** 
+
+​	In complying with the continually growing need to create an application that can service multiple countries, Powersoft has extended the functionality of PowerBuilder 6.0. These changes include additional support for applications in Arabic and Hebrew, Double Byte Character Set (DBCS1 ), and a Unicode2 version of PowerBuilder. 
+
+​	PowerBuilder will now ship a version using the Double Byte Character Set (DBCS) for Chinese application development. The DBCS supports the Chinese character set, setting it apart from the ANSI3 version of PowerBuilder. The DBCS will also be extended to include Japanese and Korean. 
+
+​	In addition to the DBCS and ANSI versions of PowerBuilder, PowerBuilder 6.0 will be available in a Unicode version (under NT 4.x only). Unicode is being embraced because it surpasses the limitation of ASCII4 to encode only information using the Latin alphabet. Unicode introduces a new character code that gives the ability to encode all characters used for written languages across the world. This is done by using a 16-bit code set versus ASCII, which uses a 7-bit code set. Unicode can, therefore, create codes for 65,000 characters as opposed to 128 characters like ASCII. Each character in the Unicode version is assigned a unique 16-bit character that makes the processing for software much easier to encode. 
+
+​	Applications that are created using the Unicode version of PowerBuilder need to be deployed using the Unicode deployment DLLs on an operating system that is Unicode compliant. The PowerBuilder library files will be saved with the extension .pul for PowerBuilder Unicode Library. 
+
+​	PowerBuilder applications can be migrated from ANSI to Unicode and back. In addition, the PowerScript language also supports two new functions, ToAnsi() and ToUnicode(), to aid in the conversion of characters. 
+
+​	To aid in the process of translating an application from one language to another, Powersoft plans to release a Translation Toolkit that assists you in translating phrases in your application to the necessary languages. Once the translation has been completed using the Toolkit, the application only needs to be compiled and deployed to the appropriate platforms. 
+
+
+
+**Summary** 
+
+​	The need for a front-end development that crosses multiple platforms has been answered by PowerBuilder. With support for the Microsoft suite, the Macintosh, and UNIX, PowerBuilder gives developers the ability to use the same product to develop applications that can be run on and take advantage of each platform. With the incorporation of the Environment object, PowerBuilder allows you to modify your application at runtime to access each platform-specific object. 
