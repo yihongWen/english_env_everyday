@@ -249,3 +249,128 @@ The code that calls this function should be placed in the window Open event and 
 **Summary** 
 
 ​	The need for a front-end development that crosses multiple platforms has been answered by PowerBuilder. With support for the Microsoft suite, the Macintosh, and UNIX, PowerBuilder gives developers the ability to use the same product to develop applications that can be run on and take advantage of each platform. With the incorporation of the Environment object, PowerBuilder allows you to modify your application at runtime to access each platform-specific object. 
+
+
+
+## **07-15:**
+
+**Distributed Systems**
+
+**INTRODUCTION** 
+
+​	The field of distributed computing has witnessed an explosive expansion during the last decade. As the use of distributed computing systems for large-scale computations is growing, so is the need to increase their reliability. Nevertheless, the probability of failure of an individual processing node in multimode distributed systems is not **negligible（微不足道）**. Hence, it is necessary to develop **mechanisms（机制）** that prevent the waste of computations performed on distributed processing nodes if one of the nodes fails, either due to a hardware transient fault (bus error or segmentation fault) or a permanent fault (power failure or communication network **malfunction（出现故障）**)
+
+​	Advances in communications technology and methods of work introduced at diverse workplace environments naturally led to a greater distribution of information processing. Initially, most distributed systems were **homogeneous（同性质的）**, but now many distributed environments are **heterogeneous（异类的）**. Therefore, the distributed systems design must focus on heterogeneous environments, treating homogeneous systems as special cases in a heterogeneous world. Key issues in distributed systems design include where specific functionality should be located within the information infrastructure. 
+
+
+
+**WHAT ARE DISTRIBUTED SYSTEMS?** 
+
+​	A distributed system is a collection of independent computers which appear to the users of the system as a single computer. Nearly all large software systems are by necessity  distributed. For example, enterprise-wide business systems must support multiple users running common applications across different sites. 
+
+​	A distributed system **encompasses（包含）** a variety of applications, their underlying support software, the hardware they run on, and the communication links connecting the distributed hardware. The largest and best-known distributed system is the set of computers, software, and services comprising the World Wide Web, which is so **pervasive（遍布）** that it **coexists（同时存在）** with and connects to most other existing distributed systems. The most common distributed systems are networked client/server systems. Distributed systems share the general properties described below. 
+
+​	**Resource Sharing** 
+
+​		The most common reason for connecting a set of computers into a distributed system is to allow them to share physical and computational resources (printers, files, databases, mail services, stock quotes, and **collaborative（合作的）** applications, for example). Distributed system components that support resource sharing play a similar role as, and are increasingly indistinguishable from, operating systems. 
+
+​	**Multiple Nodes** 
+
+​		Software for the distributed system executes on nodes, or multiple independent computers (not merely multiple processors on the same computer, which is the realm of parallel computing). These nodes can range among personal computers, high-performance workstations, file servers, **mainframes（大型主机）**, and supercomputers. Each can take the role of a client, which requests services by others; a server, which provides computation or resource access to others; or a peer, which does both. A distributed system may be as small as two nodes, provided software connectivity is present. This arrangement is represented in Figure 6A-1. 
+
+​	**Concurrency** 
+
+​		Each of the nodes in a distributed system functions both independently and concurrently with all of the others. More than one process (executing program) per node and more than one thread (concurrently executing task) per process can act as components in a system. Most components are **reactive（响应式的）**, continuously responding to commands from users and messages from other components. Like operating systems, distributed systems are designed to avoid termination and so should always remain at least partially available. 
+
+​	**Heterogeneity** 
+
+​		The nodes participating in a system can consist of diverse computing and communication hardware. The software comprising the system can include diverse programming languages and development tools. Some heterogeneity issues can be addressed with common message formats and low-level protocols that are readily implemented across different platforms (e.g., PCs, servers, and mainframes). Others may require construction of bridges that translate one set of formats and protocols to another. More **thorough（彻底）** system integration can be attained by requiring that all nodes support a common virtual machine that processes platform-independent program instructions. The systems that use the Java programming language follow this approach. 
+
+**Multiple Protocols** 
+
+​	Most distributed message passing differs significantly from the kinds of **invocations（调用）** (such as procedure calls) used within the confines of sequential programs. The most basic form of distributed communication is asynchronous. Similar to letters mailed in a postal system, senders issue messages without relying on receipt of or reply by their recipients. Such basic distributed messages usually take much longer to reach **recipients（收件人）** than do local invocations. They sometimes reach recipients in a different order than they were sent and they may fail to reach them at all. To avoid this, more sophisticated protocols must be constructed. These may include: 
+
+- Procedural messaging, in which senders wait for full replies 
+- Semi-synchronous messaging, in which senders wait for an acknowledgment of message receipt before proceeding
+- Transactional protocols, in which all messages in a given session or transaction are processed in an all-or-none fashion
+- Callback protocols, in which receivers later issue different messages back to their senders 
+- Time-out protocols, in which senders only wait for replies for a certain period before proceeding 
+- Multicast protocols, in which senders simultaneously issue messages to a group of other nodes These and other protocols are often extended and specialized to enhance reliability, security, and efficiency. 
+
+
+
+**Fault Tolerance** 
+
+​	A program running on a single computer is, at best, only as reliable as that computer. Most distributed systems, on the other hand, need to remain at least partially available and functional even if some of their nodes, applications, or communication links fail or **misbehave（mis-行为不端）**. In addition to outright failures, applications may suffer from unacceptably low quality of service due to bandwidth shortages, network contention, software overhead, or other system limitations, so fault-tolerance requirements present some of the most central, yet difficult challenges in the construction of distributed systems. 
+
+
+
+**Security** 
+
+​	Only authorized users may access sensitive data or perform critical operations. Security in distributed systems is **intrinsically（本质的）** a multilevel issue, ranging from the basic safety guarantees provided by the hardware and operating systems residing on each node; to message encryption and authentication protocols; to mechanisms supporting issues concerning privacy, appropriateness of content, and individual responsibility. Techniques for addressing **trustworthiness（信用）** include using digital certificates and preventing component code performing potentially dangerous operations such as modifying disk files. 
+
+
+
+**Message Passing** 
+
+​	Software on separate computers communicates via structured message-passing disciplines built upon a number of networking protocols (for example, TCP/IP). These, in turn, may run on any of a number of connection technologies (for example, Ethernet and modems). The nodes in most distributed systems are completely connected—any node may send a message to any other node. Delivery is mediated by underlying routing algorithms and related networking support. Messages include commands, requests for services, event notifications, multimedia data, file contents, and even entire programs. **It should be noted that most multiprocessors communicate via shared memory rather than message passing and therefore are not distributed.**
+
+
+
+**Openness** 
+
+​	Most sequential programs are considered closed because their configurations never change after execution commences. Most distributed systems are, to some degree, open, because nodes, components, and applications can be added or changed while the system is running. This provides the extensibility necessary to **accommodate（容纳）** expansion, and the ability to evolve and cope with the changing world in which a system resides. Openness requires that each component obey a certain minimal set of policies, conventions, and protocols to ensure interoperability among updated or added components. Historically, the most successful open systems have been those with the most minimal requirements. For example, the simplicity of the Hypertext Transfer Protocol (HTTP ) was a major factor in the success of the World Wide Web. Standards organizations such as International Standards Organization (ISO) and American National Standards Institute (ANSI), along with industrial **consortia（工会）** such as the Object Management Group (OMG2 ), establish the basic format and protocol standards underlying many interoperability guarantees. Individual distributed systems additionally rely on context-specific or domain-dependent policies and mechanisms.
+
+
+
+**Isolation** 
+
+​	Each component is logically or physically **autonomous（自治的）**, and it communicates with others only via structured message protocols. In addition, groups of components may be segregated for purposes of functionality, performance, or security. For example, while the connectivity of a corporate distributed system might extend to the entire Internet, its essential functionality could be segregated (often by a firewall) to an intranet operating only within the firewall. It would communicate then with other parts of the system via a restricted secure protocol. 
+
+
+
+**Persistence** 
+
+​	At least some data and programs are maintained on persistent media that outlast the execution of a given application. Persistence may be arranged at the level of file systems, database systems, or programming language runtime support mechanisms. 
+
+
+
+**Decentralized Control（分散管理）** 
+
+​	No single computer is necessarily responsible for configuration, management, or policy control for the system as a whole. Distributed systems are instead domains joined by protocol of autonomous agents that agree on enough common policies to provide an aggregate functionality. Some aspects of decentralization are desirable, such as fault-tolerance **provisions（规定）**. Others are essential because centralized control cannot accommodate the number of nodes and connections supported by contemporary systems. The tools for administering system-wide policies, however, may be restricted to particular users. 
+
+
+
+
+
+**ADVANTAGES AND DISADVANTAGES** 
+
+**Advantages of Distributed Systems**
+
+​	Distributed systems have many **inherent（内在）** advantages, especially over centralized systems. Some applications are inherently distributed as well. In general, distributed systems: 
+
+- Yield higher performance 
+- Provide higher reliability
+-  Allow incremental growth. Distributed computing offers higher rates of return over individual CPUs: 
+-  It is both **feasible（可行的）** and easy to construct systems of a large number of CPUs connected by a high-speed network. 
+- It answers a need to share data scattered over these CPUs. 
+- It provides a way to share expensive peripherals.
+-  It allows one user to run a program on many different machines.
+
+
+
+**Disadvantages of Distributed Systems** 
+
+​	In spite of their many advantages, distributed systems do create a few disadvantages. Some of these are: 
+
+- The need for new operating systems to support them 
+- A reliance on network communications 
+- The need for enhanced security 
+- Offer no nice classification of operating systems
+-  Use loosely and tightly coupled systems 
+
+
+
+**CONCLUSIONS** 
+
+​	We want to fully utilize a heterogeneous computing environment where different types of processing resources and interconnection technologies are used effectively and efficiently. Using distributed resources provides the potential of maximizing performance and cost effectiveness for a wide range of scientific and distributed applications. Distributed computing environments comprising networked heterogeneous workstations are becoming the standard configuration in both engineering and scientific environments. However, the lack of a unifying parallel computing model (a parallel equivalent of a von Neumann model) means that the current parallel applications are nonportable. 
