@@ -374,3 +374,127 @@ The code that calls this function should be placed in the window Open event and 
 **CONCLUSIONS** 
 
 ​	We want to fully utilize a heterogeneous computing environment where different types of processing resources and interconnection technologies are used effectively and efficiently. Using distributed resources provides the potential of maximizing performance and cost effectiveness for a wide range of scientific and distributed applications. Distributed computing environments comprising networked heterogeneous workstations are becoming the standard configuration in both engineering and scientific environments. However, the lack of a unifying parallel computing model (a parallel equivalent of a von Neumann model) means that the current parallel applications are nonportable. 
+
+
+
+## 07-16:
+
+**What Does “Client-Server” Really Mean?**
+
+**Introduction** 
+
+​	As computer professionals, we all must **cope with（处理、应付）** a never-ending stream of new technology. Along with the introduction of each new technology comes a dizzying array of matching terminology. We use (or abuse) the many technical terms to the point that they begin to **take on（具有）** the quality of a “buzzword”, that is, a word or phrase frequently heard but seldom understood. “Client-server” is one term that has **fulfilled（实现、满足）** its potential for becoming an industry buzzword. This is unfortunate; the term “client-server” has a lot of relevance to today’s networks. Part of the difficulty with understanding the term is that it takes on different meanings or **connotations（内涵）**, depending upon who is doing the defining. In a very general sense, the term client-server really **denotes（表现）** a type of relationship between entities. The entities we will discuss, of course, are software applications running on networked computer systems. There are many such types of possible relationships (such as a hierarchy) between multiple entities, but we will only examine two here: “peer-to-peer” and “client-server”. Let’s take a short look at one of those relationships, “peer-to-peer”, that will help us when we look more closely at a client-server relationship. 
+
+
+
+**Examining a “Peer-to-Peer” Relationship** 
+
+​	In a peer-to-peer relationship, all entities have equal **standing（长久的、地位）** with one another, and all are equally capable of running the same set of services. In many ways, this relationship is the easiest type to recognize, configure, and manage. This does not mean that it is necessarily the most efficient or cost-effective way of allocating computer resources. 
+
+​	In peer-to-peer configuration, all of the individual systems are configured (more or less) alike. They have relatively equal amounts of resources (e.g., disk, memory, and CPU power), and all resources are equally shared among the various systems in the group. Each machine is completely capable of performing any task that a particular user may desire, without the involvement of, or reliance on, another system’s resources. 
+
+​	Figure 6B-1 depicts a network of computer systems configured in a peer-to-peer manner. Every computer has the same hardware resources—disk, RAM, and CPU—as well as the same software configuration in terms of operating system and applications. Because the machines are all similarly configured, a user who is running a word-processing application uses far less of the local resources than a user that might be doing a **thermal（热的）** analysis of a circuit board. In the first case, there are very probably **underutilized（未充分使用）** resources, such as RAM, CPU cycles, or hardware graphics acceleration. In the second case, the local resources are more likely to be fully utilized, possibly even overutilized. 
+
+​	Underutilization of resources is common in a peer-to-peer network where there are multiple applications types being used. The underutilization of resources on some systems, along with full or overutilization on others can mean that some users are not able to get their tasks completed in the **optimum(最优化)** amount of time, while others may have no difficulties. Here is an example of how **misallocation（错误分配）** of resources in a networked environment can actually cost money. 
+
+
+
+**The Client-Server Relationship：**
+
+​	In a client-server relationship, there are at least two types of logical entities involved: the client entity and the server entity. It is important to note at this point that the term client-server may be applied either to hardware (computer system) or to software (applications) running on the hardware. This is one potential point of confusion, as the hardware may be configured differently to run the client software or the server software, but does not necessarily have to be.
+
+​	In the case of software entities, it is possible that both client and server may exist on the same computer system or be split across multiple systems in the network. How the actual tasks that an application performs are split between the client and the server entities will vary, usually determined by the application’s designer.  
+
+​	Unlike the peer-to-peer environment, the client-server relationship is not one of equal capability between client and server entities. The server entity “possesses” and manages a well-defined set of resources on behalf of its client or clients. The client-server model may also be characterized as a “request-response” interaction. To use the resource, the clients must make requests to the server entity. The server responds to, services, or “serves” its client’s requests for the resource that it manages. Since the client-server relationship is a logical one, nothing prevents both the client and the server components of an application from running on the same underlying hardware. 
+
+​	Figure 6B-2 shows an environment that has resources unequally distributed between client and server machines. You can think of the system resources as being water in a set of buckets associated with each system; in this example there are buckets for RAM, CPU cycles, and disk storage. Resources are moved from the client system’s buckets and reapportioned to the resource bucket belonging to a server or group of servers in the network. 
+
+​	In this type of environment, there are usually N clients to each server, with the server providing all of the services associated with its resource to multiple clients. The client-server relationship may be thought of as a many-to-one relationship. The number of clients that a server can handle depends on several factors, including the type of resource being managed, the number of total simultaneous requests, and the request frequency from each client. 
+
+​	One of the defining characteristics of today’s client-server applications is the presence of a network connection between the client and the server, so another important performance factor is the type of connection between the client and the server and its relative “health”. Obviously a poor network connection can influence clients and servers communicating across the network.
+
+
+
+**Client-Server Application Configurations and Components** 
+
+​	Within the term client-server, there are many possible application configurations. The configuration of a client-server architecture is determined by where the associated application is broken into separate components. At the most basic level, the application may be split into several different components: the graphical user interface (**presentation（展示）** logic), application logic, and data management logic. 
+
+​	It is possible to insert distribution services between any, all, or none of the three basic components. In the latter case, you end up with the familiar “**monolithic（整体的、巨大、单片）**” application configuration, running on a single system. With distribution services inserted, the result is a client-server application. This is diagrammed in Figure 6B-3. 
+
+​	Sometimes identifying a client-server relationship is difficult because the system being studied is a **hybrid（混合）** design. Under these circumstances, there may be multiple levels of client-server relationships, or a single level where one client may in turn be a server to other clients. There are some commonly encountered client-server configurations which involve more complicated physical distributions of the application components and some more complicated interactions between those components. Some examples are shown in Figure 6B-4. 
+
+​	Combinations involving other relationship models are possible, based on the whims of the application designers. For these reasons, and others, there may not be a clean distinction in hybrid system designs or systems that are in transition between the client-server model and other configurations. We will try to stick to the clearly identifiable cases, and you should avoid designing such complicated relationships if at all possible.  
+
+
+
+**Client-Server Distribution Services** 
+
+​	While describing the client-server application architecture, we did not venture beyond the conceptual description of the application being split into components and “glued” together with “distribution services”. Examining the available distribution services in an environment is an important aspect of both good design and analysis. If the necessary services are not available or reliable, client-server applications may quite literally **fall apart（破碎）** . 
+
+​	The term “distribution services” is a very general label. The services used to allow distribution of client-server application components include: remote procedure call **facilities（设施）** (RPC 1 ), directory services, system management services, performance measurement services, load balancing, and a whole host of other potential components. These services may be distributed across multiple systems or reside on a single server. When designing an environment, it is easier to separate the services as if they were running on their own computer systems, only collapsing the relationships between services and the physical server system when the final hardware configuration is determined. 
+
+​	Our **schematic（示意图）** view of the client-server world, then, is the client logic communicating with servers providing data access, transaction processing, and compute power. Interaction between the client and the rest of the environment takes place through some form of communication facility. A set of infrastructure services provides the glue to hold the application architecture together. 
+
+​	A transaction processing function or database server may, in some cases, differentiate a “commercial” client-server application from a “technical” client-server application. The transaction facility may be viewed as providing the business logic necessary to properly direct client behavior, according to a predefined set of rules used to model data flow in a business. In most technical applications, this particular service is usually absent or may be viewed as part of the data service. 
+
+​	The infrastructure services are common functionality needed by all client-server applications and their users for proper operation. Time synchronization between computers systems, software licensing, electronic mail, directory services, user authentication and access (security), software distribution, and especially environmental management are all examples of services needed by almost every application in the client-server environment. Determining what these common services are and ensuring their availability is an important part of the design or assessment of a client-server environment. 
+
+
+
+**How Do I Recognize a Client-Server Relationship?** 
+
+​	For those of us that are used to other relationship models, the client-server model and its many **permutations（排列）** may seem strange at first. The natural tendency is to configure everything in peer-to-peer mode, which is easier to grasp conceptually. This is also the way that environments tend to evolve, starting with one machine, adding another, and another, and so on. We may ask, “Just how do I recognize a client-server environment when I see one?” This can be easier than it first seems. When **confronted（面对、面临）** by something that purports to use a client-server model, start by asking the following questions: 
+
+- What is the resource that is being managed? 
+-  Who is doing the resource management? 
+- Who is using the resource? 
+
+
+
+​	With the answers to these questions in hand, try drawing a picture that represents the relationships among the entities being examined. You should see: 
+
+- A clear logical or physical division between the manager and the users of the resource (the server and the clients) 
+- Usually, one server to multiple clients 
+- A clear division of “intelligence” or “responsibility” with regard to managing the resource, with the client being the least capable of the two entities 
+
+​	For simplicity, we have only considered a single client to single server relationship up to this point. Figure 6C-1 shows a slightly more complicated situation. 
+
+​	The X-windows system, used by Unix and other operating systems to provide remote graphical display capabilities, is a good example of a client-server relationship that takes a little analysis to understand. Users that are new to the X-windows system frequently ask, “Aren’t the programs that are using the X-windows display actually the servers, since they are acting on behalf of the user?” 
+
+​	At first glance, it appears that the client and the server entities are reversed. After identifying the resources being managed, the picture makes a little more sense. It is the user’s graphics display and input devices that are being managed by the X-windows server on behalf of the X-windows clients that are using them. So, with regard to the X-windows services, the programs are indeed clients to the X-windows server and not vice versa. 
+
+​	Note also that the X-windows server itself makes use of the X-windows font server. So, as shown in Figure 6C-1, there are multiple client-server relationships at work. The X-windows clients are using resources “served” by the X-windows server, and the X-windows server is using resources that are “served” by the X-windows font server. 
+
+​	There is another important point to be made here. Because of the flexibility inherent in the example, a **resourceful（足智多谋的）** system administrator is free to move the components to the physical system in the network that best suits the needs. The X-windows font server and the X-windows client are free to run on any physical machine, but the X-windows server is tied to the physical resource, the graphics display, that it is managing. 
+
+
+
+**What Is Important About the Client-Server Model?** 
+
+​	**So far（到目前为止）**, we have talked about what the client-server model is, shown conceptual models of the supporting environment, and discussed how to identify some client-server characteristics in a system. But why is the client-server model important? Why does a large portion of the industry focus on this particular way of designing applications? There are several very good reasons to consider client-server design in your computer environment: 
+
+- The per seat cost of a computerized solution may be lower with the client-server model. 
+- Specialized hardware may be used to provide resource-intensive services, improving client performance.
+- General-purpose hardware may be specifically **tuned to（调优）** perform the specialized service, improving client performance. 
+- Measuring (and therefore managing) the usage of a service may be easier if it is localized to specific places in the environment. 
+- The clients may be insulated from changes in the server environment. 
+- The client-server model provides better **scaling（可伸缩）** than other usage models. 
+
+​	Remember that in a peer-to-peer relationship every system is equally capable of providing a particular service. For optimal performance, this implies that all systems should be configured with the same hardware and software resources. This can lead to overconfiguration of resources in areas like Random Access Memory (RAM), disk space, CPU power, I/O capability, and system expandability. Due to the overconfiguration, each system may cost more than it should, especially if the local resources are underutilized. By designing the environment so that the clients use services provided by suitably configured servers, the server resources may be better utilized and the clients need not be so heavily configured. 
+
+​	Whenever a server must provide access to a specialized resource, there are two common ways to approach the situation: choose a specialized machine type, if the need **warrants（证明）** it, or choose a general-purpose machine that is capable of providing the service if properly tuned. The specialized computer usually provides a unique service, or provides it in a way that no other machine can, often at an extra cost. A general-purpose computer can be moved from place to place and retuned to meet the new service needs. 
+
+​	Providing the proper level of performance to clients of a particular service and measuring the level of that performance can be a challenge. This is especially true if the resources are **scattered（分散）** all over the network as in the peer-to-peer model. With the client-server model, if you know that a particular machine provides only one type of service to its clients, it is far easier to measure the total resource utilization and, therefore, the machine’s ability to provide the service. If more access to the resource being served is required, then the machine may be upgraded or, if possible, additional servers added.
+
+​	Under the client-server model, it is possible to insulate a client from implicit knowledge of where the requested service is located in the network. This is desirable for a number of reasons, but the most important is: if a client cares only that the service is provided, not where it is provided, then the client can be insulated from changes in the service environment. For example, in a client-server environment designed with this rule in mind, if a system manager noticed that additional capacity was necessary for a given service, he would only need to plug another server into the network to provide the additional capacity. Furthermore, if the need for additional capacity was a temporary situation, when the extra capacity was no longer needed the server could be removed without impacting clients of the service.
+
+
+
+**Client-Server Model Summary** 
+
+​	In summary, the term “client-server” defines a specific type of relationship between two, or possibly more, logical entities. These entities are usually software in nature and may co-exist on the same computer system hardware or be separated by a network connection. The server-to-client ratio is one to many, as opposed to one-to-one as in a peer-to-peer relationship. There usually is a **disparity（明显差异）** in capability between the client and server entity, with the client requesting use of a resource from the server, which manages the desired resource. 
+
+​	Client-server applications consist of individual components with distribution services inserted between them. Common client-server application components are the presentation logic, the application logic, and the data management logic. While this model is useful in the initial understanding of client-server principles, real-life applications tend to be more complicated and require more analysis to understand the roles that each component plays in the whole. 
+
+​	There are multiple “styles” of client-server applications. The style of client-server application depends on where the application designers inserted distribution services into the application logic. There are advantages and disadvantages to each of the commonly encountered client-server application styles. Finally, there is a basic choice to be made between using general-purpose and special-purpose computer systems to run server software. 
+
