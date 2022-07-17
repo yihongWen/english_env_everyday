@@ -498,3 +498,76 @@ The code that calls this function should be placed in the window Open event and 
 
 ​	There are multiple “styles” of client-server applications. The style of client-server application depends on where the application designers inserted distribution services into the application logic. There are advantages and disadvantages to each of the commonly encountered client-server application styles. Finally, there is a basic choice to be made between using general-purpose and special-purpose computer systems to run server software. 
 
+
+
+
+
+## 07-17:
+
+**Enter the World of Relational Databases** 
+
+**What Is a Relational Database?** 
+
+​	In today’s business world, information technology is **in its full bloom（充分发展）** . Processing data and pumping out information has become the focal point of the modern-day computing environment. Data can be stored in various ways, depending on how it will be used later on. This data store is called a database. The **rawest（最原始的）** form of data storage is a file where data is stored without any attributes, characteristics, or links. It requires a lot of programming effort to process this type of data, so the relational data model evolved. The relational data model represents data and relationships among the data elements. This model is based on real-world scenarios, which consist of basic objects known as entities and how these entities are connected with each other, which constitutes the relationships. A representation of this concept is known as an ERD (entity relationship diagram). Let’s take a simple example of a database for a bookstore. Book titles and authors are two entities in it (among many others). The relationship between authors and books is that many authors can write one book and one author can have several books. This type of relationship is called a “any-to-many” relationship. Any two entities (e.g., “A” and “B”) can have one of the following types of relationships: 
+
+- One-to-one “A” is associated with only one value of “B” and **vice versa.（反之亦然）** 
+
+- One-to-many “A” can be associated with many values of “B,” however “B” is associated with only one value of “A.”
+- Many-to-one “A” is associated with only one value of “B” whereas “B” can be associated with many values of “A.” 
+- Many-to-many “A” is associated with one or many values of “B” and vice versa. 
+
+​	To identify all the entities and their relationships is the first step of relational data modeling. This is also known as “logical database design.” Once the logical design is complete, it requires creating some kind of physical objects (known as “tables”) to store this information. We would need a system that would facilitate storing entities with their attributes and relationships. This system should also provide the capability of retrieving the desired information about the entities. 
+
+
+
+**Introduction to a Database Management System (DBMS)**
+
+​	A database management system is a computer-based system to record **interrelated(相关的)** data, and it provides interfaces to access the data. A database system is designed to handle a large amount of data and is both convenient and efficient to use. 
+
+**Purpose of a DBMS** 
+
+​	The overall purpose of a database system is to maintain information in such a way that: 
+
+- Data redundancy is reduced Data duplication is **minimized（最小化）** as much as possible, which is an efficient storage strategy that eliminates data **inconsistencies（不一致）**. If the same data item is stored at two different places in the database and is changed at only one place, that can lead to data inconsistency. To avoid such situations, the data is stored in such a way that the duplication is minimal. 
+- Data integrity is maintained Data stored in a database should be accurate. The data inaccuracy can be due to inconsistencies (as discussed previously) or due to not following some valid constraints—e.g., 30th day of February is an inaccurate data value. Thus the data values stored in the database must satisfy certain constraints to make the data accurate. 
+- Data access is easy Data access is one of the key features of any database system. The data is useless unless it can be processed to generate information, hence a DBMS provides good tools and interfaces to access the data. 
+- Data is secured A DBMS can support multiple users and not every user should be able to access all the data. DBMS provides methods to restrict user access in order to enforce security. 
+- Concurrent access **anomalies（异常）** can be handled This point also **arises（出现）** from the fact that multiple users can use a database at the same time. If two people decide to change the same data item with different values, then there is a possibility of ending up with inaccurate data. A DBMS provides functionality to handle such situations. 
+- Data sharing is possible A DBMS lets one data store be shared among different applications. 
+
+
+
+**Typical DBMS Structure**
+
+​	A database system is divided into several modules to achieve the overall functionality. It works very closely with the operating system to get the basic services—e.g., disk I/O. Data is stored on the disk either on top of the file system or on the raw disk itself. DBMS provides a query language to access data. Thus a “query” is a query language statement that is sent by the user to access data. The query is processed by the system and brings the results back to the user. The most common query language is SQL (Structured Query Language), developed by IBM, and the American National Standard Institute (ANSI) has developed standards for SQL. SQL is the direct way to access data. Another way to access data is through programs. These programs, known as “application programs,” are written in a host language and have embedded Data Modification Language (DML1 ) calls to interact with DBMS. A DML is a language through which a user can access or manipulate data programmatically. SQL is also commonly known as a DML, but it cannot be directly used from an application program. 
+
+​	The main components of a DBMS are: 
+
+- Storage engine Manages the allocation of space on disk storage. It also maintains the user data and metadata (database of all the user databases). 
+- Database manager This is the interface between low-level data stored in the database and the application program and queries. 
+- Query processor Translates statements in a query language into low-level instructions to pass to a database manager. It also generates a strategy for the most efficient query execution. This strategy is called the “query execution plan,” and the process of generation of the plan is known as “query optimization.” 
+- Language **precompiler（预编译）** This is the precompiler for the host language provided by DBMS. It converts the DML statements embedded in the application program into normal procedure calls. The precompiler interacts with the query processor in order to process embedded SQL code. (See Figure 7A-1) 
+
+
+
+Different Computing Models 
+
+​	Until now we have focused only on the DBMS functionality. Now let’s take a step back and look at a broader picture, which is the complete computing module. The complete database application can be divided into three major categories:
+
+- Data presentation How data is presented to the end user—e.g., report formatting, etc. 
+- Business logic How data is processed according to the application rules and requirements. 
+- Data storage Storing and securing the user data. In a mainframe environment all of the three functions are performed at a **centralized（集中的）** server, and the user can see results on a terminal or through a printed report. This model has advantages such as maintainability of application code (all components reside at a central location), but it requires maintaining high-cost computers. To minimize the operational cost of these expensive computers, the idea of distributed computing evolved. 
+
+
+
+**Client/Server Computing**
+
+​	In client/server computing, processing is distributed between two machines—the client machine and the server machine. A client machine is analogous to a terminal in a mainframe environment, and the server is still the centralized host. In this environment, client machines take care of the data presentation and most of the business logic implementation. The server machine is responsible for data storage and some of the business logic. Since the processing is now distributed, server machines do not need to be as big as the mainframe computers. Instead, resources can be added to client machines, which is more cost-effective. Now the question is how this processing is distributed. The client issues a command to the server, which gets processed at the server and the results are sent back to the client machine. This sounds quite like the mainframe environment, but the difference is the **pre- and post-processing** of the command. Before the command is sent to the server, some processing takes place at the client machine. The client does data validity checks and creates a very simple request for the server. After the server has processed the command, formatting for data presentation is also done at the client machine. Hence the client also does data processing to reduce load from the server. A well-designed client/server application uses an optimum balance of client and server machine resources. Multiple users connect to a server machine over the network, hence the network becomes a crucial part of the client/server computing environment. A fast and stable network environment is needed to run any client/server application efficiently. Applications should be designed properly so that network **bottlenecks（瓶颈）** are not created. Clients should always bring back only as much data as required, and possibly in smaller chunks at a time. Client/server computing has its disadvantages too. In a large user environment, maintainability and scalability become the limiting factors. It is a major effort to update every client machine with the changing versions of application. Processing power is limited to the smallest client machine. All the client machines need to be upgraded if the client part of the application needs extra resources. Tiered architecture was evolved to resolve the issues with the client/server computing environment. 
+
+
+
+**Multitiered Computing** 
+
+​	In a multitiered environment, an application goes through at least three layers of processing. The client is very thin and does not require much processing power, since it contains only a data presentation layer. 
+
+​	Business-logic-related software is installed on a separate server(s), which is accessible to all the client machines. The third layer is the DBMS, which takes care of data storage. The functionality of each tier (commonly known as a component) can be written in any language and maintained independently. The idea behind **tiering（分层）** is dividing a complex task into smaller ones and then implementing it. This technique facilitates code reusability and provides better manageability and greater scalability. Figure 7A-2 shows a three-tier processing system. It also shows examples of the tools that can be used to implement each tier. 
