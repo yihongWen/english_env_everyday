@@ -150,3 +150,219 @@
 
 ​	Convergence of telecommunications technologies will also trigger a change in the content available and the composition of the content provider. Both television and personal computers will be incorporating new multimedia, interactive, and digital features. For example, an entertainment program might have on-screen pointers to World Wide Web pages containing more information about the actors. **In the near term（在短期内）** , before the actualization of a fully digital telecommunications world, devices like modems will still be necessary to provide an essential link between the old analog world and the upcoming digital one. 
 
+
+
+
+
+## 07-21:
+
+**Internet and Information Superhighway** 
+
+​	Networks have become a fundamental, if not the most important, part of today’s information systems. They form the **backbone（脊柱、骨干）** for information sharing in enterprises, and in governmental and scientific groups. That information can take several forms. It can be notes and documents, data to be processed by another computer, files sent to colleagues, and even more **exotic（奇异）** forms of data. 
+
+​	Most of these networks were installed in the late 60s and 70s, when network design was the “s**tate of the art（最新水平、发展水平）**” topic of computer research and sophisticated implementers. It resulted in multiple networking models such as packet-switching technology, collision-detection local area networks, hierarchical enterprise networks, and many other excellent technologies. 
+
+​	From the early 70s on, another aspect of networking became important: protocol layering, which allows applications to communicate with each other. A complete range of architectural models were proposed and implemented by various research teams and computer manufacturers. 
+
+​	The result of all this great **know-how（技术、实际知识）** is that today any group of users can find a physical network and an architectural model suitable for their specific needs. This ranges from cheap asynchronous lines with no other error recovery than a bit-per-bit **parity（奇偶校验）** function, through full-function wide area networks (public or private) with reliable protocols such as public packet-switching networks or private SNA networks, to high-speed but limited-distance local area networks. 
+
+​	The down side of this exploding information sharing is the rather painful situation when one group of users wants to extend its information system to another group of users who happen to have a different network technology and different network protocols. As a result, even if they could agree on a type of network technology to physically interconnect the two locations, their applications (such as mailing systems) still would not be able to communicate with each other because of the different protocols. 
+
+​	This situation was recognized rather early (beginning of the 70s) by a group of researchers in the U.S. who came up with a new principle: internetworking. Other official organizations became involved in this area of interconnecting networks, such as ISO. All were trying to define a set of protocols, layered in a well-defined suite, so that applications would be able to talk to other applications, regardless of the underlying network technology and the operating systems where those applications run. 
+
+
+
+**Internetworks** 
+
+​	Those original designers, funded by the Defense Advanced Research Projects Agency (DARPA2 ), of the ARPANET3 protocol suite introduced fundamental concepts such as layering and virtualizing in the world of networking, well before ISO even took an interest in networking. 
+
+​	The official organization of those researchers was the ARPANET Network Working Group, which had its last general meeting in October 1971. DARPA continued its research for an internetworking protocol suite, from the early NCP (Network Control Program) host-to-host protocol to the TCP/IP protocol suite, which took its current form around 1978. At that time, DARPA was well known for its pioneering of packet-switching over radio networks and satellite channels. The first real implementations of the Internet were found around 1980 when DARPA started converting the machines of its research network (ARPANET) to use the new TCP/IP protocols. In 1983, the transition was completed and DARPA demanded that all computers willing to connect to its ARPANET use TCP/IP. 
+
+​	DARPA also contracted Bolt, Beranek, and Newman to develop an implementation of the TCP/IP protocols for Berkeley UNIX on the VAX1 and funded the University of California at Berkeley2 to distribute that code free of charge with their UNIX operating system. The first release of the Berkeley Software Distribution to include the TCP/IP protocol set was made available in 1983 (4.2BSD). **From that point on（从那时起）,** TCP/IP spread rapidly among universities and research centers and has become the standard communications subsystem for all UNIX connectivity. The second release (4.3BSD) was distributed in 1986, with updates in 1988 and 1990. 4.4BSD was released in 1993. Due to funding constraints, 4.4BSD was the last release of the BSD by the Computer Systems Research Group of the University of California at Berkeley. 
+
+​	As TCP/IP internetworking spread rapidly, new wide area networks were created in the U.S. and connected to ARPANET. In turn, other networks in the rest of the world, not necessarily based on the TCP/IP protocols, were added to the set of interconnected networks. The result is what is described as the Internet. Some examples of the different networks that have played key roles in this development are described in the next sections. 
+
+
+
+**The Internet** 
+
+​	What exactly is the Internet? First, the word internet 3 (also internetwork) is simply a contraction of the phrase interconnected network. However, when written with a capital “I” the Internet refers to a worldwide set of interconnected networks, so the Internet is an internet, but the reverse does not apply. The Internet is sometimes called the connected Internet. The Internet consists of the following groups of networks: 
+
+- Backbones: large networks that exist primarily to interconnect other networks. Currently the backbones are NSFNET1 in the US, EBONE2 in Europe, and large commercial backbones. 
+- Regional networks connecting, for example, universities and colleges. 
+- Commercial networks providing access to the backbones to subscribers, and networks owned by commercial organizations for internal use that also have connections to the Internet. 
+- Local networks, such as campus-wide university networks. 
+
+​	In many cases, particularly for commercial, military and government networks, traffic between these networks and the rest of the Internet is restricted. 
+
+
+
+**Information Superhighway** 
+
+​	One recent and important **initiative（倡议）** was the creation of the U.S. **Advisory（顾问）** Council on the National Information Infrastructure (NIIAC3 ) headed by U.S. **Vice（副的）** President Al Gore4 (who has been credited with coining the phrase “information superhighway”). The Advisory Council, which was made up of representatives from many areas of industry, government, entertainment and education, met for a period of two years from 1994-6. At the end of their term, they concluded their work with the publishing of two major reports: 
+
+- **Kickstart（启动）** Initiative: Connecting America’s Communities to the Information Superhighway
+- A Nation of Opportunity: Realizing the Promise of the Information Superhighway 
+
+​	Among the findings in these reports is the goal that every person in the U.S. should have access to the Internet by the year 2005, with all schools and libraries being connected by the year 2000. Although the reports do not specify direct government funding for expansion of the Internet, preferring “commercial and competitive initiatives” to be the driving force, it does give a responsibility to all levels of government to ensure fair access and remove **regulatory obstacles（监管障碍）**. Both reports may be found at: http://www.benton.org/contents.html
+
+​	From a more international perspective, the Group of Seven (G71 ) ministers met in Brussels2 in February 1995 to discuss the emerging Global Information Infrastructure (GII3 ). The conference was attended by science, technology and economic ministers of Canada, the United Kingdom, France, Japan, Germany, Italy and the United States, and focused on technological, cultural and economic issues regarding the development of an international infrastructure. Both the NIIAC and the GII described above were important initiatives which increased acceptance, and encouraged further growth, of the Internet.
+
+​	Another **substantive（实质性）** government **affirmation（肯定）** for the Internet came, in 1996, in the form of the Next Generation Internet initiative. This was launched by the Clinton administration with the goals of: 
+
+- Connecting universities and national labs with networks that are 100-1000 times faster than today’s (as of5 October 1996) Internet. 
+- Promote experimentation with the next generation of networking technologies.
+-  Demonstrate new applications that meet important national goals and missions. 
+
+​	The initiative included funding of $100 million for 1998
+
+
+
+**Future of the Internet** 
+
+​	Trying to predict the future of the Internet is not an easy task. Few would have imagined even say , three years ago, the extent to which the Internet has now become a part of everyday life in business, homes and schools. There are a number of things, however, about which we can be fairly certain. 
+
+​	Bandwidth requirement will continue to increase at massive rates; not only is the number of Internet users growing rapidly, but the applications being used are becoming more advanced and therefore need more bandwidth. This is the reason why the number of core (backbone) service providers has grown from four in 1995 to around 48 today (whereas the number of Internet connection providers has grown only moderately). However, new technologies such as Dense Wave Division Multiplexing (DWDM1 ) will help to get the most bandwidth from currently installed fiber. Today it is possible to hear radio stations from almost any part of the globe via the Internet. Today this is at around AM quality. Soon FM-quality radio and video-on-demand will be driving the bandwidth requirement.
+
+​	Many businesses have already completed an experimental period of Internet access and are moving towards using the Internet for serious business use both intra- and inter-company. This has been made possible by the rapid advances in TCP/IP security technologies made in only the last one to two years. In the not too distant future, the availability of private, secure high bandwidth networking from Internet providers may well make many companies question the **feasibility（可行性）** of their current in-house wide area networks. Today we already have Voice over IP technology. As this technology **matures（成熟）** we are almost certain to see a sharing of bandwidth between voice and data across the Internet. This raises some interesting questions for phone companies. The cost to a user of an Internet connection between New York and Japan is the same as a connection within New York—not so a phone connection. This, and the fact that the Internet is **deregulated（解除管制）**, will raise many interesting questions in the years to come. 
+
+
+
+## 07-22:
+
+**ATM and Its Advantages** 
+
+**What Is ATM?** 
+
+​	The Asynchronous Transfer Mode (ATM) is a packet switching and multiplexing technique. Even though the word “asynchronous” appears in its description, it is not in any way an asynchronous transmission procedure. Because of the way it has been designed, it is particularly suitable for high-bandwidth and low-delay applications. With ATM, information is sent out in fixed-size packets or cells, each containing in its header a VCI that provides a means for creating multiple logical channels and multiplexing them as needed. Because the cells have a fixed size, they may contain unused bits. 
+
+​	ATM is actually a very simple protocol: it merely transfers data from one point to another, and does not, by itself, provide any error recovery. However, ATM has been designed to interoperate with other, existing protocols. In fact, it can accommodate almost any upper-layer protocols that support end-to-end error recovery. 
+
+​	The complete ATM protocol stack is shown in Figure 8C-1. The higher-layer protocols shown in the **topmost（最顶端）** box are application-specific. For example, they could be the standard file transfer protocol at the application layer with transmission control protocol (TCP) at the transport layer and Internet protocol (IP) at the network layer. Or, they could be simply the network-layer protocol for call and connection controls with a suitable application layer on top. As the name implies, the ATM adaptation layer (AAL1 ) “adapts” the upper-layer packets to the ATM layer below. While the details might vary from one service to another (e.g., connectionless data services, connection-oriented data services, **constant-bit-rate（固定比特传输）** data services, variable-bit-rate data services, etc.), this adaptation is achieved by adding a header, a trailer, and some fill octets to the upper-layer packets and segmenting them into fixed-size ATM cells. Below this layer is the so-called ATM layer. This layer can be thought of as a link-layer protocol. However, in some respects, it is different from other link-layer protocols. For example, with the high-level data link control (HDLC1 ) or Q.921 link access procedures on the D channel (LAPD2 ) protocol, the length of a frame varies—it may vary from 2 octets to 256 octets. With the IEEE3 802.3 protocol, the length of a packet, excluding the **preamble（前同步码）** and sync bits, may be anywhere from 64 octets to 1518 octets. In ATM, cell length is fixed at 53 octets. Also, unlike the link-layer protocols, ATM does not provide for acknowledgment procedures at the receiver. Errors can be detected in a cell, but not corrected. It is assumed that the transmission medium is highly reliable. 
+
+​	Blocks of user data of variable lengths from upper layers are passed to the ATM Adaptation Layer (AAL), which adds headers, trailers, padding octets, and/or cyclic redundancy check (CRC4 ) bits according to some rules that depend upon the service type. Each resulting data block is segmented into smaller blocks, which are then **encapsulated（封密的）** into 53-octet cells in the ATM layer. It is these ATM cells that are transmitted to the destination. Many different media-dependent, physical-layer interfaces can be used for ATM. 
+
+
+
+**Advantages of ATM** 
+
+​	There are many advantages of an ATM network. Some of them are listed below: 
+
+**Label switching** 
+
+​	The ATM protocol, like the **frame relay protocol（帧中继）**, is ideally suited for label switching. It works in the following way: in a traditional packet-switched network, when a packet arrives at a router, it examines its layer 3 header and routes the packet to the next hop along an appropriate route based upon the destination address. Since the network layer address generally contains much more information than would be required in making the routing decision, the layer 3 routing process is relatively complex. In label switching, the layer 3 address is mapped to a shorter identifier, which is called a label. It is important to emphasize here that a label is not an explicit address of an end-point. When the packet is routed to the next hop, the label is sent along with it as part of the header so that the router at the next hop can use it to derive subsequent routing information (see Figure 8C-2). In ATM, labels are formed with the 24-bit virtual path identifier (VPI1 ) and virtual channel identifier (VCI) fields
+
+​	Label switching offers a number of advantages. First, since packets can now be routed using a label as an index into the switch memory to determine the next hop, and since labels are shorter than IP addresses, it is easier to build a label-switching router. Second, if IP packets are to be routed between any two end-points in an ATM network in the traditional way, either virtual circuits must be connected in a full **mesh（网状）** configuration among ATM switches, or cut-through switched virtual channels (SVCs2 ) must be established using an appropriate protocol. Label switching **obviates（排除）** the need for such mesh connections and reduces the number of peer routers that need to communicate with each other. Consequently, a label-switching network is cheaper and faster. Third, label switching in an ATM environment is similar in many respects to label switching in other protocols. It may, therefore, be possible to use common methods for packet forwarding and even network management. 
+
+**Low latency**
+
+​	An important feature of the ATM protocol is its low latency and **seamless（无缝）** capacity to span local area networks (LANs) and wide area networks (WANs). ATM’s low latency results from the fact that all packets in the ATM layer have a fixed length. To see this, consider Figure 8C-3 (a), which shows a server with three inputs. Assume that all packets have a fixed size, d. The packets on any input link may arrive randomly with respect to the other input lines. If the server scans the inputs every d seconds, which is the length of a packet, then the average service delay for any packet on any input is d/2 seconds. Perfect scheduling is possible here because the packet size is known a priori. For example, if the data rate on each input line is 25 Mb/s1 , then for 53-octet ATM cells, the service period is 16.96 microseconds, and the average delay is 8.48 microseconds. 
+
+​	Next, consider the case where the size of a packet varies from some minimum value, say L, to a maximum value, M. This is shown in Figure 8C-3 (b) and is applicable to Ethernet. In this case, the server must scan the inputs frequently enough to match the length of the shortest packets; otherwise, these packets will be subjected to long delays. For example, if the packet size varies from 2 octets to 100 octets, the server should scan the inputs every 640 ns1 , which may be an **excessive burden（过载）** on the CPU. If the service period is increased to 16.96 microseconds, the average delay is about 13 times the size of the shortest packet. If all packets are fixed-length, scheduling of network resources is much easier. 
+
+
+
+High-speed and high-bandwidth 
+
+​	Because of its low latency, ATM is particularly suitable for applications that require high-speed transport and high bandwidths. For example, one can use ATM in a network backbone that interconnects traditional LANs such as Ethernets and token ring LANs. Currently, there are many high-speed LANs such as gigabit Ethernets and **metropolitan（大都市、本地、城域网）** area networks (MANs2 ) covering tens of kilometers in diameter using such protocols as fiber-distributed data interface (FDDI3 ) and distributed queue dual bus (DQDB4 ). ATM could very well form the basis of the new generation of high-speed LANs and MANs. Furthermore, ATM is equally suitable for applications that do not require high speed or high capacity. For example, currently, vendors are offering ATM switches at 25.6, 44.736, 51.84, 155, and 622 Mb/s bandwidths with various cabling types—two- or four-wire category 3 unshielded twisted pair (UTP5 ), multi-mode and single-mode fibers, and so on6 . 
+
+
+
+**Integrated network** 
+
+​	Normally, a packet protocol is only suitable for **bursty（突发性）**, variable-bit-rate services, and would not be able to transport information that is sensitive to delays. For example, the public-switched telephone network (PSTN7 ) can only transport circuit-switched information. An X.25 or frame relay network can handle only packet-switched data. The ATM protocol has been designed such that it can carry not only bursty, variable-bit-rate services, but also delay-sensitive information such as voice and video that would normally be carried by circuit-switched networks. In fact, over the last few years, a rich set of procedures and protocols that enable ATM to support many different services have been developed by the ATM Forum 1 —connection-oriented as well as connectionless, constant-bit-rate as well as variable, and they provide different qualities of service according to the application and customer needs. Thus, with ATM, it is possible to provide all different services with a single, integrated network. 
+
+
+
+**Integrated access from customer premises** 
+
+​	ATM provides a means for achieving integrated access to broadband services from public or private networks. Services such as compact disc (CD)-quality music, pay-per-view movie channels, high-definition TV, high-speed Internet data downloading, etc. can all be combined with traditional, circuit-switched voice and low-speed data services and then presented over a single ATM pipe to the customer premises, where a set-top box would demultiplex these services. The user could even request special services from a network provider using an upstream control channel. 
+
+
+
+**Interworking with existing protocols and legacy LANs** 
+
+​	There are many instances where new applications would almost certainly require the bandwidth and speed of an ATM network. One such example involves collaboration among different research organizations with high-resolution, high-bandwidth imaging data. The ATM network, if installed, would still be able to interwork with traditional data networking protocols and legacy LANs such as Ethernet, token ring, and FDDI. Thus, the existing network infrastructure needs to be augmented only when or where necessary, leading to a graceful but less expensive evolution to the new technology. 
+
+
+
+**Bandwidth-on-demand** 
+
+​	Bandwidth-on-demand is another **innate（先天）** benefit of ATM. In private networks, higher bandwidths can be requested by users. However, generally, they must be **provisioned（预分配）** through network managers, and cannot be assigned dynamically at connection setup time. With some private networks that are equipped with inverse multiplexing capability at both ends, it may be possible to request and obtain increased bandwidth dynamically. Even then, the range is rather limited. With ATM, users may request a desired bandwidth when originating a call, and the network would attempt to dynamically allocate the requested bandwidth only if the customer had subscribed to this feature at subscription time. Furthermore, for ATM networks, there are traffic and **congestion（拥塞）** control mechanisms in place which, in the event of congestion, allow the network to maintain the quality of service for each customer with minimum **degradation（退化）**. Thus, initially, one could install a network with only a minimum amount of reserve capacity, and add to the network only when the demand for bandwidth has grown to a point where it is no longer possible to provide each customer with the subscribed quality of service. 
+
+
+
+
+
+## **07-23**
+
+**Computer Networks:**
+
+**INTRODUCTION** 
+
+​	Computer networks, the widespread sharing of information among groups of computers and their users, are a central part of the information **age(时代)**. The popular **adoption（收养、使用）** of the personal computer (PC) and the local area network (LAN) during the 1980s has led to the capacity to access information on a distant database; download an application from overseas; send a message to a friend in a different country; and share files with a colleague—all from a personal computer. 
+
+​	The networks that allow all this to be done so easily are sophisticated and complex entities. They rely for their effectiveness on many cooperating components. The design and deployment of the worldwide computer network can be viewed as one of the great technological wonders of recent decades. 
+
+
+
+**MODEMS AND COMPUTER BUREAUX**
+
+​	As recently as the 1970s, computers were expensive, **fragile（易碎的、易损坏的）** machines that had to be looked after by specialists and kept in a controlled environment. They could be used either by plugging in a terminal directly or by using a phone line and modem to gain access from a distance. Because of their high cost, they tended to be centralized resources to which a user had to arrange their own access. During this time, organizations that offered access time on a mainframe computer—computer bureaux—flourished. Computer networks during this period were not commercially available. Even so, one of the most significant developments to shape the modern world of technology was initiated at this time: experimentation by the US Defence Department in distributing computer resources to provide **resilience（复原）** against failure. This work is now known as the Internet. 
+
+
+
+**LOCAL AREA NETWORKS**
+
+​	One of the most dramatic events in computer networking has been the introduction and rapid growth of the local area network (LAN) as a way to standardize the system of linking computers used in office systems. As the name suggests, this is a means of connecting a number of computing elements together. At the simplest level, a LAN provides no more than a shared medium (such as a coaxial cable to which all computers and printers are connected) along with a set of rules that govern the access to that medium. The most widely used LAN, Ethernet, uses a mechanism called Carrier Sense Multiple Access-Collision Detect (CSMA-CD2 ). This means that each connected device can only use the cable when it has established that no other device is using it. If there is **contention（看法、观点）**, the device looking for a connection backs off and tries again later. The Ethernet transfers data at 10M bits/sec3 , which is fast enough to make the distance between devices insignificant. They appear to be connected directly to their destination. 
+
+​	There are many different layouts (such as bus, star, ring) and a number of different access protocols for LANs. Despite this variety, all LANs share the feature that they are limited in range (typically they cover one building) and are fast enough to make the connecting network invisible to the devices that use it. 
+
+​	In addition to providing shared access, modern LANs can also give users a wide range of sophisticated facilities. Management software packages are available to control the way in which devices are configured on the LAN, how users are administered, and how network resources are controlled. A widely adopted structure on local networks is to have a number of servers that are available to a (usually much greater) number of clients. The former, usually powerful computers, provide services such as print control, file sharing, and mail to the latter, which are usually personal computers. 
+
+
+
+**ROUTERS AND BRIDGES** 
+
+​	The facilities on most LANs are very powerful. Most organizations do not wish to have small isolated islands of computing facilities. They usually want to extend facilities over a wider area so that groups can work without having to be located. Routers and bridges are specialized devices that allow two or more LANs to be connected. The bridge is the more basic device and can only connect LANs of the same type. The router is a more intelligent component that can interconnect many different types of computer network. Many large companies have corporate data networks that are founded on a collection of LANs and routers. From the user’s point of view, this arrangement provides them with a physically diverse network that looks like one **coherent（连贯）** resource. 
+
+
+
+**WIDE AREA NETWORKS** 
+
+​	At some point, it becomes impractical to extend a LAN any further. Physical limitation sometimes drives this, but **more often than not（通常）** there are more convenient or cheaper ways to extend a computer network. Two major components in most real computer networks are the public telephone and data networks. These provide long distance links that extend a LAN into a wide area network. Nearly all of the national network operators offer services for the interconnection of computer networks. These services range from simple, low speed data links that work over the public telephone network to sophisticated high-speed data services that are **ideally（理想的）** suited to the interconnection of LANs. These high-speed data services are usually referred to as broadband connections. It is anticipated that they will provide the necessary links between LANs that make what is called the information superhighway a reality.
+
+
+
+**DISTRIBUTED COMPUTING** 
+
+​	It would be easy to assume that computers will all be able to work together once they have broadband connection. But how do you get computers made by different manufacturers in different countries to work together across the world? Until recently, most computers were built with their own interfaces and were structured their own unique way. A computer could talk to one of its own kind but would have difficulty communicating with a “foreigner”. There were only a privileged few with the time, knowledge, and equipment to extract what they wanted from a variety of computing resources. By the 1990s, the level of commonality across different computers reached the stage where they could interwork effectively. This allows virtually anyone to use a remote machine to good effect. The main contributors to this are: 
+
+**Client Server** 
+
+​	Instead of building computer systems as **monolithic(整体的、单一的)** systems, there is now general agreement that they should be constructed as client/server systems. The client (a PC user) requests a service (such as printing) and the server (a LAN-connected processor) provides it. This **consensus（共识）** view on the structure of a computer system means that there is a separation of functions previously bundled together. The implementation details that flow from a simple concept go a long way to enabling all computers to be treated uniformly. 
+
+**Object Technology** 
+
+​	Another way to build computer systems works from the **premise（前提、假设）** that they should be built from well-defined parts—objects which are encapsulated, defined, and implemented so that they can be independent agents. The adoption of objects as a means of building computer systems has helped to allow interchangeability of parts. 
+
+**Open Systems** 
+
+​	This term covers the general aim of building computer systems so that they can readily be interconnected, and hence distributed. In practice, open systems are all about **unbundling** all the complexities of a computer system and using similar structure across different systems. And this **entails（需要）** a mixture of standards (which tell the manufacturers what they should be doing) and **consortia（联合）** (groups of like-minded people who help them to do it). The overall effect is that they can talk to each other. The **ultimate（最终）** aim of all of the work in distributed systems is to allow anyone to buy computers from a number of different manufacturers, to site them wherever is convenient, to use broadband connections to link them, and to operate them as one cooperating machine that takes full advantage of the fast links.
+
+
+
+**SECURITY AND MANAGEMENT** 
+
+​	Having fast computer networks built of machines that can talk to each other is not the end of the story. The **spectres（幽灵）** of the “information superhighwayman ” and the “information superroadworks ” have yet to be dealt with. 
+
+​	Security With ever increasing amounts of important information being **entrusted（委托）** to ever more distributed computers, computer security becomes ever more important. In a highly distributed system it would be all too easy for an informed superhighwayman to access **confidential（机密）** information without being seen. The Data Encryption System (DES1 ) standard for protecting computer data, introduced in the late 1970s, has more recently been supplemented by “public key” systems that allow users to **scramble（打乱、变化）** and **unscramble** their messages easily without a third party intruding. 
+
+​	Management It is a full-time job to keep a LAN operating as it should. Keeping a computer network that is distributed across the world running smoothly takes the challenge of network management a step further. The essential concepts for managing distributed and diverse networks have received a lot of attention lately. There are now enough tools and standards for this important aspect of computer networks to allow global networks to be supervised effectively.
+
+
+
+
+
+
+
