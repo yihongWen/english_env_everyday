@@ -362,6 +362,105 @@ High-speed and high-bandwidth
 
 
 
+## 07-24:
+
+**Switched LAN Network Designs** 
+
+​	A successful switched internetworking solution must combine the benefits of both routers and switches in every part of the network, as well as offer a flexible evolution path from shared-media networking to switched internetworks. In general, incorporating switches in campus network designs results in the following benefits: 
+
+- High bandwidth 
+- Quality of service (QoS) 
+- Low cost 
+- Easy configuration 
+
+​	Switching and bridging sometimes can result in **nonoptimal(非最优)** routing of packets. This is because every packet must go through the root bridge of the spanning tree. When routers are used, the routing of packets can be controlled and designed for optimal paths. Cisco now provides support for improved routing and redundancy in switched environments by supporting one instance of the spanning tree per VLAN . 
+
+
+
+General Network Design Principles 
+
+​	Good network design is based on many concepts that are summarized by the following key principles: 
+
+- Examine single points of failure carefully—There should be redundancy in the network so that a single failure does not isolate any portion of the network. There are two aspects of redundancy that need to be considered: backup and load balancing. In the event of a failure in the network, there should be an alternative or backup path. Load balancing occurs when two or more paths to a destination exist and can be utilized depending on the network load. The level of redundancy required in a particular network varies from network to network.
+- Characterize application and protocol traffic—For example, the flow of application data will profile client-server interaction and is crucial for efficient resource allocation, such as the number of clients using a particular server or the number of client workstations on a segment.
+- Analyze bandwidth availability—For example, there should not be an **order of magnitude（数量级）** difference between the different layers of the hierarchical model. It is important to remember that the hierarchical model refers to conceptual layers that provide functionality. The actual **demarcation（界限）** between layers does not have to be a physical link—it can be the backplane of a particular device.
+- Build networks using a hierarchical or modular model—The hierarchy allows autonomous segments to be internetworked together. 
+
+
+
+​	Figure 9B-1 shows a high-level view of the various aspects of a hierarchical network design. A hierarchical network design presents three layers—core, distribution, and access—with each layer providing different functionality. 
+
+​	The core layer is a high-speed switching backbone and should be designed to switch packets as fast as possible. This layer of the network should not perform any packet manipulation access lists and filtering that would slow down the switching of packets. 
+
+​	The distribution layer of the network is the demarcation point between the access and core layers and helps to define and differentiate the core. The purpose of this layer is to provide boundary definition and is the place at which packet manipulation can take place. In the campus environment, the distribution layer can include several functions, such as the following: 
+
+- Address or area aggregation
+- Departmental or workgroup access
+- Broadcast/multicast domain definition
+- VLAN routing
+- Any media transitions that need to occur
+- Security
+
+​	In the non-campus environment, the distribution layer can be a **redistribution（重新分配）** point between routing domains or the demarcation between static and dynamic routing protocols. It can also be the point at which remote sites access the corporate network. The distribution layer can be summarized as the layer that provides policy-based connectivity
+
+​	The access layer is the point at which local end users are allowed into the network. This layer may also use access lists or filters to further optimize the needs of a particular set of users. In the campus environment, access-layer functions can include the following:
+
+- Shared bandwidth
+- Switched bandwidth
+- MAC layer filtering
+-  Microsegmentation 
+
+​	In the non-campus environment, the access layer can give remote sites access to the corporate network via some wide-area technology, such as Frame Relay, ISDN, or leased lines. It is sometimes mistakenly thought that the three layers (core, distribution, and access) must exist in clear and distinct physical entities, but this does not have to be the case. The layers are defined to aid successful network design and to represent functionality that must exist in a network. The instantiation of each layer can be in distinct routers or switches, can be represented by a physical media, can be combined in a single device, or can be omitted altogether. The way the layers are implemented depends on the needs of the network being designed. Note, however, that for a network to function optimally, hierarchy must be maintained. With respect to the hierarchical model, traditional campus LANs have followed one of two designs—single router and distributed backbone—as shown in Figure 9B-2. 
+
+​	In the single-router design, the core and distribution layers are present in a single entity—the router. Core functionality is represented by the backplane of the router and distribution is represented by the router. Access for end users is through individual- or chassis-based hubs. This design suffers from scalability constraints because the router can only be in one physical location, so all segments end at the same location—the router. The single router is responsible for all distribution functionality, which can cause CPU overload. The distributed backbone design uses a high-speed backbone media, typically FDDI, to spread routing functionality among several routers. This also allows the backbone to traverse floors, a building, or a campus. 
+
+
+
+**Switched LAN Network Design Principles** 
+
+​	When designing switched LAN campus networks, the following factors must be considered:
+
+- Broadcast radiation—Broadcast radiation can become fatal—that is, 100 percent of host CPU cycles can be consumed by processing broadcast and multicast packets. Because of delays inherent in **carrier sense multiple access collision detect** (CSMA/CD) technologies, such as Ethernet, any more than a small amount of broadcast traffic will adversely affect the operation of devices attached to a switch. Although VLANs reduce the effect of broadcast radiation on all LANs, there is still a scaling issue as to how many hosts should reside on a given VLAN. A router allows for larger network designs because a VLAN can be subsegmented depending on traffic patterns. However, in a nonoptimal network design, a single router can be burdened with large amounts of traffic.
+-  Well-behaved VLANs—A well-behaved VLAN is a VLAN in which 80 percent or more of the traffic is local to that VLAN. In an example in which the Marketing, MIS , and Engineering departments each have an individual VLAN segment, the 80 percent rule is violated when a user in the Marketing VLAN reads mail from the MIS VLAN, mounts servers from the Engineering VLAN, and sends e-mail to members of the Engineering VLAN. 
+- Available bandwidth to access routing functionality—Inter-VLAN traffic must be routed, so the network design must allocate enough bandwidth to move inter-VLAN traffic from the source, through the device that provides routing functionality, and to the destination. 
+- Appropriate placement of administrative boundaries—Switching has the effect of flattening networks, and the deployment of switching outside of your administrative boundary can **adversely（不利的）** affect the network within your administrative boundary. 
+
+​	Campus network designs are evolving rapidly with the deployment of switching at all levels of the network—from the desktop to the backbone. Three topologies have emerged as generic network designs: 
+
+- Scaled Switching 
+
+- Large Switched/Minimal Routing
+
+- Distributed Routing/Switching 
+
+
+
+Scaled Switching 
+
+​	The scaled switching design shown in Figure 9B-3 deploys switching at all levels of the network without the use of routers. In this design, each layer consists of switches, with switches in the access layer providing 10-Mbps1 Ethernet or 16-Mbps Token Ring to end users. Scaled switching is a low-cost and easy-to-install solution for a small campus network. It does not require knowledge of address structure, is easy to manage, and allows all users to communicate with one another. However, this network comprises a single broadcast domain. If a scaled switched network needs to grow beyond the broadcast domain, it can use VLANs to create multiple broadcast domains. Note that when VLANs are used, end users in one VLAN cannot communicate with end users in another VLAN unless routers are deployed. 
+
+Large Switched/Minimal Routing 
+
+​	The large switched/minimal routing design deploys switching at the access layer of the network, either ATM switching or LAN switching at the distribution layer of the network, and ATM/LAN switching at the core. Figure 9B-4 shows an example of this network design. 
+
+​	In the case of ATM in the distribution layer, the following key issues are relevant:
+
+- LANE2 support on routers and switches. 
+- Support for UNI3 3.X signaling (including point-to-multipoint). 
+
+
+
+If redundancy is provided by a virtual PVC4 or SVC5 mesh, the mesh is a single point of failure. In the case of LAN switching in the distribution layer, the following key issues are relevant:
+
+- Support for VLAN trunking technology in each device. 
+- The switches in the distribution layer must run the Spanning-Tree Protocol to prevent loops, which means that some connections will be blocked and load balancing cannot occur. 
+
+​	To scale the large switched/minimal routing design, a logical hierarchy must be imposed. The logical hierarchy consists of VLANs and routers that enable inter-VLAN communication. In this topology, routing is used only in the distribution layer, and the access layer depends on bandwidth through the distribution layer to gain access to high-speed switching functionality in the core layer. The large switched/minimal routing design scales well when VLANs are designed so that the majority of resources are available in the VLAN. Therefore, if this topology can be designed so that 80 percent of traffic is intra-VLAN and only 20 percent of traffic is inter-VLAN, the bandwidth needed for inter-VLAN routing is not a concern. However, if inter-VLAN traffic is greater than 20 percent, access to routing in the core becomes a scalability issue. For optimal network operation, scalable routing content is needed at the distribution layer of the network. 
+
+Distributed Routing/Switching 
+
+​	The distributed routing/switching design deploys switching in the access layer, routing in the distribution layer, and some form of high-speed switching in the core layer, as shown in Figure 9B-5. The distributed routing/switching design follows the classic hierarchical network model both physically and logically. Because it provides high bandwidth for access to routing functionality, this design scales very well. This design is optimized for networks that do not have the 80/20 pattern rule. If servers are centralized, most traffic is inter-VLAN; therefore, high routing content is needed. 
+
 
 
 
