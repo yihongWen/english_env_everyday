@@ -1,0 +1,47 @@
+## 07-25:
+
+**How Are Networks Used?** 
+
+​	The fundamental purpose of networks—sharing resources—has evolved over the years to **encompass(包含)** many diverse tasks, and new applications for networking are being developed all the time. In the following sections, we discuss the more popular uses for today’s computer networks. 
+
+
+
+**File Sharing** 
+
+​	The oldest and most **ubiquitous（普遍存在的）** use for networks is sharing data files. One approach to sharing files involves placing the file in a shared location on one computer (acting as a server), and making it available to other computers (acting as clients) on the network. Other users who want access to the file can either open the shared copy directly or copy it over the network to their own local hard disks. Some database applications use file sharing to store a centralized database file on a server, allowing many users to view and update the file simultaneously. To accommodate this type of application, most NOSs provide functions that enable the application to lock the shared data at the file or data record level. The application can then coordinate access to the data and prevent database updates from stepping on each other
+
+
+
+**Printer Sharing** 
+
+​	Traditionally, printers are relatively expensive devices. **No matter what era（无论在什么年代）** of personal computing you look at, high-end printers can cost more than two or three client computers. (Of course, what constitutes a high-end printer has changed over time.) As a result, sharing printers became a primary use of networks early on —a tradition that survives today. To share a printer, you physically connect the printer to a computer acting as a server. (Printers are usually connected directly to the computer’s printer port, also called a parallel port.) Using the NOS, you share the printer over the network. Users can then print to your shared printer as easily as if the printer were directly connected to their own local PCs. Rather than going out the local printer port, the user’s data to be printed travels across the network to the server, and the server sends the data directly to its attached printer. Printer sharing is so **pervasive（普遍）** that some printer manufacturers (for example, Hewlett-Packard3 ) have developed printers that you can directly attach to the network—no server computer required. These printers are sometimes called network printers, because they include a built-in interface to the network. From a user’s perspective, network printers appear and behave just like printers shared by servers on the network. 
+
+
+
+**Drive Sharing** 
+
+​	When large hard disks and CD-ROM drives were relatively expensive devices, network users attached them to servers and shared them over the network. Users could access the contents of one or more shared CD-ROMs, or store and retrieve their own data in a directory on the server’s hard disk. A single hard disk might accommodate many users, each with his or her own private directory. This approach kept the cost of individual PCs lower, and the extra cost of server hardware was spread across many users. As prices of hard disks and CD-ROM drives fell, the tide shifted in the direction of equipping each client computer with plenty of local storage and its own CD-ROM drive. However, more recent trends in cost **reduction（减小、压缩）** in some organizations have begun to push the storage devices back to the server, allowing the use of very inexpensive client PCs. Some low-cost client computers don’t even contain hard disks; they rely entirely on storage space supplied by network servers. These low-cost clients are sometimes called diskless workstations. In addition to drives and printers, you can share other devices. All you need is the right device and the right software. For example, intelligent fax machines, modems, scanners, and other devices have been shared over computer networks. We won’t go into the details of each device here. Just remember that the device-sharing concept can reach beyond printers and drives. 
+
+
+
+**Application Sharing**
+
+​	In its simplest form, application sharing is nothing more than file sharing, where the files just happen to be the executable application files themselves. Instead of installing and running an application on a local hard disk, you place the application once on a server. Users then load and run the application over the network. Keep in mind that not all software vendors design their applications to run in this type of shared environment. Another aspect of application sharing involves placing a data file on a server and sharing it among several applications running on the network. (The application files themselves may or may not be shared.) In this environment, the application’s role includes coordinating all access to the shared data file. For example, a group scheduling application running on several networked PCs might store all scheduling data in a single shared file on a server. Likewise, some e-mail applications store all e-mail messages in a set of shared files on a single server computer. Some applications have two distinct parts—a client portion and a server portion. The two parts play specific roles in performing the application’s function. This approach is known as the client-server application model, or simply client-server. A server application lives on a server computer and runs there exclusively. The client side of the application resides on a client computer and provides the user interface to the server part. The two parts of the application coordinate and exchange data over the network. A good example of this approach is Microsoft SQL Server, a client-server database application that runs on Windows NT Server. One piece of the application runs on a Windows NT Server computer and provides all access to the contents of a database. The client piece runs on each client computer, and makes requests to the server over the network. 
+
+
+
+**Remote Access**
+
+​	More and more users these days are hitting the road with their laptop PCs in hand. At the same time, many other users are **opting（选择）** to skip the long **commute（通勤）** and work from home while **staying in touch** with the office. (Working at home and communicating with the office electronically has become known as **telecommuting（远程办公）**.) As all of these users become increasingly dependent on their networks at the office, the need to connect their computers from remote locations has become significantly more important over the last few years. Remote access is a generic term that actually refers to several alternative approaches. In the following sections, we discuss the most popular remote access techniques. 
+
+- **REMOTE E-MAIL ACCESS**
+
+​	If users need only to send and receive electronic mail messages, they can use a modem to dial in to an e-mail server at the office. Once connected, they can pick up their e-mail messages and compose and send messages to other users. This is a fairly straightforward task, but doesn’t give the user access to any other shared network resources. 
+
+- **REMOTE CONTROL** 
+
+​	If users need remote access to files on their desktop PCs at the office, they can implement an approach called remote control. This approach to remote access requires a special software package that runs on both the remote computer and on the user’s office PC. The software enables the user to take remote control of the office PC. The remote user’s keyboard, mouse, and video display act as if they’re directly attached to the PC at the office. The remote control software sends keyboard and mouse actions to the office PC, and receives changes in the display from the office PC. Each remote user takes control of exactly one PC on the office LAN, so each remotely controlled PC requires its own modem and copy of the remote control software. PC AnyWhere from Symantec is an example of remote control software.
+
+ **REMOTE NODE** 
+
+​	Users who need full access to shared resources on the LAN at the office must use a remote access approach called remote node. (A node refers to a computer or other device that’s directly attached to the network.) Most modern NOSs, including Windows 98, provide some form of remote node capability. With this approach, users can dial in to a remote access server at the office. Once they’re connected, they have complete access to the network—just as if their remote PC were directly connected to the network. Users can remotely access whatever shared resources they would normally be able to access at work. Remote nodes (remote access clients) can dial in to a single remote access server and have a virtual connection to the LAN. In contrast to remote control, the remote node approach funnels all remote users through a single server on the network. In the Microsoft world, remote node is referred to alternatively as RAS 3 (Remote Access Service) and DUN 4 (Dial-Up Networking). Windows 95 included remote access client software, and the Microsoft Plus!5 pack added a single-modem remote access server. Windows 98 includes both the client and server components, as does Windows NT Workstation. Windows NT Server includes the complete form of RAS, which can handle up to 256 simultaneous remote nodes (that is, when it’s equipped with up to 256 modems). 
