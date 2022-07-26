@@ -45,3 +45,53 @@
  **REMOTE NODE** 
 
 ​	Users who need full access to shared resources on the LAN at the office must use a remote access approach called remote node. (A node refers to a computer or other device that’s directly attached to the network.) Most modern NOSs, including Windows 98, provide some form of remote node capability. With this approach, users can dial in to a remote access server at the office. Once they’re connected, they have complete access to the network—just as if their remote PC were directly connected to the network. Users can remotely access whatever shared resources they would normally be able to access at work. Remote nodes (remote access clients) can dial in to a single remote access server and have a virtual connection to the LAN. In contrast to remote control, the remote node approach funnels all remote users through a single server on the network. In the Microsoft world, remote node is referred to alternatively as RAS 3 (Remote Access Service) and DUN 4 (Dial-Up Networking). Windows 95 included remote access client software, and the Microsoft Plus!5 pack added a single-modem remote access server. Windows 98 includes both the client and server components, as does Windows NT Workstation. Windows NT Server includes the complete form of RAS, which can handle up to 256 simultaneous remote nodes (that is, when it’s equipped with up to 256 modems). 
+
+
+
+
+
+
+
+## 07-26:
+
+**Network Topologies** 
+
+​	Networks require both network adapter hardware in each device to be connected, and some physical (or wireless) connection to hook them all together. If you consider a two-node network, you can think of the network adapters as the tin cans, and the connection as the string between them. But most real-world networks include more than two nodes, and this leads to many different ways to string them together. The arrangement of network nodes and connections between them is called the network’s topology. It’s simply a map of the layout of nodes and connections in the network. Three network topologies **predominate（占主导地位的）** today—namely, bus, star, and ring. 
+
+
+
+**Bus Topology** 
+
+​	In the bus network topology, you connect each node to the network along a single piece of network cable, called abus. (If you’re familiar with the term bus in the context of **motherboards（主板）**, the idea is similar. The bus provides the path for the data, and devices **tap into（接入）** the bus along its length to communicate with other devices.) As shown in Figure 10A-1, network nodes essentially tap into the bus at convenient locations along the way. Data travels from a node out onto the bus until it reaches the ends of the cable. **At each end of the bus, a device called a terminator is installed to prevent data signals from reflecting back onto the bus and causing errors.** A terminator is a special **resistor（电阻）** device that’s attached to an electrical ground. When the transmitted data hits the terminator, it doesn’t go any farther. **Reliability of the bus topology can be a problem in all but the smallest networks. If the single cable acting as the bus is severed at any point, the entire network can go down.** Even if many of the nodes are still connected to each other on the bus, a severed cable is no longer terminated correctly. Although it’s the lowest cost topology to implement, I don’t recommend selecting the bus topology unless you’re dealing with a total of three or four computers in the same room, and all the network cabling is easily accessible. 
+
+
+
+**Star Topology** 
+
+​	In the star network topology, you connect each network node to a central device called a hub. Small LANs with less than eight nodes usually need only one hub. Larger networks can require many hubs, and hubs can be connected to each other to tie all the nodes together into a single network. Figure 10A-2 shows an example of a network using the star topology. The network in this example actually consists of two stars each centered on its own hub. The hubs are tied together to provide a single **cohesive（团结的，使凝聚）** network. 
+
+​	Hubs are usually connected together to expand the number of nodes in the network. Hubs typically allow four, eight, or sixteen nodes before another hub is required. In Figure 10A-2, for example, the upper hub uses seven of its eight connections for attaching nodes, and its eighth to connect to the other hub. This approach of connecting stars together is also sometimes used when setting up a WAN. If two branch offices each have their own star topology LANs, you can connect the two LANs together by connecting the two hubs together via a WAN connection. The concept of connecting hubs isn’t restricted to networks. **Airlines（航空公司）** typically select a **handful（少数）** of major airports as hubs, and create their routes based on traveling through these hubs. You can still get from any city to any other city, but you may have to travel through a hub or two along the way. So it is with the data on a star topology network. Every network node is connected, but data must travel through one or more hubs between its source and destination. One difference between airline hubs and network hubs is the role of the hub itself. Airline hubs, such as the Dallas-Fort Worth International Airport1 , for example, can be the beginning or end of a trip. In contrast, a network hub is always between the source and destination of the data. The data source and destination are always network nodes connected to the hub—never the hub itself. You get what you pay for when selecting a network topology. Star topologies are more expensive to implement than bus topologies. You must invest in at least one hub, even if you want to connect only two computers together. Each addition of four, eight, or sixteen nodes to the network may require an additional hub. In contrast, bus topologies require no additional external hardware, beyond the inexpensive terminators at each end of the bus. 
+
+
+
+**Ring Topology** 
+
+​	The ring network topology is shaped just like its name implies—it’s made up of an unbroken circle of network nodes. Essentially, each node is directly connected to its immediate neighbors. Data on the network flows in one direction around the ring, traveling from one node to the next along the way. Figure 10A-3 illustrates the ring topology. Conceptually, a ring is like a bus that has had its two ends brought together. In other words, a ring is like a circular bus, to which all nodes are directly attached. The ring topology can be **plagued（折磨、麻烦）** with reliability problems because it depends on an unbroken link between each **adjacent（临近的）** node on the network. If the ring is broken at any point along the way, the entire network stops functioning. 
+
+
+
+**Physical and Logical Topologies**
+
+​	In the topology discussion so far, I’ve focused on the physical layout of the network in terms of cabling and hubs. This is known as the physical topology of the network. But the physical topology doesn’t really tell the whole story. Each network also has a logical topology, which describes how data actually travels on the network. The physical and logical topology of the network can be the same, but often they aren’t. Think of the physical topology as the network layout you’d see if you looked at the physical network from outside. To understand the physical topology, you completely ignore how the data travels, and focus instead on the appearance of cables, hubs, and nodes that make up the network. To understand the logical topology, you need to become one with the data traveling on the network. Pretend you are the data, and follow the path it takes. The path you follow defines the network’s logical topology. Why is this important? Well, **it turns out that（原来是、证明）** most networks today use a physical star topology, but may have the logical topology of a bus, a star, or a ring. The internal wiring of the cables and hubs determines the network’s logical topology. So there are different types of hubs, connectors, and wiring, depending on the logical topology of the network you’re implementing. 
+
+​	For example, a physical star topology may be wired with a logical bus topology. Unless the hub itself fails, a break in a single cable won’t bring down the entire network—just the node attached to the broken cable. A physical star topology can also be used to implement a logical ring topology, as shown in Figure 10A-4. Notice that the data travels in one direction only, creating a logical ring. Hubs come in many different flavors, because they can be wired to implement any of the three basic logical network topologies. For example, a hub that implements a ring topology, such as the one shown in Figure 10A-4, is called a multistation access unit (or MAU2 or MSAU3 ). Moreover, a hub can be either passive or active. A passive hub simply acts as a central wiring point, and does nothing to the signals that pass through it. In contrast, an active hub can provide a wide range of features. In its most basic form, an active hub **amplifies（放大）** transmitted signals, to prevent **distortion（失真）** and lost data. High-end active hubs can offer features that include sophisticated network management, **diagnostics（诊断）**, and reporting capabilities. 
+
+
+
+**Choosing Between Network Topologies** 
+
+​	The most prevalent physical network topology today is the star topology, even if it’s used to implement a different logical topology. Here’s why the star has become the standard approach to implementing other logical network topologies:
+
+- Convenience—The star configuration causes all network wiring to **converge（汇聚）** in a central location, typically in a wiring closet or server room. This central location makes it convenient for the network administrator to configure, **troubleshoot（解决重大问题、排除故障）**, and maintain the physical network connections. 
+- Flexibility—Because each network node is attached via its own **dedicated（专用、献身）** cable, the star approach makes it very easy to add, move, or remove individual nodes from the network without affecting other nodes. 
+- Intelligence—As manufacturers create increasingly smarter hub devices, star topologies can take advantage of the intelligence built into these devices, including centralized network management and advanced troubleshooting capabilities. Even if a network doesn’t use intelligent hubs today, having the physical star topology in place makes it possible to insert intelligent hubs in the future. 
