@@ -95,3 +95,63 @@
 - Convenience—The star configuration causes all network wiring to **converge（汇聚）** in a central location, typically in a wiring closet or server room. This central location makes it convenient for the network administrator to configure, **troubleshoot（解决重大问题、排除故障）**, and maintain the physical network connections. 
 - Flexibility—Because each network node is attached via its own **dedicated（专用、献身）** cable, the star approach makes it very easy to add, move, or remove individual nodes from the network without affecting other nodes. 
 - Intelligence—As manufacturers create increasingly smarter hub devices, star topologies can take advantage of the intelligence built into these devices, including centralized network management and advanced troubleshooting capabilities. Even if a network doesn’t use intelligent hubs today, having the physical star topology in place makes it possible to insert intelligent hubs in the future. 
+
+
+
+## 07-27:
+
+**What Is TCP/IP?** 
+
+​	TCP/IP refers to two network protocols (or methods of data transport) used on the Internet. They are Transmission Control Protocol and Internet Protocol, **respectively(分别地)**. These network protocols belong to a larger collection of protocols, or a protocol suite. These are collectively referred to as the TCP/IP suite. Protocols within the TCP/IP suite work together to provide data transport on the Internet. In other words, these protocols provide nearly all services available to today’s Net surfer. Some of those services include: 
+
+- Transmission of electronic mail
+- File transfers 
+- Usenet news delivery 
+- Access to the World Wide Web 
+
+There are two classes of protocol within the TCP/IP suite. They are: 
+
+- The network-level protocol 
+
+- The application-level protocol 
+
+​	Network-level protocols manage the **discrete（分离、分别）** mechanics of data transfer. These protocols are typically invisible to the user and operate deep **beneath（在下层）** the surface of the system. For example, the IP protocol provides packet delivery of the information sent between the user and remote machines. It does this based on a variety of information, most **notably（明显的）** the IP address of the two machines. Based on this and other information, IP guarantees that the information will be routed to its intended destination. Throughout this process, IP interacts with other network-level protocols engaged in data transport. Short of 1 using network utilities (perhaps a sniffer or other device that reads IP datagrams), the user will never see IP’s work on the system. Conversely, application-level protocols are visible to the user in some measure. For example, File Transfer Protocol (FTP) is visible to the user. The user requests a connection to another machine to transfer a file, the connection is established, and the transfer begins. During the transfer, a portion of the exchange between the user’s machine and the remote machine is visible (**primarily（主要的）** error messages and status reports on the transfer itself, for example, how many bytes of the file have been transferred at any given moment). For the moment, this explanation will suffice: TCP/IP refers to a collection of protocols that facilitate communication between machines over the Internet (or other networks running TCP/IP). 
+
+
+
+**The History of TCP/IP** 
+
+​	In 1969, the Defense Advanced Research Projects Agency (DARPA) **commissioned（受委托）** development of a network over which its research centers might communicate. Its **chief concern** was this network’s capability to **withstand（承受住）** a nuclear attack. In short, if the Soviet Union launched a nuclear attack, it was **imperative（必要得）** that the network remain intact to facilitate communication. The design of this network had several other requisites, the most important of which was this: It had to operate independently of any centralized control. Thus, if one machine was destroyed (or 10, or 100), the network would remain impervious. The prototype for this system emerged quickly, based in part on research done in 1962 and 1963. That prototype was called ARPANET. ARPANET reportedly worked well, but was subject to **periodic（阶段性得）** system crashes. Furthermore, long-term expansion of that network proved costly. A search was initiated for a more reliable set of protocols; that search ended in the mid-1970s with the development of TCP/IP. TCP/IP had significant advantages over other protocols. For example, TCP/IP was lightweight (it required **meager（贫乏、微博）** network resources). Moreover, TCP/IP could be implemented at much lower cost than the other choices then available. Because of these advantages, TCP/IP became exceedingly popular. In 1983, TCP/IP was integrated into release 4.2 of Berkeley Software Distribution (BSD) UNIX. Its integration into commercial forms of UNIX soon followed, and TCP/IP was established as the Internet standard. It has remained so (as of this writing). As more users **flock to（聚集）** the Internet, however, TCP/IP is being reexamined. More users translate to greater network load. To **ease（减轻）** that network load and offer greater speeds of data transport, some researchers have suggested implementing TCP/IP via satellite transmission. Unfortunately, such research has thus far produced **dismal（忧郁）** results. TCP/IP is apparently unsuitable for this implementation. Today, TCP/IP is used for many purposes, not just the Internet. For example, intranets are often built using TCP/IP. In such environments, TCP/IP can offer significant advantages over other networking protocols. One such advantage is that TCP/IP works on a wide variety of hardware and operating systems. Thus, one can quickly and easily create a heterogeneous network using TCP/IP. Such a network might have Macs, IBM compatibles, and so on. Each of these can communicate with its peers using a common protocol suite. For this reason, since it was first introduced in the 1970s, TCP/IP has remained extremely popular. 
+
+
+
+**What Platforms Support TCP/IP?**
+
+​	 Most platforms support TCP/IP. However, the quality of that support can vary. Today, most mainstream operating systems have native TCP/IP support (that is, TCP/IP support that is built into the standard operating system distribution). However, older operating systems on some platforms lack such native support. Table 10B-1 describes TCP/IP support for various platforms. If a platform has native TCP/IP support, it is labeled as such. If not, the name of a TCP/IP application is provided. Platforms that do not natively support TCP/IP can still implement it through the use of proprietary or third-party TCP/IP programs. In these instances, third-party products can offer varied functionality. Some offer very good support and others offer **marginal（微不足道）** support. For example, some third-party products provide the user with only basic TCP/IP. For most users, this is sufficient. (They simply want to connect to the Net, get their mail, and enjoy easy networking.) In contrast, certain third-party TCP/IP implementations are comprehensive. These may allow manipulation of compression, methods of transport, and other features common to the typical UNIX TCP/IP implementation. Widespread third-party support for TCP/IP has been around for only a few years. Several years ago, for example, TCP/IP support for DOS boxes was very slim. One interesting point about non-native, third-party TCP/IP implementations is this: Most of them do not provide servers within their distributions. Thus, although a user can connect to remote machines to transfer a file, the user’s machine cannot accept such a request. For example, a Windows 3.11 user using TCPMAN cannot—without installing additional software—accept a file-transfer request from a remote machine. 
+
+
+
+**How Does TCP/IP Work?** 
+
+​	TCP/IP operates through the use of a protocol stack. This stack is the sum total of all protocols necessary to complete a single transfer of data between two machines. (It is also the path that data takes to get out of one machine and into another.) The stack is broken into layers, five of which are of concern here. To grasp this layer concept, examine Figure 10B-1. After data has passed through the process illustrated in Figure 10B-1, it travels to its destination on another machine or network. There, the process is executed in reverse (the data first meets the physical layer and **subsequently（随后）** travels its way up the stack). Throughout this process, a complex system of error checking is employed both on the originating and destination machine. 
+
+​	Each layer of the stack can send data to and receive data from its **adjoining（邻接）** layer. Each layer is also associated with multiple protocols. At each tier of the stack, these protocols are hard at work, providing the user with various services. 
+
+
+
+**TCP/IP Is the Internet** 
+
+​	TCP/IP basically comprises the Internet itself. It is a complex collection of protocols, many of which remain invisible to the user. On most Internet servers, a minimum of these protocols exist: 
+
+- Transmission Control Protocol
+- Internet Protocol
+- Internet Control Message Protocol 
+- Address Resolution Protocol 
+- File Transfer Protocol 
+- The Telnet1 protocol 
+- The Gopher2 protocol 
+- Network News Transfer Protocol 
+- Simple Mail Transfer Protocol
+-  Hypertext Transfer Protocol 
+
+​	These are only a handful of the protocols run on the Internet. There are actually hundreds of them. Better than half of the primary protocols have had one or more security holes. In essence, the Internet was designed as a system with multiple avenues of communication. Each protocol is one such avenue. As such, there are hundreds of ways to move data across the Net. Until recently, utilizing these protocols called for accessing them one at a time. That is, to arrest a Gopher session and start a Telnet session, the user had to physically terminate the Gopher connection. The HTTP browser changed all that and granted the average user much greater power and functionality. Indeed, FTP, Telnet, NNTP3 , and HTTP are all available at the click of a button.
