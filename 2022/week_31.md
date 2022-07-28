@@ -155,3 +155,55 @@ There are two classes of protocol within the TCP/IP suite. They are:
 -  Hypertext Transfer Protocol 
 
 ​	These are only a handful of the protocols run on the Internet. There are actually hundreds of them. Better than half of the primary protocols have had one or more security holes. In essence, the Internet was designed as a system with multiple avenues of communication. Each protocol is one such avenue. As such, there are hundreds of ways to move data across the Net. Until recently, utilizing these protocols called for accessing them one at a time. That is, to arrest a Gopher session and start a Telnet session, the user had to physically terminate the Gopher connection. The HTTP browser changed all that and granted the average user much greater power and functionality. Indeed, FTP, Telnet, NNTP3 , and HTTP are all available at the click of a button.
+
+
+
+## 07-28:
+
+**Network-Level Protocols** 
+
+​	Network protocols are those protocols that **engage(参加)** in (or facilitate) the transport process transparently. These are invisible to the user unless that user employs utilities to monitor system processes. Important network-level protocols include:
+
+- The Address Resolution Protocol (ARP) 
+- The Internet Control Message Protocol (ICMP) 
+- The Internet Protocol (IP) 
+- The Transmission Control Protocol (TCP) 
+
+
+
+**The Address Resolution Protocol**
+
+​	 The Address Resolution Protocol (ARP) serves the **critical（关键的）** purpose of mapping Internet addresses into physical addresses. This is vital in routing information across the Internet. Before a message (or other data) is sent, it is packaged into IP packets, or blocks of information suitably formatted for Internet transport. These contain the numeric Internet (IP) address of both the originating and destination machines. Before this package can leave the originating computer, however, the hardware address of the recipient (destination) must be discovered. (Hardware addresses differ from Internet addresses.) This is where ARP makes its **debut（首次出现）**. 
+
+​	An ARP request message is broadcast on the subnet. This request is received by a router that replies with the requested hardware address. This reply is caught by the originating machine and the transfer process can begin. ARP’s design includes a cache. To understand the ARP cache concept, consider this: Most modern HTML browsers (such as Netscape Navigator or Microsoft’s Internet Explorer) utilize a cache. This cache is a portion of the disk (or memory) in which elements from often-visited Web pages are stored (such as buttons, headers, and common graphics). This is logical because when you return to those pages, these **tidbits（常用信息、花边新闻）** don’t have to be reloaded from the remote machine. They will load much more quickly if they are in your local cache. Similarly, ARP implementations include a cache. In this manner, hardware addresses of remote machines or networks are remembered, and this memory **obviates the need（不在需要）** to conduct subsequent ARP queries on them. This saves time and network resources. Can you guess what type of security risks might be involved in maintaining such an ARP cache? Address caching (not only in ARP but in all instances) poses a unique security risk. If such address-location entries are stored, it makes it easier for a cracker to **forge（伪造）** a connection from a remote machine, claiming to **hail（招呼、致意）** from one of the cached addresses. 
+
+
+
+**The Internet Control Message Protocol** 
+
+​	The Internet Control Message Protocol handles error and control messages that are passed between two (or more) computers or hosts during the transfer process. It allows those hosts to share that information. In this respect, ICMP is critical for diagnosis of network problems. Examples of diagnostic information gathered through ICMP include: 
+
+- When a host is down
+- When a gateway is congested or inoperable
+- Other failures on a network 
+
+
+
+**The Internet Protocol** 
+
+​	IP belongs to the network layer. The Internet Protocol provides packet delivery for all protocols within the TCP/IP suite. Thus, IP is the heart of the incredible process by which data traverses the Internet. To explore this process, I have drafted a small model of an IP datagram (see Figure 10C-1). 
+
+​	As illustrated, an IP datagram is composed of several parts. The first part, the header, is composed of **miscellaneous(混杂的)** information, including originating and destination IP address. Together, these elements form a complete header. The remaining portion of a datagram contains whatever data is then being sent. The amazing thing about IP is this: If IP datagrams encounter networks that require smaller packages, the datagrams bust apart to accommodate the recipient network. Thus, these datagrams can fragment during a journey and later be reassembled properly (even if they do not arrive in the same sequence in which they were sent) at their destination. Even further information is contained within an IP datagram. Some of that information may include identification of the protocol being used, a header checksum, and a time-to-live specification. This specification is a numeric value. While the datagram is traveling the void, this numeric value is constantly being decremented. When that value finally reaches a zero state, the datagram dies. Many types of packets have time-to-live limitations. Some network utilities (such as Traceroute) utilize the time-to-live field as a marker in diagnostic routines. In closing, IP’s function can be reduced to this: providing packet delivery over the Internet. As you can see, that packet delivery is complex in its implementation. 
+
+
+
+**The Transmission Control Protocol** 
+
+​	The Transmission Control Protocol is the chief protocol employed on the Internet. It facilitates such mission-critical tasks as file transfers and remote sessions. TCP accomplishes these tasks through a method called reliable data transfer. In this respect, TCP differs from other protocols within the suite. In unreliable delivery, you have no guarantee that the data will arrive in a perfect state. In contrast, TCP provides what is sometimes referred to as reliable stream delivery. This reliable stream delivery ensures that the data arrives in the same sequence and state in which it was sent. The TCP system **relies on** a virtual circuit that is established between the requesting machine and its target. This circuit is opened via a three-part process, often referred to as the three-part handshake. The process typically follows the pattern illustrated in Figure 10C-2. 
+
+​	After the circuit is open, data can simultaneously travel in both directions. This results in what is sometimes called a f**ull-duplex（全双工的）** transmission path. Full-duplex transmission allows data to travel to both machines at the same time. In this way, while a file transfer (or other remote session) is underway, any errors that arise can be forwarded to the requesting machine. TCP also provides extensive error-checking capabilities. For each block of data sent, a numeric value is generated. The two machines identify each transferred block using this numeric value. For each block successfully transferred, the receiving host sends a message to the sender that the transfer was clean. Conversely, if the transfer is unsuccessful, two things may occur: 
+
+-  The requesting machine receives error information 
+- The requesting machine receives nothing When an error is received, the data is retransmitted unless the error is fatal, in which case the transmission is usually halted. 
+
+Similarly, if no confirmation is received within a specified time period, the information is also retransmitted. This process is repeated as many times as necessary to complete the transfer or remote session. 
