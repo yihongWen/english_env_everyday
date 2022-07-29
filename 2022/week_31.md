@@ -207,3 +207,53 @@ There are two classes of protocol within the TCP/IP suite. They are:
 - The requesting machine receives nothing When an error is received, the data is retransmitted unless the error is fatal, in which case the transmission is usually halted. 
 
 Similarly, if no confirmation is received within a specified time period, the information is also retransmitted. This process is repeated as many times as necessary to complete the transfer or remote session. 
+
+
+
+
+
+## 07-29:
+
+**How Does the Internet Work?** 
+
+​	The Internet is based on the concept of a client-server relationship between computers, also called a client/server architecture. In a client/server architecture, some computers act as servers, or information providers, while other computers act as clients, or information receivers. The client/server architecture is not one-to-one—that is, a single client computer may access many different servers, and a single server may be accessed by a number of different client computers. Prior to the mid-1990s, servers were usually very powerful computers such as mainframes or supercomputers, with extremely high processing speeds and large amounts of memory. Personal computers and workstations, **however, are now capable of acting as Internet servers due to advances in computing technology.** A client computer is any computer that receives information from a server and is often a personal computer.
+
+​	To access information on the Internet, a user must first log on, or connect, to the client computer’s host network. A host network is a network that the client computer is part of, and is usually a local area network (LAN). Once a connection has been established, the user may request information from a remote server. If the information requested by the user resides on one of the computers on the host network, that information is quickly retrieved and sent to the user’s terminal. If the information requested by the user is on a server that does not belong to the host LAN, then the host network connects to other networks until it makes a connection with the network containing the requested server. In the process of connecting to other networks, the host may need to access a router, a device that determines the best connection path between networks and helps networks to make connections. 
+
+​	Once the client computer makes a connection with the server containing the requested information, the server sends the information to the client in the form of a file. A special computer program called a browser enables the user to view the file. Examples of Internet browsers are Mosaic , Netscape, and Internet Explorer. Most Internet files are multimedia documents—that is, text, graphics, photographs, audio, and video may be combined in a single document. Non-multimedia documents do not need browsers to view their text-only contents and many multimedia documents provide access to text-only versions of their files. The process of retrieving files from a remote server to the user’s terminal is called downloading. One of the strengths of the Internet is that it is structured around the concept of hypertext. The term hypertext is used to describe an interlinked system of documents in which a user may jump from one document to another in a **nonlinear(非线形的)**, associative way. The ability to jump from one document to the next is made possible through the use of hyperlinks—portions of the hypertext document that are linked to other related documents on the Internet. By clicking on the hyperlink, the user is immediately connected to the document specified by the link. Multimedia files on the Internet are called hypermedia documents. 
+
+
+
+**Accessing the Internet** 
+
+​	Access to the Internet falls into two broad categories: **dedicated（专用）** access and dial-up access. With dedicated access, the computer is directly connected to the Internet via a router, or the computer is part of a network linked to the Internet. With dial-up access, a computer connects to the Internet with a temporary connection, generally over a telephone line using a modem—a device that converts the electrical signals from a computer into signals that can be transmitted over traditional telephone lines. A modem is needed because computers are digital, meaning that their signals are made up of **discrete（离散）** units, while most telephone lines are analog, meaning that they carry signals that are continuous instead of discrete. Once a signal has traveled over the telephone line, a second modem is required at the other end of the line to reconvert the transmitted signals from analog to digital. A great many companies, called Internet Service Providers (ISPs), provide dial-up access to the Internet for a modest fee. Examples of ISPs are America Online (AOL ), the Microsoft Network (MSN , and CompuServe .
+
+
+
+**Packaging Information** 
+
+​	All data transmitted over the Internet is divided up into small units of information called packets, each of which is labeled with a unique number indicating its place in the data stream—the flow of information between computing devices. When the various packets that make up a set of data arrive at their destination, they are re-assembled using the unique labels given them. If part of the network over which the packets are sent is **malfunctioning（出故障）**, or down, special automatic features of the Internet’s routing equipment re-route the packets so that they travel over functioning portions of the network. Other features make sure that all the data packets arrive intact, automatically requesting that missing or incomplete packets be re-sent from the source. This system, called packet-switching, uses a series of protocols, or rules, known as TCP/IP (Transmission Control Protocol/Internet Protocol).
+
+
+
+**Network Addressing** 
+
+​	To be part of the Internet a computer must have a unique Internet Protocol (IP) network address so that messages can be correctly routed to and from the machine over the Internet. Internet addresses are called URLs (Uniform Resource Locators). Some URLs are a string of numbers, but because long strings of numbers are difficult for people to remember, other addressing conventions are also used. An example of this convention is: http://encarta.msn.com/downloads/pryearbk.asp. The http indicates the protocol—in this instance the hypertext transfer protocol—used to access the particular location on the Internet. The name after the **colon（冒号）** and double slash (encarta.msn.com) indicates the hostname, which is the name of a specific computer system connected to the Internet. The remaining names after the hostname indicate various files to which the specific URL points. In the example URL, the file pryearbk is located within the directory downloads. Other files located in the same directory will have a similar URL, the only difference being the name of the file, or files, at the end of the address . Special name servers map IP numbers to domain names (msn.com in the above URL) and guarantee that the correct IP number of the source and the destination are provided for all packets.
+
+
+
+**E-Mail** 
+
+​	The most widely used tool on the Internet is electronic mail, or e-mail (see Figure 11A-1). E-mail is used to send written messages between individuals or groups of individuals, often geographically separated by large distances. E-mail messages are generally sent from and received by mail servers—computers that are dedicated to processing and directing e-mail. Once a server has received a message it directs it to the specific computer that the e-mail is addressed to. To send e-mail, the process is reversed. A very convenient and inexpensive way to transmit messages, e-mail has dramatically affected scientific, personal, and business communications. E-mail is the basis of much organized exchange between groups of individuals. List servers, for example, make it possible to address a list of subscribers either in one-way communication, as in keeping interested people up-to-date on a product, or two-way communication, as in online discussion groups.  Another use of e-mail is **Usenet（新闻组）**, in which discussions on a particular subject are grouped together into newsgroups. There are thousands of newsgroups covering an extremely wide range of subjects. Messages to a newsgroup are not posted directly to the user, but are accessible in the form of an ordered list on a dedicated local news server. The networking of these servers makes such discussions available worldwide. Associated software not only enables users to choose which messages they want to read, but also to reply to them by posting messages to the newsgroup.
+
+ 
+
+**Transmission Schemes** 
+
+​	Before the introduction of the World Wide Web, various standards and types of software existed for transmitting data over the Internet. Many of these are still in use, with Telnet, File Transfer Protocol (FTP), and Gopher among the most popular. Telnet allows an Internet user to connect to a distant computer and use that computer as if he or she were using it directly. FTP is a method of moving files from one computer to another over the Internet, even if each computer has a different operating system or storage format. Gopher is an improvement on FTP, making it easier to list and retrieve files remotely. While these transmission protocols and software are still in use, the WWW is much easier to use and is used much more often than earlier transmission protocols. 
+
+
+
+**Bandwidth** 
+
+​	The amount of data that a computer network can transmit is called the bandwidth of the network and is usually measured in kilobits per second (Kbps) or megabits per second (Mbps). A bit—the smallest unit of information that computers can process—can have one of two values, either 0 or 1. A kilobit is one thousand bits, while a megabit is one million bits. The transportation of information between routers generally uses communication lines dedicated to this function, with capacities currently ranging from 64 Kbps up to as much as several hundred Mbps. The speed at which information can be transmitted across the Internet depends on the lowest information transporting capacity along the route and the number of people using that route at any given time. A narrow bandwidth somewhere along the route acts as a **bottleneck（瓶颈）** to data transport, and the more people using the line, the less information each of them can transport at any one time. 
