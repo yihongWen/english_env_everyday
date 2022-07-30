@@ -257,3 +257,109 @@ Similarly, if no confirmation is received within a specified time period, the in
 **Bandwidth** 
 
 ​	The amount of data that a computer network can transmit is called the bandwidth of the network and is usually measured in kilobits per second (Kbps) or megabits per second (Mbps). A bit—the smallest unit of information that computers can process—can have one of two values, either 0 or 1. A kilobit is one thousand bits, while a megabit is one million bits. The transportation of information between routers generally uses communication lines dedicated to this function, with capacities currently ranging from 64 Kbps up to as much as several hundred Mbps. The speed at which information can be transmitted across the Internet depends on the lowest information transporting capacity along the route and the number of people using that route at any given time. A narrow bandwidth somewhere along the route acts as a **bottleneck（瓶颈）** to data transport, and the more people using the line, the less information each of them can transport at any one time. 
+
+## 
+
+## 07-30:
+
+**What’s E-Mail?** 
+
+​	In computer science, e-mail is the **abbreviation（缩写词）** of the term electronic mail, method of transmitting data or text files from one computer to another over an internet, intranet, or the Internet. E-mail enables computer users to send messages and data quickly through a local area network or beyond through a nationwide or worldwide communication network. E-mail came into widespread use in the 1990s and has become a major development in business and personal communications.
+
+​	E-mail users create and send messages from individual computers using commercial e-mail programs or mail-user agents (MUAs). Most of these programs have a text editor for composing messages. The user sends a message to one or more recipients by specifying destination addresses. When a user sends an e-mail message to several recipients at once, it is sometimes called broadcasting.
+
+​	The address of an e-mail message includes the source and destination of the message. Different addressing conventions are used depending upon the e-mail destination. An interoffice message distributed over an intranet, or internal computer network, may have a simple scheme, such as the employee’s name, for the e-mail address. E-mail messages sent outside of an intranet are addressed according to the following convention: the first part of the address contains the user’s name, followed by the symbol @, the domain name, the institution’s or organization’s name, and finally the country name. 
+
+​	A typical e-mail address might be sally@abc.com. In this example sally is the user’s name, abc is the domain name—the specific company, organization, or institution that the e-mail message is sent to or from, and the suffix com indicates the type of organization that abc belongs to—com for commercial, org for organization, edu for educational, mil for military, and gov for governmental. An e-mail message that originates outside the United States or is sent from the United States to other countries has a **supplementary（补充、附加）** suffix that indicates the country of origin or destination. Examples include uk for the United Kingdom, fr for France, and au for Australia.
+
+​	E-mail data travels from the sender’s computer to a network tool called a message transfer agent (MTA1 ) that, depending on the address, either delivers the message within that network of computers or sends it to another MTA for distribution over the Internet. The data file is eventually delivered to the private mailbox of the recipient, who retrieves and reads it using an e-mail program or MUA. The recipient may delete the message, store it, reply to it, or forward it to others. Modems are important devices that have allowed for the use of e-mail beyond local area networks. 
+
+​	Modems convert a computer’s binary language into an analog signal and transmit the signal over ordinary telephone lines. Modems may be used to send e-mail messages to any destination in the world that has modems and computers able to receive messages. 
+
+​	E-mail messages display technical information called headers and footers above and below the main message body. In part, headers and footers record the sender’s and recipient’s names and e-mail addresses, the times and dates of message transmission and receipt, and the subject of the message. In addition to the plain text contained in the body of regular e-mail messages, an increasing number of e-mail programs allow the user to send separate files attached to e-mail transmissions. This allows the user to append large text- or graphics-based files to e-mail messages.
+
+​	E-mail has had a great impact on the amount of information sent worldwide. It has become an important method of transmitting information previously **relayed（转发、传播）** via regular mail, telephone, **courier（快递）**, fax, television, and radio. 
+
+
+
+**Videoconferencing（视频会议）** 
+
+​	Thanks to the constantly evolving world of Internet communication, anybody with a reasonably sophisticated computer system can now experience videoconferencing—speaking, seeing, and sometimes writing to another person simultaneously. 
+
+​	As with other Internet communication software, the problems you may experience with videoconferencing involve the type of equipment you are using and the speed of your Internet connection. If you want to experience all the features of a product like CU-SeeMe1 , you must have speakers, a microphone, and a video camera. Fortunately, there are several palm-sized video cameras available through most any computer store, catalog, or Web site for under $100. You must also ensure that you have the correct drivers and any other related software configured properly on your computer in order for these **peripherals（外围设备）** to work. 
+
+​	Additionally, remember that videoconferencing will work best if both parties are on the same kind and speed of Internet connection. Some of the demos, shareware, and freeware listed in this section will not work at all if you have less than a 28.8K2 -capable modem, so if you plan to use videoconferencing on a regular basis, you should at the least have a 56K modem for adequate video performance. 
+
+​	The first time you use videoconferencing, you may be surprised to realize how many people can see you if you simply jump into an existing conference. A typical videoconference is like a chat room, only the image of each person in the conversation is displayed in their window on your monitor. It is always a good idea to participate in a few of these general conferences to get an idea of how you will look and sound, and to see how other people behave. 
+
+​	Good videoconferencing **netiquette（网络礼节）**—particularly for business and other related nonpersonal conferencing—involves much more than the general good netiquette you’re expected to use with other kinds of Internet communication. Today’s average computer users are accustomed to knowing that no one else can see them or their office space when they are sending e-mail or participating in a text-only chat session. However, with videoconferencing, both you and much of the room or space around you will be visible to your video camera as well. If you want or need to seem professional to the person you’re calling, you may not want to videoconference in your old college sweatshirt without brushing your hair. Also, look around at your walls, your desk, and anyplace else around your computer that may be photographed by your video camera. Keep this area tidy and clutter-free, and consider moving any questionable decorations such as that Playboy calendar.
+
+
+
+**REALISTIC EXPECTATIONS(切实的希望)** 
+
+​	People have waited a long time for videoconferencing to emerge—it was, in fact, one of the primary plans for TV when it was first developed, and before the concept of broadcast TV took over. The phone companies have spent millions on fascinating studies of videoconferencing, resulting in some demonstration projects and some marketed products, but no videoconferencing system has ever **taken off（开始、流行）**  like Internet videoconferencing. The images aren’t necessarily better and the convenience factors haven’t improved much over the best system available previously, but the costs now are **substantially（大量的）** better:
+
+- Transmission costs beyond the basic Internet connection are **negligible（微不足道）** now (**versus（与...相比）** high, **metered（按计量）**, long-distance costs before). 
+- Video cameras suitable for videoconferencing have dropped in price from thousands of dollars to barely over $100. 
+- The computer, purchased and used for other purposes, easily takes the place of hundreds of dollars of dedicated electronics that formerly would have had to be purchased. 
+
+Keep these advantages in mind when experimenting with current videoconferencing systems. They are interesting, and they work, but you will have to decide if they can adequately handle your personal or business needs. 
+
+
+
+**Motion** 
+
+​	Normal TV images are made up of two interlaced images, each of which is displayed for approximately 1 ⁄60 of a second. The full motion picture is therefore made up of 30 full frames per second. In online videoconferencing, images are rarely refreshed more than 20 times per second; in fact, it is not unusual for images to be updated only once or twice per second. Videoconferencing is therefore often at least a bit **jerky（不稳定）** in **depicting（描绘）** motion, and sometimes more **akin（相似）** to a slide show than a movie. As usual, the faster the connection the more frequent the refreshes. 
+
+
+
+**Resolution（分辨率）** 
+
+​	Depending on the resolution setting of your computer monitor, your videoconferencing images will be about 2″ by 3″. While most systems let you resize the image, this doesn’t necessarily mean that you will be getting more image information; you will be seeing the same image enlarged. You may at times want to enlarge the image so that you can view it from a greater distance, but do understand that at the same viewing distance the larger image will just look **coarser（粗糙的）**.
+
+
+
+**Uses**
+
+​	Online videoconferencing has been used primarily for social interaction. Businesses could benefit from videoconferencing, as long as expectations are realistic. The low resolution and image update frequencies will not allow people’s responses or expressions to be as visible as in a normal TV conference, and **definitely（当然）** not as good as in person. Still, in some cases where these other contacts are out of the question, the videoconference may provide some feel for the other person, and some increased sense of communication. For some purposes, you can use the videoconferencing systems to display things such as appearances of rooms, machines, landscapes, and movements of large and small living things. For many purposes, however, you may need the extra resolution of scanned images or digital still cameras. Consider the possibilities for a video system that enables you to distribute images for almost no cost after the initial outlay. Monitoring systems, teaching, and scientific research are among thousands of possibilities. 
+
+**HARDWARE CONSIDERATIONS** 
+
+​	Cameras suitable for black-and-white videoconferencing are sometimes available for prices as low as $50, and color cameras are as low as $100. These cameras usually connect directly to your computer’s input/output ports. Because videoconferencing exchanges images of limited speed and resolution, there is little need to purchase a higher-quality camera. If you currently have a video camera or **camcorder（摄像机）** you might want to purchase a video capture card to provide your videoconferencing images. The video capture card can better make use of a high quality camera for other uses such as grabbing video images for Web page use. To have two-way conversations (like a telephone) instead of those that only allow one speaker at a time (like a CB radio), you will need a full duplex sound card. These are available in a variety of quality levels and are often not much more expensive than the simplex boards. 
+
+
+
+**VIDEOCONFERENCING SYSTEMS** 
+
+​	The following is information about several videoconferencing systems. CU-SeeMe CU-SeeMe is a free videoconferencing system that is available for Windows 3.1, 95, and NT; Amiga; Mac OS; OS/2; and Linux operating systems. This large operating-system base and the fact that the system is free, easy to use, and has been available longer than most other videoconferencing systems would be enough to make it an exceptionally popular system.
+
+​	 There is, however, another feature that adds to its popularity—the use of reflectors. Reflectors enable groups of people to videoconference together. Reflectors work by receiving the video packets from each video camera in the videoconference, and then sending the combined video signals out to all who are viewing the conference. CU-SeeMe can also be used for one-to-one videoconferencing without the use of a reflector site; signals are sent by direct connection (DC) between the two sites. (Private chat requires downloading separate plug-in software.) Most CU-SeeMe videoconferencing is done in **monochrome（黑白照片）**, but an enhanced version is available that supports color conferencing. You can get a feel for videoconferencing by downloading the software and visiting reflector sites as a lurker—a conference viewer without a camera. Some reflector sites discourage lurking because it slows down the reflector, but others accept or encourage lurking. Keep watch for indications at the reflector site of their guidelines on this and other netiquette matters.
+
+
+
+iVisit
+
+​	 www.ivisit.com/index.html Another excellent option for one-to-one or small group videoconferencing is iVisit’s software. It is available for free download for Macintosh, Windows 95, and Windows NT platforms. Instead of using reflectors as CU-SeeMe does for groups, iVisit establishes direct connections between each member of the videoconference. This enables private conferences free of concerns about reflector guidelines and over usage. These direct connections, however, do tax the capacity of your own modem and ISP connection, and the image quality as groups get larger. In addition to the monochrome and color video, iVisit supports simultaneous audio and text chats. 
+
+
+
+Microsoft’s NetMeeting
+
+​	 http://microsoft.com/netmeeting/ NetMeeting 2.1’s videoconferencing tools are designed to work with any camera or capture card that supports Video for Windows2 to transmit video images. (Viewing videoconferences doesn’t require extra hardware or software beyond NetMeeting itself.) The video component of NetMeeting provides real-time video images when using a 28.8 Kbps or faster modem. These images can be resized and the image quality can be adjusted for the preferred balance between video quality and system performance. 
+
+RESOURCES
+
+​	Because videoconferencing systems use various compression and transmitting standards, most systems are not interoperable with each other. For extra tools, information, and other resources it is usually best to look for sites provided by the software manufacturer or sites that specialize in the videoconferencing system you are interested in. 
+
+CU-SeeMe cool site
+
+​	 www.rocketcharged.com/cu-seeme/ This informal site is an excellent resource for those new to videoconferencing, and specifically to those interested in using the free CU-SeeMe system. The site contains links to software, files of frequently asked questions, and lists of reflectors (used for multiple-user videoconferences). 
+
+CU-SeeMe home page
+
+ http://cu-seeme.cornell.edu/ From the source of the CU-SeeMe project at Cornell University3 , where CU-SeeMe originated in 1993, you can get information on hardware requirements and software downloads. 
+
+Bill Woodland’s CU-SeeMe page
+
+​	 http://cu-seeme.cornell.edu/~WCW Bill Woodland provides not only an excellent general resource for CU-SeeMe background information, but also access to one of the best reflector site lists
