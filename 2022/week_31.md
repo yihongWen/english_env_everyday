@@ -363,3 +363,71 @@ CU-SeeMe home page
 Bill Woodland’s CU-SeeMe page
 
 ​	 http://cu-seeme.cornell.edu/~WCW Bill Woodland provides not only an excellent general resource for CU-SeeMe background information, but also access to one of the best reflector site lists
+
+
+
+
+
+## 07-31:
+
+**Information Revolution**
+
+**Introduction** 
+
+​	Information Revolution refers to the fundamental changes in the production and use of information, occurring in the late 20th century. Human societies throughout history have had “information specialists” (from traditional healers to newspaper editors); and they have had “information technologies” (from cave painting to **accountancy(会计)**); but two interrelated developments, social and technological, **underpin（支持、证实）** the diagnosis that an information revolution is now occurring. 
+
+
+
+**Social and Technological Developments** 
+
+​	First, there are social and organizational changes. Information-processing has become increasingly visible and important in economic, social, and political life. One familiar piece of evidence is the statistical growth of occupations specializing in information activities. Numerous studies have demonstrated substantial growth in information-based occupations. These occupations now take the largest **share（份额）** of employment in the United States, the United Kingdom, and many other industrial societies. The biggest category is information processors—mainly office workers—followed by information producers, distributors, and infrastructure workers.
+
+​	Second, there is technological change. The new information technology (IT) based on microelectronics, together with other innovations such as **optical discs（光盘）** and fibre optics, underpins huge increases in the power, and decreases in the costs, of all sorts of information-processing. (The term “information-processing” covers the generation, storage, transmission, manipulation, and display of information, including numerical, textual, audio, and video data.) The information-processing aspects of all work can be reshaped through IT, so the revolution is not limited to information occupations: for example, industrial robots change the nature of factory work.
+
+​	 Computing and telecommunications (and also such areas as broadcasting and publishing) used to be quite distinct industries, involving distinct technologies. Now they have converged around certain key activities, such as use of the Internet. Using the same underlying technologies, modern computing and telecommunication devices handle data in digital form. Such data can be shared between, and processed by, many different devices and media, and used in a vast range of information-processing activities.
+
+​	 The pace of adoption of new IT has been very speedy: it is **markedly（显著的）** more rapid than that of earlier revolutionary technologies, such as the steam engine or electric motor. Within 25 years of the invention of the microprocessor, it had become commonplace in practically every workplace and many homes: present not only in computers, but also in a huge variety of other devices, from telephones and television sets to washing machines and children’s toys. 
+
+
+
+**The Direction of the Information Revolution** 
+
+​	The outcome of the information revolution is seen by some commentators as likely to be as profound as the shift from agricultural to industrial society. Others see the transformation as essentially a change from one form of industrial society to another, as has happened in earlier technological revolutions. 
+
+​	One major issue is how rapidly social institutions adapt to take advantage of the new ways of doing things that new IT makes possible. While some jobs and some areas of people’s lives do seem to have changed rapidly, many others appear to have been affected relatively little. Historians point out that it can take a very long time for what in retrospect seems the obvious way to use a technology to become standard practice. For example, electric motors were first used as if they were steam engines, with one centralized motor powering numerous devices, rather than numerous small motors, each powering its own appliance. 
+
+​	New IT has often been introduced into well-established patterns of working and living without radically altering them. For example, the traditional office, with secretaries working at keyboards and notes being written on paper and manually exchanged, has remained remarkably stable, even if personal computers have replaced typewriters. Often the technology that gains acceptance is that which most easily fits within traditional ways of doing things. For example, the fax machine, which could take hand-written or typed notes, and was often delegated to a secretary to use, was hugely successful in the 1980s. At the beginning of that decade, it had been predicted that fax would rapidly die out, and e-mail would take its place; but this proved to involve too much organizational change. 
+
+
+
+**Trends in Employment** 
+
+​	The tendency to fit a new technology into established structures, rather than to start afresh every time, has often been documented. It is one reason for the absence of the huge office job losses that were being predicted in the late 1970s and early 1980s, when word processing first began to be taken up on a large scale. However, this is no reason to assume that existing structures will endure. Industrial interest in new forms of organization, such as novel management structures, coordination of activities over large distances by means of telecommunications, teleworking, and other forms of distance working, indicates willingness to consider change. 
+
+​	The “**hollow（空洞）** firm” is one effort to gain flexibility. The company attempts to **dispense（分发）** with the direct ownership and operation of many facilities that would traditionally have belonged to it, instead **outsourcing（外包）** production, distribution, and other tasks to other firms. Many computer companies, for example, buy in many or most of their components from specialist suppliers, and some firms do little more than design the computer for others to assemble. 
+
+​	A related idea is “**delayering（去层次化）**”, or “**flattening（扁平化）**”, in which the company tries to do away with the numerous layers of middle management and administration that have traditionally processed information, and communication flows between the senior staff and the **shop floor（工作场所、工人）** or fieldworkers. New information systems are typically used to allow rapid communication across a reduced number of organizational layers. 
+
+​	By the late 1990s the integration of office IT is becoming apparent: material is increasingly exchanged by e-mail (which has finally established itself); many professionals use personal computers directly, often at home and while traveling, as well as in the office; and increasingly, personal computers are networked. Whether a loss of **clerical（文书）** jobs will result remains much debated. Some commentators point to job losses in office-based sectors such as financial services, which use IT intensively, as a **harbinger（先驱）** of things to come. Others argue that the unemployment problems of industrial societies are related more to political and economic changes than to the use of new technology. Indeed, new information-related services are emerging, creating new jobs. While some office jobs may have gone, some other traditional clerical jobs have been upgraded to involve new functions made possible with new IT, such as desktop publishing, database management, and customer services. A similar debate has concerned the quality of working life—whether skills have been enhanced or reduced, and whether working conditions have been improved or **degraded（退化）**, in the information revolution. Evidence to date indicates a mixed picture. There are certainly some areas in which conditions have **worsened（恶化）** and skills have been lost, and many low-skill jobs have been created—for example, in cooking and serving fast food. Yet there is also a tendency for more jobs to be upgraded, and new technical skills and skill combinations are in demand. Large-scale **deskilling（降低技术性）** has not taken place. **Polarization（两极分化）** of the workforce in terms of quality of work and levels of wages has ensued; at the same time a **gulf（海湾、鸿沟）** has been opening between employed and unemployed people. Whether this is a result of the information revolution, or of more or less **coincidental（巧合）** economic and political factors, the threat is evident of a widening social gulf between the “information-rich” and the “information-poor”.  The former have information-processing skills, access to advanced technologies in their work, and the money to invest in IT at home for themselves and their children; the latter do not. 
+
+
+
+**Information Technology and the Consumer**
+
+​	 At different rates IT is **diffusing（扩散）** into the home. The implications of consumer innovations can be substantial. Widespread use of cars facilitated new ways of life, with a growth of **suburban（郊区）** living and out-of-town shopping centres, and a decline of train and bus services. The expansion of consumer IT is associated with changes in ways of working (for example, telework), playing (new home entertainment systems), shopping (teleshopping), and learning (multimedia products of various sorts). IT can be used in monitoring body conditions (digital thermometers, pulse meters, and blood-pressure meters are available), and in providing health and lifestyle monitoring and advice (recommending exercise levels, medical check-ups, or diets). Telephone helplines have long offered advice, counselling, and medical services; these and many other services are beginning, sometimes in **rudimentary（基本的）** form, to be provided on the Internet. 
+
+
+
+**Problems of the Information Revolution** 
+
+​	Public transport was challenged by the shift to cars, and familiar aspects of such public services as education and health could be challenged in the information revolution. Wider concerns over changing relations between private and public activities are reflected in debates about potential or already emerging problems, such as: 
+
+- Threats to privacy (unauthorized access to personal data, increasing **surveillance（监视）** of public spaces by security cameras, etc.)
+- The **alleged（声称）** growth of “privatism” (a decline in shared activities as individuals pursue their own interests in isolation)
+- The scope for participation. (How far can people have a say in the use of IT in ways that affect them? Do new media support the emergence of new social movements, and of new forms of interest groups, **lobbying（游说）**, and **mobilization（动员）**?) 
+- Questions about the ownership of knowledge. (Who has the right to charge for what kinds of information? Should large parts of the media be controlled by a few large companies? What is the scope for freedom of information to be practised by governments?)
+
+
+
+​	All this is in addition to the problems of information inequalities mentioned earlier. The information revolution fundamentally involves a change in the role of information-processing in our society. It is not surprising that fundamental questions are being raised about access to, and the use of, intimate and valuable sorts of information. The outcome of the information revolution depends on social action and social choices as well as on technological developments. Just as industrial societies around the world take various forms, and there are very different ways of life within them, so it is likely that there will be a wide range of information societies. However, as new IT permits more global communication, and more firms expand into global markets, there are also strong forces at work to share elements of different cultures around the world on an unprecedented scale. 
+
