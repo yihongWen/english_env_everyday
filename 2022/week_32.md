@@ -183,3 +183,55 @@ Geographic information systems work with two fundamentally different types of ge
 **Legal and Policy Requirements** 
 
 ​	The legal issues involved in electronic commerce relate to the trouble the Internet itself has in dealing with law in **cyberspace（网络空间）**. Legal disputes that have been debated for centuries have begun to surface in cyberspace with renewed **vigor（活力）**. Fundamental civil liberties issues demand new attention in a new environment, and the **ramifications（分支）** of past decisions are not the same in a globally networked environment. While governments and individuals struggle to address freedom of speech, obscenity, and privacy issues on the Internet, the legal issues for electronic commerce are numerous as well. **Intellectual property（知识产权）,** taxation, law enforcement, ubiquitous cryptography, and **contractual（合同）** issues are all unsettled in the growing EC industry. Furthermore, the debate over government involvement in the regulation of electronic business, itself, is still at an immature stage. The issues that require resolution are becoming clear for EC. 
+
+
+
+
+
+## 08-04:
+
+The Evolution of e-Business:
+
+​	From the smallest company to the largest enterprise, the Internet has forced **virtually（几乎、事实上、虚拟地）** every business to reconsider the way it operates. In every sector, companies are **scrambling（攀登、争先恐后）** to establish services on the Web. Now a new imperative has emerged: Drive toward a business model that provides **tailored（定做）** services for customers or risk losing business to competitors who will. 
+
+​	The **payoff（回报）** for businesses that make the transition will be huge. At Intel, a new Web e-Business service brought in over $1 billion in orders in its first month. The secure, Web-based product ordering and tracking system has lowered transaction costs and sped delivery for business partners worldwide. Perhaps most important, it delivers customized information to each customer. Intel did more than just bolt a Web front-end onto its existing order-taking systems. Sales, marketing and IT staffs worked together to **craft（工艺、精心制作）** an electronic business solution that automates the order process and strengthens business relationships. It won’t be long before many of your customers will demand this kind of service.
+
+ Take the Stage 
+
+​	For IT professionals, the transition from a traditional **vendor-centric（以供应商为中心）** model to one focused on the customer will prove a crucial test. Companies will **prosper or perish（兴旺、毁灭）** based on their ability to deploy and support customer-oriented e-Business systems that make their business partners more competitive. IT managers will play a driving role in this effort, as business management turns to IT for the tools, knowledge and foresight needed to transform and extend business processes for the Internet Age. As a leader in Internet and business technologies, Intel sees the evolution of e-Business following a four-stage progression. Most important, businesses today face the crucial transition from a vendor-centric model to the emerging customer-centric business model. The table below provides a quick overview of the four stages of e-Business: 
+
+​	How will this transition help your customers? Imagine being able to see an aggregated view of all the partners you do business with, rather than viewing one partner’s Web site at a time. Data will be delivered in binary formats—rather than rigid HTML text—eliminating the need to copy and paste text into systems. Ultimately, customer applications will interact with your business systems. Your customers will receive personalized data, relying on your systems to make them more competitive. The table below shows some key changes that occur in a customer-centric environment: 
+
+​	This customer-centric environment expands the horizons of Web commerce. A customer checking on product deliveries might cull data from your production and **warehousing（仓库）** facilities, your shippers’ tracking systems, and its own receiving department—all using a single interface. What’s more, this information can be delivered in real-time, providing **always-on（不间断）** decision support. 
+
+**The IT Angle**
+
+​	 “Essentially, every business needs to become an information services company,” says Mike Ledford, Chief Technical Officer-Telematics for Ford Motor Company . “You need to do more than just answer the phones, make the sales, and ship the products. You have to give your customers what they want, when they want it, and how they want it—even if that means integrating your processes with other businesses. If you don’t, somebody else will.” To form links with business partners over the Internet, companies may have to **scrap（碎片、报废）** existing business processes and create new ones. It will also require changes to the computing infrastructure. Among the key issues for IT managers to consider:
+
+- Develop robust support systems and in-house technical **acumen（敏锐、聪明）** to meet customer requests for enhanced information delivery.
+
+- Deploy middleware software and servers to support advanced services while maintaining back-end stability.
+
+- **Plan the infrastructure to scale to demand**, particularly as new services emerge and the number of active connections grow.
+
+- Ensure **ample（充足）** performance headroom to allow flexibility and scalability at the client and server. 
+
+​	IT and business management must work together closely to tailor processes and deliver solutions, says Joyce M. Wrenn, Vice President Information Technologies and CIO for Union Pacific Railroad Company. “There are a lot of opportunities out there, but company senior management and IT departments need to start planning now. You can’t deploy advanced e-Business services without **shaking up（摇动、重组）** your business and information infrastructure. It’s hard work, but the payoff will be well worth it.” What Intel Is Doing Intel is working hard to enable this vision of the future, by actively **fostering（养育、培养）** the development of customer-centric solutions. Among the key activities:
+
+- Active engagement with businesses to deploy advanced e-Business systems.
+
+- Investing in technologies that encourage customer-centric solutions.
+
+- Exploring rapid application assembly technologies to enable client-side solutions.
+
+- Enabling high-performance, affordable, standard high volume server building blocks.
+
+- Investing in and optimizing crucial applications and middleware to run on the Intel Architecture. 
+
+​	**These efforts are already starting to bear fruit.（出现成果）** Today, Intel is working with businesses to streamline the delivery of status information. One large company is developing a Stage  delivery solution to manage extremely high server loads produced by customers checking its Web site for status information. The new system automatically sends updates in binary form, controlling the load on the company’s servers while improving customer service. Intel is also helping independent software vendors (ISVs) develop products that deliver customer-centric solutions. For instance, companies are facilitating the integration of packaged, legacy and custom applications into the business process. This technology can help ensure collaboration over the Internet with multiple business partners, including resellers, distributors, manufacturers and customers. 
+
+​	Independent Stage efforts are also underway. Users can already select from Web-based services and products that pull real-time stock quotes and other financial information over the Internet. Software automatically **pours(注入)** the data into **spreadsheets（电子表格）** or other documents. On the customer side of the fence, emerging server and client components allow knowledge workers to build decision-support applications using office productivity tools. Imagine being able to pull product **inventory(轻单)** and order-tracking information off your vendor’s servers from within your spreadsheet. Today, Intel is demonstrating a code generator that produces the necessary scripts, enabling components to be used in a variety of client applications. In between, there is a real need to **uplift（举起）** the computing infrastructure to manage custom data delivery. Middleware servers and applications will provide the glue between back-end systems and custom front-ends. These services will allow **substantial agility（大量的敏捷）** in delivering information while maintaining a stable back-end platform. As customers request additional formats or application support, IT managers can deploy application services to fit their customer’s needs. Middleware on the client will also reduce complexity. 
+
+**Building Foundations**
+
+​	The transition to Stage  is still just emerging, but IT managers need to position their companies now for a customer-centric future. Ultimately, businesses must realize that one global network—the Internet—will connect with and **subsume(包容)** all others. By the same token , the drive to share business processes will **blur（迷糊）** the lines between enterprises. IT managers cannot expect to simply jump to this endpoint, of course. The tools and processes to enable this capability are still being developed. But by carefully formulating e-Business strategies and deploying infrastructures now, IT managers can get started on building capabilities more quickly. New technologies will make it easier for companies to initiate business relationships, while at the same time making relationships more fruitful over the long haul . 
