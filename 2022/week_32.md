@@ -238,7 +238,7 @@ The Evolution of e-Business:
 
 
 
-**08-05:**
+## **08-05:**
 
 **Setting Goals for Your Online Business** 
 
@@ -270,3 +270,69 @@ The Evolution of e-Business:
 - Content providers. Online publishing is a fast-growing medium. You can easily translate print publications, such as newspapers or magazines, into Web publications. Or you can create an information resource just for online access—a portal such as Yahoo!1 (www.yahoo.com) is a good example of this kind of service. Online content providers make money in two ways: advertisements and subscriptions. The advertising method works well for general information resources, while more specialized resources are better suited to selling subscriptions directly to the targeted audience. 
 - Free-based services. If you can enhance your service with a Web site, you can reach more customers and do more business electronically. For example, stockbrokers, real estate listings, job listings, and classified ads are all free-based services that translate well into online services.
 - Consulting services. Many kinds of consulting services benefit from being online, such as Web site design and promotion services. You can reach a wider client base, exchange files, and communicate electronically, cutting mail and phone costs. 
+
+
+
+
+
+## **08-06:**
+
+**Computer Security** 
+
+THREATS TO COMPUTER SECURITY
+
+​	Threats to computer security are computer crimes (including viruses and electronic **break-ins（入侵）**) and natural and other **hazards(危害)**. 
+
+Computer Criminals
+
+​	A computer crime is an illegal action in which the **perpetrator（犯罪者）** uses special knowledge of computer technology. Computer criminals are of four types: 
+
+- **Employees:** The largest category of computer criminals consists of those with the easiest access to computers—namely, employees. Sometimes the employee is simply trying to steal something from the employer—equipment, software, electronic funds, **proprietary(所有的，私人的)** information, or computer time. Sometimes the employee may be acting **out of（由于）** **resentment（怨恨）** and is trying to **“get back”（报复）** at the company.
+- **Outside Users：** Not only employees but also some suppliers or clients may have access to a company’s computer system. Examples are bank customers who use an automatic teller machine. Like employees, these authorized users may obtain confidential passwords or find other ways of committing computer crimes.
+- **“Hackers” and “Crackers”:** Some people think of these two groups as being the same, but they are not. Hackers are people who gain unauthorized access to a computer system for the fun and challenge of it. Crackers do the same thing but for **malicious（恶毒的）** purposes. They may intend to steal technical information or to introduce what they call a “bomb”—a destructive computer program—into the system.
+- **Organized Crime：** Organized crime has discovered that computers can be used just like legitimate business people use them, but for illegal purposes. For example, computers are useful for keeping track of **stolen goods** or illegal gambling debts. In addition, **counterfeiters（伪造者）** and **forgers** use microcomputers and printers to produce sophisticated-looking documents such as checks and driver’s licenses. 
+
+
+
+**Computer Crime** 
+
+​	Computer crime can take various forms, including:
+
+- Damage **Disgruntled（不满）** employees sometimes attempt to destroy computers, programs, or files. In recent years, computer viruses have gained wide **notoriety（臭名昭著）**. Viruses are programs that “migrate” through networks and operating systems and attach themselves to different programs and databases. A **variant（变种）** on the virus is the worm. This destructive program fills a computer system with self-replicating information, **clogging（阻塞）** the system so that its operations are slowed or stopped. The most infamous is known as the Internet Worm. In 1988, it traveled across North America, stopping thousands of computers along its way. Viruses typically find their way into microcomputers through copied floppy disks or programs downloaded from electronic bulletin boards. Because viruses can be so serious—certain “disk-killer” viruses can destroy all the information on one’s system—computer users are advised to exercise care in accepting new programs and data from other sources. Detection programs called virus checkers are available to alert users when certain kinds of viruses enter the system. Unfortunately, new viruses are being developed all the time, and not all viruses can be detected. There are recommended procedures to reduce the risk of catching a computer virus and to minimize its potential damage. 
+- **Theft：** Theft can take many forms—of hardware, of software, of data, of computer time. Thieves steal equipment, of course, but there are also “white-collar crimes.” Thieves steal data in the form of **confidential（机密）** information such as preferred client lists. They also use (steal) their company’s computer time to run another business. Unauthorized copying—a form of theft—of programs for personal gain is called software **piracy（盗版）**. Pirated software accounts for 40 percent of software used in the United States. The **incidence（发生率）** of pirated software is even higher overseas in such countries as Italy (82 percent) and Thailand (92 percent).
+- **Manipulation：** Finding entry into someone’s computer network and leaving a **prankster’s（顽皮的人）** message may seem like fun, which is why hackers do it. It is still against the law. Moreover, even if the manipulation seems harmless, it may cause a great deal of anxiety and wasted time among network users. 
+- **Other Hazards：** There are plenty of other hazards to computer systems and data besides criminals. They include the following: 
+  - **Natural Hazards：** Natural forces include fires, floods, wind, hurricanes, tornadoes, and earthquakes. Even home computer users should store backup disks of programs and data in safe locations in case of fire or storm damage.
+  - **Civil Strife（冲突） and Terrorism：** Wars, **riots（暴动）**, and other forms of political **unrest（不安）** are real risks in some parts of the world. Even people in developed countries, however, must be mindful that acts of **sabotage（蓄意破坏）** are possible.
+  - **Technological Failures** Hardware and software don’t always do what they are supposed to do. For instance, too little electricity, caused by a **brownout（电压不足）** or **blackout（断电）**, may cause the loss of data in primary storage. Too much electricity, as when lightning or other electrical disturbance affects a power line, may cause a voltage surge, or **spike（猛增）**. This excess of electricity may destroy chips or other electronic components of a computer. Most microcomputer users buy a surge protector, a device that separates the computer from the power source of the wall outlet. When a voltage surge occurs, it activates a circuit breaker in the surge protector, protecting the computer system. Another technological catastrophe is when a hard-disk drive suddenly “crashes,” or fails, perhaps because it has been bumped **inadvertently（无意间）**. If the user has forgotten to make backup copies of data on the hard disk, data may be lost. 
+  - **Human Errors：** Human mistakes are inevitable. Data-entry errors are probably the most **commonplace（平凡的）**. Programmer errors also occur frequently. Some mistakes may result from faulty design, as when a software manufacturer makes a deletion command closely resembling another command. Some errors may be the result of **sloppy（马虎的）** procedures. One such example occurs when office workers keep important correspondence under filenames that no one else in the office knows. 
+
+
+
+**MEASURES TO PROTECT COMPUTER SECURITY** 
+
+​	Security is concerned with protecting information, hardware, and software. Security measures consist of encryption, restricting access, **anticipating disasters（预测灾难）**, and making backup copies.
+
+**Encrypting Messages** 
+
+​	Whenever information is sent over a network, the possibility of unauthorized access exists. The longer the distance the message has to travel, the higher the security risk is. For example, an e-mail message on a LAN meets a limited number of users operating in controlled environments such as offices. An e-mail message traveling across the country on the National Information Highway affords greater opportunities for the message to be **intercepted（拦截）**. Businesses have been encrypting, or coding, messages for years. They have become so good at it that some law enforcement agencies are unable to “**wiretap（窃听）**” messages from suspected criminals. Some federal agencies have suggested that a standard encryption procedure be used so that law enforcement agencies can monitor suspected criminal communications. The government is encouraging businesses that use the National Information Highway to use a special encryption program. **This program is available on a processor chip called the clipper chip（加密芯片） and is also known as the key escrow（托管） chip.** Individuals are also using encryption programs to safeguard their private communications. One of the most widely used personal encryption programs is Pretty Good Privacy. 
+
+**Restricting Access** 
+
+​	Security experts are constantly devising ways to protect computer systems from access by unauthorized persons. Sometimes security is a matter of putting guards on company computer rooms and checking the identification of everyone admitted. Oftentimes it is a matter of being careful about assigning passwords to people and of changing them when people leave a company. Passwords are secret words or numbers that must be keyed into a computer system to gain access. In some “dial-back” computer systems, the user telephones the computer, punches in the correct password, and hangs up. The computer then calls back at a certain **preauthorized（预先授权的）** number. Most major corporations today use special hardware and software called firewalls to control access to their internal computer networks. These firewalls act as a **security buffer（安全缓冲区）** between the corporation’s private network and all external networks, including the Internet. All electronic communications coming into and leaving the corporation must be evaluated by the firewall. Security is maintained by denying access to unauthorized communications. 
+
+**Anticipating Disasters** 
+
+​	Companies (and even individuals) that do not make preparations for disasters are not acting wisely. Physical security is concerned with protecting hardware from possible human and natural disasters. Data security is concerned with protecting software and data from unauthorized **tampering（干预）** or damage. Most large organizations have a disaster recovery plan describing ways to continue operating until normal computer operations can be restored. Hardware can be kept behind locked doors, but often employees find this restriction a **hindrance（妨碍）**, so security is lax. Fire and water (including the water from ceiling sprinkler systems) can do great damage to equipment. Many companies therefore will form a cooperative arrangement to share equipment with other companies in the event of catastrophe. Special emergency facilities called hot sites may be created if they are fully equipped computer centers. They are called cold sites if they are empty shells in which hardware must be installed. 
+
+**Backing up Data** 
+
+​	Equipment can always be replaced. A company’s data, however, may be irreplaceable. Most companies have ways of trying to keep software and data from being tampered with in the first place. They include careful screening of job applicants, guarding of passwords, and auditing of data and programs from time to time. The safest procedure, however, is to make frequent backups of data and to store them in remote locations. 
+
+**Security for Microcomputers** 
+
+​	If you own a microcomputer system, there are several procedures to follow to keep it safe: 
+
+- Avoid Extreme Conditions Don’t expose the computer to extreme conditions. Direct sun, rain from an open window, extreme temperatures, cigarette smoke, and spilled drinks or food are harmful to microcomputers. Clean your equipment regularly. Use a surge protector to protect against voltage surges. 
+- Guard the Computer Put a cable lock on the computer. If you subscribe or belong to an online information service, do not leave passwords nearby in a place accessible by others. **Etch（雕刻）** your driver’s license number or social security number into your equipment. That way it can be identified in the event it is recovered after theft.
+- Guard Programs and Data Store disks properly, preferably in a locked container. Make backup copies of all your important files and programs. Store copies of your files in a different—and safe—location from the site of your computer. 
