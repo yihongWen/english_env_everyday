@@ -235,3 +235,38 @@ The Evolution of e-Business:
 **Building Foundations**
 
 ​	The transition to Stage  is still just emerging, but IT managers need to position their companies now for a customer-centric future. Ultimately, businesses must realize that one global network—the Internet—will connect with and **subsume(包容)** all others. By the same token , the drive to share business processes will **blur（迷糊）** the lines between enterprises. IT managers cannot expect to simply jump to this endpoint, of course. The tools and processes to enable this capability are still being developed. But by carefully formulating e-Business strategies and deploying infrastructures now, IT managers can get started on building capabilities more quickly. New technologies will make it easier for companies to initiate business relationships, while at the same time making relationships more fruitful over the long haul . 
+
+
+
+**08-05:**
+
+**Setting Goals for Your Online Business** 
+
+​	Most businesses realize that they need some kind of Web presence, but they don’t know what that Web presence should be. Other businesses become so **overwhelmed(被压倒)** by the limitless possibilities of being on the Web that they try to do everything they can, or end up doing nothing at all. The only way to successfully create a presence for your business on the Internet is to establish goals for going online, and then tailor your Web site to fit your goals. 
+
+​	Think of establishing goals as creating a business plan for your Web site. **Determine ahead of time（提前决定）** what you want to accomplish by moving your business online. The business plan will save time and money and ensure a more efficient, productive Web site. The Internet is here to stay, so your goals should focus on the long-term benefits of having a Web site rather than the immediate effects. You probably shouldn’t expect to start making money on the Web right away. However, you may get other results from going online that aren’t immediately measurable, such as product promotion or building a new customer base. When creating a business plan, you should know something about the reasons for your business to get on the Web and the types of online businesses. Besides, you should study how similar businesses use the Web. Visiting your competitors’ Web sites and learning what they’re doing online can help you focus your goals. 
+
+**Why take your business online?** 
+
+​	When most people think of opening a Web business, the first thing that springs to mind is selling products or services online. However, online **retail（零售）** is a very small part of what business Web sites are doing. You may not have realized how many other ways a Web site can benefit your business. There are many reasons for your business to get on the Web:
+
+- Sell products and services. If your product or service translates well to online retail, you can create a Web site for taking and processing orders.
+- Advertise products and services. Even if you don’t use your Web site to sell goods or services directly, you can still promote what you are selling offline. A Web site is often more effective as a marketing tool than a selling tool. The site can provide in-depth information, multimedia demos, and other promotion materials that just aren’t possible in print advertising.
+- Provide customer services. You can use your Web site to communicate with customers, 24 hours a day, 7 days a week. For example, you can provide company information, product news and updates, and customer support. Value-added services, such as order tracking and financing applications, help maintain good customer relations. A Web site is also a convenient way for customers to get in touch with you.
+- Contact new customers. Millions of people use the Web to research interests and needs. A Web site is an efficient tool for reaching out to new customers and telling them about your business or product.
+- Product and market analysis. Every visitor to your Web site can give valuable feedback on products and services. You can survey the potential market for a new product or find out how customers are using an existing product. If your product can easily be delivered online, such as software, you can even test it on potential customers.
+- Open the international marketplace. The global Internet is an effective way to expand your business to an international market. You can easily get in touch with customers and partners overseas, and your Web site is open to them even when your offices are not. 
+- Communicate with partners. The Web is an efficient and fast communication medium. Use it to connect with business partners, vendors, employees, and others with whom you do business.
+- Communicate with the **press（新闻）**. Many **media outlets（媒体渠道）** now accept electronic press kits. Use your Web site to disseminate press releases and to update materials as needed, without the costs of printing and mailing.
+- Recruit employees. Many people are turning to the Web to search for jobs. For relatively little money, you can list available jobs and collect resumes from a broad talent base. Which of these goals do you want your Web site to accomplish? Don’t try to do them all, at least not at first. An effective online business concentrates on one or two goals. Later, your Web site can grow to do even more. 
+
+
+
+**Types of online businesses**
+
+​	Most businesses don’t use Web sites to make money or generate sales, at least not directly. Creating a Web site to provide customer services or publish company information contributes to sales via other channels. For example, many potential customers use the Web to research a product before buying it elsewhere. However, a lot of businesses do want to make money off their Web sites.Several models have been developed for creating profitable online businesses: 
+
+- Web **storefronts（店面）**. Some products are particularly well adapted to selling online, such as **mail-order（邮购）** items. Web storefronts encompass the entire purchasing process, from providing product information, to taking orders and payments, to processing orders and tracking inventory.
+- Content providers. Online publishing is a fast-growing medium. You can easily translate print publications, such as newspapers or magazines, into Web publications. Or you can create an information resource just for online access—a portal such as Yahoo!1 (www.yahoo.com) is a good example of this kind of service. Online content providers make money in two ways: advertisements and subscriptions. The advertising method works well for general information resources, while more specialized resources are better suited to selling subscriptions directly to the targeted audience. 
+- Free-based services. If you can enhance your service with a Web site, you can reach more customers and do more business electronically. For example, stockbrokers, real estate listings, job listings, and classified ads are all free-based services that translate well into online services.
+- Consulting services. Many kinds of consulting services benefit from being online, such as Web site design and promotion services. You can reach a wider client base, exchange files, and communicate electronically, cutting mail and phone costs. 
